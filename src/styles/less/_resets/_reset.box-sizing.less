@@ -1,0 +1,24 @@
+/**==================================================
+ * Reset >> Box Sizing
+ *
+ * Define the box-sizing property on all elements
+ * ==================================================
+ */
+
+
+// Border-box on the root
+html {
+    box-sizing: border-box;
+}
+
+
+/**
+ * Set children to inherit the box-sizing property
+ */
+* {
+    &,
+    &:before,
+    &:after {
+    box-sizing: inherit;
+    }
+}

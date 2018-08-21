@@ -1,0 +1,152 @@
+/**==================================================
+ * Objects >> FLEX
+ * ==================================================
+ */
+
+
+// Flex object base class with the necessary default props
+.o-flex {
+    display: flex;
+    flex-direction: row;
+
+    // By default align the items to the left and right most edges
+    justify-content: space-between;
+}
+
+/**
+ * Ordering
+ */
+// Set the items to flow as columns
+.o-flex--col,
+.o-flex--column {
+    flex-direction: column;
+}
+
+
+// Reverse the order of columns
+.o-flex--col--reverse,
+.o-flex--column--reverse {
+    flex-direction: column-reverse;
+}
+
+
+// Set the flex items to flow as rows
+.o-flex--row {
+    flex-direction: row;
+}
+
+
+// Reverse the order of rows
+.o-flex--row--reverse {
+    flex-direction: row-reverse;
+}
+
+
+/**
+ * Alignment
+ */
+// Align to start
+// This is either to the left or top
+.o-flex--align-start {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+// Align to the middle
+.o-flex--middle,
+.o-flex--center {
+    align-items: center;
+    justify-content: center;
+}
+
+// Align to end
+// This is either to the right or the bottom
+.o-flex--align-end {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+/**
+ * Sizing
+ */
+// Modifiers
+.o-flex--auto,
+.o-flex__item--auto { flex: auto; }
+.o-flex--1,
+.o-flex__item--1 { flex: 1; }
+.o-flex--2,
+.o-flex__item--2 { flex: 2; }
+.o-flex--3,
+.o-flex__item--3 { flex: 3; }
+.o-flex--4,
+.o-flex__item--4 { flex: 4; }
+.o-flex--5,
+.o-flex__item--5 { flex: 5; }
+.o-flex--6,
+.o-flex__item--6 { flex: 6; }
+.o-flex--7,
+.o-flex__item--7 { flex: 7; }
+.o-flex--8,
+.o-flex__item--8 { flex: 8; }
+
+
+/**
+ * A flexbox grid system
+ * Based on twelve columns
+ */
+
+// DEBUG
+// [class*=o-flex-col] {
+//     background-color: rgba(33, 33, 33, 0.2);
+// }
+
+.o-flex-col--1 {
+    flex-basis: 8.333%;
+    max-width: 8.333%;
+}
+.o-flex-col--2 {
+    flex-basis: 16.666%;
+    max-width: 16.666%;
+}
+.o-flex-col--3 {
+    flex-basis: 25%;
+    max-width: 25%;
+}
+.o-flex-col--4 {
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+}
+.o-flex-col--5 {
+    flex-basis: 41.666%;
+    max-width: 41.666%;
+}
+.o-flex-col--6 {
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.o-flex-col--7 {
+    flex-basis: 58.333%;
+    max-width: 58.333%;
+}
+.o-flex-col--8 {
+    flex-basis: 66.666%;
+    max-width: 66.666%;
+}
+.o-flex-col--9 {
+    flex-basis: 75%;
+    max-width: 75%;
+}
+.o-flex-col--10 {
+    flex-basis: 83.333%;
+    max-width: 83.333%;
+}
+.o-flex-col--11 {
+    flex-basis: 91.666%;
+    max-width: 91.666%;
+}
+.o-flex-col--12 {
+    flex-basis: 100%;
+    max-width: 100%;
+}

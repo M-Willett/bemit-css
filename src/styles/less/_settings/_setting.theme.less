@@ -1,0 +1,79 @@
+/**==================================================
+ * Settings >> THEMES
+ * 
+ * Info:
+ *      This file should contain only colour information (with the exemption of radii)
+ *
+ * Usage:
+ *      Apply this class to the root element (<html>)
+ * ==================================================
+ */
+
+
+/**
+ * Default UI theme
+ */
+.t-default {
+    // Theme pallette
+    --ui-background: #fff;
+    --ui-background-accent: #eee;
+    --ui-midground: #666;
+    --ui-foreground: #333;
+    --ui-text: #222;
+    --ui-positive: green;
+    --ui-negative: red;
+
+    // RGB variants for utilising RGBA (requires LESS interpolation)
+    --ui-rgb-background: 255, 255, 255;
+    --ui-rgb-midground: 204, 204, 204;
+    --ui-rgb-foreground: 102, 102, 102;
+    --ui-rgb-text: 34, 34, 34;
+    --ui-rgb-positive: green;
+    --ui-rgb-negative: red;
+
+
+    // Assign the palette to helper variables
+    --background-primary: blue; // blue
+    --background-secondary: green; // green
+    --background-tertiary: yellow; // yellow
+    --background-quarternary: red; // red
+
+    --background-success: var(--background-secondary);
+    --background-submit: var(--background-primary);
+    --background-alert: var(--background-tertiary);
+    --background-warning: var(--background-tertiary);
+    --background-error: var(--background-quarternary);
+
+
+    --border-minor: var(--ui-midground);
+    --border: var(--ui-foreground);
+    --border-major: var(--ui-text);
+
+
+    --radius-minor: 2px;
+    --radius: 3px;
+    --radius-major: 6px;
+
+    --radius--tooltip: var(--radius-minor);
+    --radius-modal: var(--radius-major);
+
+
+    // Header specific
+    --background-header: cornsilk;
+    --background-header-app: var(--ui-background-accent);
+
+    // Sidebar specific
+    --background-sidebar: var(--ui-background-accent);
+}
+
+
+/**
+ * Dark UI theme
+ */
+.t-dark {}
+
+
+/**
+ * Halo-themed UI
+ */
+.t-halo {}

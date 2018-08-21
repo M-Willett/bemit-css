@@ -1,0 +1,154 @@
+/**==================================================
+ * Component >> BUTTON
+ *
+ * The button component
+ * 
+ * Defaults:
+ *      "Standard" style modifier
+ *      "Standard" size modifier
+ * ==================================================
+ */
+
+
+// Button baseclass (required for all buttons)
+.c-btn {
+    // Reset the user-agent <button>
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    
+    // Display props
+    display: inline-block;
+
+    // Default style
+    .c-btn--standard;
+    .c-btn--rg;
+
+    // Interaction
+    transition: opacity 0.18s ease; 
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+
+/**
+ * Standard buttons
+ */
+.c-btn--standard {
+    background-color: var(--ui-bg-standard);
+    color: var(--ui-text-standard);
+
+    &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
+        background-color: var(--ui-bg-standard-active);
+        color: var(--ui-text-standard-active);
+    }
+}
+
+
+/**
+ * Success buttons
+ */
+.c-btn--success {
+    background-color: var(--ui-bg-success);
+    color: var(--ui-text-success);
+
+    &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
+        background-color: var(--ui-bg-success-active);
+        color: var(--ui-text-success-active);
+    }
+}
+
+
+/**
+ * Error buttons
+ */
+.c-btn--error {
+    background-color: var(--ui-bg-error);
+    color: var(--ui-text-error);
+
+    &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
+        background-color: var(--ui-bg-error-active);
+        color: var(--ui-text-error-active);
+    }
+}
+
+
+/**
+ * Warning buttons
+ */
+.c-btn--warning {
+    background-color: var(--ui-bg-warning);
+    color: var(--ui-text-warning);
+
+    &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
+        background-color: var(--ui-bg-warning-active);
+        color: var(--ui-text-warning-active);
+    }
+}
+
+
+/**
+ * Positive buttons
+ */
+.c-btn--positive {
+    background-color: var(--ui-bg-positive);
+    color: var(--ui-text-positive);
+
+    &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
+        background-color: var(--ui-bg-positive-active);
+        color: var(--ui-text-positive-active);
+    }
+}
+
+
+/**
+ * Negative buttons
+ */
+.c-btn--negative {
+    background-color: var(--ui-bg-negative);
+    color: var(--ui-text-negative);
+
+    &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
+        background-color: var(--ui-bg-negative-active);
+        color: var(--ui-text-negative-active);
+    }
+}
+
+
+/**
+ * Size mods
+ */
+ .c-btn--xxs {
+    .u-font--xxs;
+    padding: var(--unit-xxs) var(--unit-xs);
+}
+.c-btn--xs {
+    .u-font--xs;
+    padding: var(--unit-xxs) var(--unit-xs);
+}
+.c-btn--sm {
+    .u-font--sm;
+    padding: var(--unit-xs) var(--unit-sm);
+}
+.c-btn--rg {
+    .u-font--rg;
+    padding: var(--unit-sm) var(--unit-rg);
+}
+.c-btn--md {
+    .u-font--md;
+    padding: var(--unit-rg) var(--unit-md);
+}
+.c-btn--lg {
+    .u-font--lg;
+    padding: var(--unit-md) var(--unit-lg);
+}
+.c-btn--xl {
+    .u-font--xl;
+    padding: var(--unit-lg) var(--unit-xl);
+}
+.c-btn--xxl {
+    .u-font--xxl;
+    padding: var(--unit-xl) var(--unit-xxl);
+}
