@@ -19,12 +19,12 @@
     --ui-background-accent: #eee;
     --ui-midground: #888;
     --ui-foreground: #666;
-    --ui-text: #222;
+    --ui-text: #161616;
     // Accents
-    --ui-accent-1: #00a8ff;
-    --ui-accent-2: #4cd137;
-    --ui-accent-3: #fbc531;
-    --ui-accent-4: #e84118;
+    --ui-accent-1: #0abde3;
+    --ui-accent-2: #1dd1a1;
+    --ui-accent-3: #feca57;
+    --ui-accent-4: #ee5253;
 
     // Direction change
     --ui-positive: var(--ui-accent-2);
@@ -37,13 +37,13 @@
     --ui-rgb-background: 255, 255, 255;
     --ui-rgb-midground: 136, 136, 136;
     --ui-rgb-foreground: 102, 102, 102;
-    --ui-rgb-text: 34, 34, 34;
-    --ui-rgb-accent-1: 0, 168, 255;
-    --ui-rgb-accent-2: 76, 209, 55;
-    --ui-rgb-accent-3: 251, 197, 49;
-    --ui-rgb-accent-4: 232, 65, 24;
-    --ui-rgb-positive: 76, 209, 55;
-    --ui-rgb-negative: 232, 65, 24;
+    --ui-rgb-text: 22, 22, 22;
+    --ui-rgb-accent-1: #0abde3;
+    --ui-rgb-accent-2: #1dd1a1;
+    --ui-rgb-accent-3: #feca57;
+    --ui-rgb-accent-4: #ee5253;
+    --ui-rgb-positive: #1dd1a1;
+    --ui-rgb-negative: #ee5253;
 
     // Base border scales
     --border-minor: var(--ui-background-accent);
@@ -61,22 +61,94 @@
      * These are the variables we will use directly.
      */
 
-    // Background priorities
-    --background-primary: var(--ui-accent-1);
-    --background-secondary: var(--ui-accent-2);
-    --background-tertiary: var(--ui-accent-3);
-    --background-quarternary: var(--ui-accent-4);
-    // Background states
-    --background-success: var(--background-secondary);
-    --background-submit: var(--background-primary);
-    --background-alert: var(--background-tertiary);
-    --background-warning: var(--background-tertiary);
-    --background-error: var(--background-quarternary);
+    // Anchors
+    --text-link: var(--ui-text);
+    --text-link-active: var(--ui-accent-1);
+
+    // Backgrounds (FYI - The buttons will correspond to these)
+    --background-standard:              ~"rgba(var(--ui-rgb-foreground), 0.3)";
+    --background-contrast:              var(--ui-text);
+    --background-primary:               var(--ui-accent-1);
+    --background-secondary:             var(--ui-accent-2);
+    --background-tertiary:              var(--ui-accent-3);
+    --background-quarternary:           var(--ui-accent-4);
+    --background-submit:                var(--background-primary);
+    --background-success:               var(--background-secondary);
+    --background-warning:               var(--background-tertiary);
+    --background-error:                 var(--background-quarternary);
+    --background-positive:              var(--ui-accent-2);
+    --background-negative:              var(--ui-accent-4);
+
+    // Button - Standard
+    --button-accent-standard:           var(--background-standard);
+    --button-accent-standard-active:    var(--button-accent-primary);
+    --button-text-standard:             var(--ui-text);
+    --button-text-standard-active:      var(--ui-background);
+    // Button - Contrast
+    --button-accent-contrast:           var(--background-contrast);
+    --button-accent-contrast-active:    var(--ui-text);
+    --button-text-contrast:             var(--ui-background);
+    --button-text-contrast-active:      var(--ui-background);
+    
+    // Button - Primary
+    --button-accent-primary:            var(--background-primary);
+    --button-accent-primary-active:     var(--ui-accent-1);
+    --button-text-primary:              var(--ui-text);
+    --button-text-primary-active:       var(--ui-background);
+    // Button - Secondary
+    --button-accent-secondary:          var(--background-secondary);
+    --button-accent-secondary-active:   var(--ui-accent-2);
+    --button-text-secondary:            var(--ui-text);
+    --button-text-secondary-active:     var(--ui-background);
+    // Button - Tertiary
+    --button-accent-tertiary:           var(--background-tertiary);
+    --button-accent-tertiary-active:    var(--ui-accent-3);
+    --button-text-tertiary:             var(--ui-text);
+    --button-text-tertiary-active:      var(--ui-text);
+    // Button - Quarternary
+    --button-accent-quarternary:        var(--background-quarternary);
+    --button-accent-quarternary-active: var(--ui-accent-4);
+    --button-text-quarternary:          var(--ui-text);
+    --button-text-quarternary-active:   var(--ui-background);
+
+    // Button - Submit
+    --button-accent-submit:             var(--background-submit);
+    --button-accent-submit-active:      var(--ui-text);
+    --button-text-submit:               var(--ui-background);
+    --button-text-submit-active:        var(--ui-background);
+    // Button - Success
+    --button-accent-success:            var(--background-success);
+    --button-accent-success-active:     var(--ui-text);
+    --button-text-success:              var(--ui-background);
+    --button-text-success-active:       var(--ui-background);
+    // Button - Warning
+    --button-accent-warning:            var(--background-warning);
+    --button-accent-warning-active:     var(--ui-text);
+    --button-text-warning:              var(--ui-text);
+    --button-text-warning-active:       var(--ui-background);
+    // Button - Error
+    --button-accent-error:              var(--background-error);
+    --button-accent-error-active:       var(--ui-text);
+    --button-text-error:                var(--ui-background);
+    --button-text-error-active:         var(--ui-background);
+
+    // Button - Positive
+    --button-accent-positive:           var(--background-positive);
+    --button-accent-positive-active:    var(--ui-text);
+    --button-text-positive:             var(--ui-background);
+    --button-text-positive-active:      var(--ui-background);
+    // Button - Negative
+    --button-accent-negative:           var(--background-negative);
+    --button-accent-negative-active:    var(--ui-text);
+    --button-text-negative:             var(--ui-background);
+    --button-text-negative-active:      var(--ui-background);
+    
 
     // Components radii
     --radius-tooltip: var(--radius-minor);
     --radius-modal: var(--radius-major);
     --radius-scrollbar: var(--radius-major);
+    --radius-button: var(--radius-minor);
 
     // Header specific
     --background-header: var(--ui-background-accent);
@@ -89,7 +161,7 @@
 
     // Scrollbar
     --background-scrollbar-button: ~"rgba(var(--rgb-ui-midground), 0.6)";
-    --background-scrollbar-corner: var();
+    --background-scrollbar-corner: var(--ui-midground);
     --background-scrollbar-thumb: var(--ui-midground);
     --background-scrollbar-track: var(--ui-background-accent);
 

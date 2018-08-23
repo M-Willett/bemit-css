@@ -10,7 +10,29 @@
 .c-sidebar {
     width: var(--width-sidebar);
     min-width: var(--width-sidebar-abs);
-    height: 100%;
+    // position: fixed;
+    // top: var(--height-header-app);
+    // left: 0;
+    // bottom: 0;
     overflow: auto;
     background-color: var(--background-sidebar);
 }
+
+.c-sidebar__inner {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+}
+
+.c-sidebar__list__link {
+    color: var(--text-link);
+    
+    &:hover {
+        color: var(--text-link-active);
+    }
+}
+
+.c-sidebar__list__link--parent {}
+

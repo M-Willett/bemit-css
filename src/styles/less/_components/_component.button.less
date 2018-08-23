@@ -16,6 +16,8 @@
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
+    border: 1px solid transparent;
+    outline: 0;
     
     // Display props
     display: inline-block;
@@ -23,13 +25,10 @@
     // Default style
     .c-btn--standard;
     .c-btn--rg;
+    border-radius: var(--radius-button);
 
     // Interaction
-    transition: opacity 0.18s ease; 
-
-    &:hover {
-        opacity: 0.7;
-    }
+    cursor: pointer;
 }
 
 
@@ -37,12 +36,100 @@
  * Standard buttons
  */
 .c-btn--standard {
-    background-color: var(--ui-bg-standard);
-    color: var(--ui-text-standard);
+    background-color: var(--button-accent-standard);
+    color: var(--button-text-standard);
 
     &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
-        background-color: var(--ui-bg-standard-active);
-        color: var(--ui-text-standard-active);
+        background-color: var(--button-accent-standard-active);
+        color: var(--button-text-standard-active);
+    }
+}
+
+
+/**
+ * Contrast buttons
+ */
+.c-btn--contrast {
+    background-color: var(--button-accent-contrast);
+    color: var(--button-text-contrast);
+
+    &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
+        background-color: var(--button-accent-contrast-active);
+        color: var(--button-text-contrast-active);
+    }
+}
+
+
+/**
+ * Primary buttons
+ */
+.c-btn--primary {
+    background-color: transparent;
+    border-color: var(--button-accent-primary);
+    color: var(--button-text-primary);
+
+    &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
+        background-color: var(--button-accent-primary-active);
+        color: var(--button-text-primary-active);
+    }
+}
+
+
+/**
+ * Secondary buttons
+ */
+.c-btn--secondary {
+    background-color: transparent;
+    border-color: var(--button-accent-secondary);
+    color: var(--button-text-secondary);
+
+    &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
+        background-color: var(--button-accent-secondary-active);
+        color: var(--button-text-secondary-active);
+    }
+}
+
+
+/**
+ * Tertiary buttons
+ */
+.c-btn--tertiary {
+    background-color: transparent;
+    border-color: var(--button-accent-tertiary);
+    color: var(--button-text-tertiary);
+
+    &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
+        background-color: var(--button-accent-tertiary-active);
+        color: var(--button-text-tertiary-active);
+    }
+}
+
+
+/**
+ * Quarternary buttons
+ */
+.c-btn--quarternary {
+    background-color: transparent;
+    border-color: var(--button-accent-quarternary);
+    color: var(--button-text-quarternary);
+
+    &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
+        background-color: var(--button-accent-quarternary-active);
+        color: var(--button-text-quarternary-active);
+    }
+}
+
+
+/**
+ * Submit buttons
+ */
+.c-btn--submit {
+    background-color: var(--button-accent-submit);
+    color: var(--button-text-submit);
+
+    &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
+        background-color: var(--button-accent-submit-active);
+        color: var(--button-text-submit-active);
     }
 }
 
@@ -51,12 +138,12 @@
  * Success buttons
  */
 .c-btn--success {
-    background-color: var(--ui-bg-success);
-    color: var(--ui-text-success);
+    background-color: var(--button-accent-success);
+    color: var(--button-text-success);
 
     &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
-        background-color: var(--ui-bg-success-active);
-        color: var(--ui-text-success-active);
+        background-color: var(--button-accent-success-active);
+        color: var(--button-text-success-active);
     }
 }
 
@@ -65,12 +152,12 @@
  * Error buttons
  */
 .c-btn--error {
-    background-color: var(--ui-bg-error);
-    color: var(--ui-text-error);
+    background-color: var(--button-accent-error);
+    color: var(--button-text-error);
 
     &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
-        background-color: var(--ui-bg-error-active);
-        color: var(--ui-text-error-active);
+        background-color: var(--button-accent-error-active);
+        color: var(--button-text-error-active);
     }
 }
 
@@ -79,12 +166,12 @@
  * Warning buttons
  */
 .c-btn--warning {
-    background-color: var(--ui-bg-warning);
-    color: var(--ui-text-warning);
+    background-color: var(--button-accent-warning);
+    color: var(--button-text-warning);
 
     &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
-        background-color: var(--ui-bg-warning-active);
-        color: var(--ui-text-warning-active);
+        background-color: var(--button-accent-warning-active);
+        color: var(--button-text-warning-active);
     }
 }
 
@@ -93,12 +180,12 @@
  * Positive buttons
  */
 .c-btn--positive {
-    background-color: var(--ui-bg-positive);
-    color: var(--ui-text-positive);
+    background-color: var(--button-accent-positive);
+    color: var(--button-text-positive);
 
     &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
-        background-color: var(--ui-bg-positive-active);
-        color: var(--ui-text-positive-active);
+        background-color: var(--button-accent-positive-active);
+        color: var(--button-text-positive-active);
     }
 }
 
@@ -107,12 +194,12 @@
  * Negative buttons
  */
 .c-btn--negative {
-    background-color: var(--ui-bg-negative);
-    color: var(--ui-text-negative);
+    background-color: var(--button-accent-negative);
+    color: var(--button-text-negative);
 
     &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
-        background-color: var(--ui-bg-negative-active);
-        color: var(--ui-text-negative-active);
+        background-color: var(--button-accent-negative-active);
+        color: var(--button-text-negative-active);
     }
 }
 

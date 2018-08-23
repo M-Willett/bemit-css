@@ -5,7 +5,7 @@ export default class AppHeader extends React.Component {
 
     render(){
         return (
-            <header className={'c-header c-header--app o-flex o-flex--center u-width--full'}>
+            <header className={'c-header c-header--app o-flex o-flex--center u-width--full u-sticky'}>
                 <div className={'c-header__logo u-font--bold u-ml--rg'}>
                     BEM CSS Library
                 </div>
