@@ -5,7 +5,7 @@ export default class AppSidebar extends React.Component {
 
     render(){
         return (
-            <aside className={'c-sidebar u-p u-scrollable'}>
+            <aside className={'c-sidebar u-p u-scrollable u-br'}>
                 <div className={'c-sidebar__navigation'}>
                     {/* Settings */}
                     <a className={'o-block u-mb--xs u-bold u-pt--md'} href={'#settings'}>Settings</a>

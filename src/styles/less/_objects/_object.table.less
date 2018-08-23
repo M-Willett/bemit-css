@@ -1,0 +1,30 @@
+/**==================================================
+ * Objects >> Table
+ *
+ * Info:
+ *   Table object.
+ * ================================================== */
+
+
+// Table base object class
+.o-table {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+// Table rows
+.o-table__row {
+    display: table-row;
+}
+
+.o-table__row--header {
+    background-color: var(--background-table-header);
+}
+
+.o-table__cell {
+    display: table-cell;
+    border: 1px solid var(--border-table);
+}

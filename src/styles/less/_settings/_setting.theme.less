@@ -17,53 +17,89 @@
     // Theme pallette
     --ui-background: #fff;
     --ui-background-accent: #eee;
-    --ui-midground: #666;
-    --ui-foreground: #333;
+    --ui-midground: #888;
+    --ui-foreground: #666;
     --ui-text: #222;
-    --ui-positive: green;
-    --ui-negative: red;
+    // Accents
+    --ui-accent-1: #00a8ff;
+    --ui-accent-2: #4cd137;
+    --ui-accent-3: #fbc531;
+    --ui-accent-4: #e84118;
 
-    // RGB variants for utilising RGBA (requires LESS interpolation)
+    // Direction change
+    --ui-positive: var(--ui-accent-2);
+    --ui-negative: var(--ui-accent-4);
+
+    /** RGB variants for utilising RGBA (requires interpolation)
+     * LESS Usage: 
+     *      background: ~"rgba( var(--ui-rgb-background), 0.6 );" 
+     */
     --ui-rgb-background: 255, 255, 255;
-    --ui-rgb-midground: 204, 204, 204;
+    --ui-rgb-midground: 136, 136, 136;
     --ui-rgb-foreground: 102, 102, 102;
     --ui-rgb-text: 34, 34, 34;
-    --ui-rgb-positive: green;
-    --ui-rgb-negative: red;
+    --ui-rgb-accent-1: 0, 168, 255;
+    --ui-rgb-accent-2: 76, 209, 55;
+    --ui-rgb-accent-3: 251, 197, 49;
+    --ui-rgb-accent-4: 232, 65, 24;
+    --ui-rgb-positive: 76, 209, 55;
+    --ui-rgb-negative: 232, 65, 24;
+
+    // Base border scales
+    --border-minor: var(--ui-background-accent);
+    --border: var(--ui-midground);
+    --border-major: var(--ui-foreground);
+
+    // Base radius scales
+    --radius-minor: 2px;
+    --radius: 3px;
+    --radius-major: 6px;
 
 
-    // Assign the palette to helper variables
-    --background-primary: blue; // blue
-    --background-secondary: green; // green
-    --background-tertiary: yellow; // yellow
-    --background-quarternary: red; // red
+    /**
+     * Assign the theme to helper variables.
+     * These are the variables we will use directly.
+     */
 
+    // Background priorities
+    --background-primary: var(--ui-accent-1);
+    --background-secondary: var(--ui-accent-2);
+    --background-tertiary: var(--ui-accent-3);
+    --background-quarternary: var(--ui-accent-4);
+    // Background states
     --background-success: var(--background-secondary);
     --background-submit: var(--background-primary);
     --background-alert: var(--background-tertiary);
     --background-warning: var(--background-tertiary);
     --background-error: var(--background-quarternary);
 
-
-    --border-minor: var(--ui-midground);
-    --border: var(--ui-foreground);
-    --border-major: var(--ui-text);
-
-
-    --radius-minor: 2px;
-    --radius: 3px;
-    --radius-major: 6px;
-
-    --radius--tooltip: var(--radius-minor);
+    // Components radii
+    --radius-tooltip: var(--radius-minor);
     --radius-modal: var(--radius-major);
-
+    --radius-scrollbar: var(--radius-major);
 
     // Header specific
-    --background-header: cornsilk;
-    --background-header-app: var(--ui-background-accent);
+    --background-header: var(--ui-background-accent);
+    --background-header-app: var(--ui-text);
+    --text-header: var(--ui-text);
+    --text-header-app: var(--ui-background-accent);
 
     // Sidebar specific
     --background-sidebar: var(--ui-background-accent);
+
+    // Scrollbar
+    --background-scrollbar-button: ~"rgba(var(--rgb-ui-midground), 0.6)";
+    --background-scrollbar-corner: var();
+    --background-scrollbar-thumb: var(--ui-midground);
+    --background-scrollbar-track: var(--ui-background-accent);
+
+    // Table specific
+    --background-table-header: var(--ui-background-accent);
+    --border-table: var(--border);
+
+    // "Code" specific
+    --radius-code: var(--radius-minor);
+    --background-code: var(--ui-background-accent);
 }
 
 

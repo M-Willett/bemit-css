@@ -2,7 +2,6 @@ import React from 'react';
 import AppHeader from './AppHeader';
 import AppContent from './AppContent';
 import AppSidebar from './AppSidebar';
-import AppFooter from './AppFooter';
 
 
 class ClientView extends React.Component {
@@ -15,7 +14,6 @@ class ClientView extends React.Component {
                     <AppContent/>
                     <AppSidebar/>
                 </div>
-                <AppFooter/>
             </div>
         )
     }
