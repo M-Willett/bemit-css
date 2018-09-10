@@ -1,0 +1,38 @@
+/**==================================================
+ * Components >> Switch
+ *
+ * Switch component (aka a toggle)
+ *
+ * Composition:
+ *    <label class="c-switch"><input /><span></span></label>
+ *
+ * ================================================== */
+
+
+/**
+ * Switch base class
+ */
+.c-switch {
+    position: relative;
+    height: var(--unit-rg);
+    width: calc(var(--unit-rg) * 2);
+    padding: var(--unit-xxs);
+
+    > span {
+        height: var(--unit-rg);
+        width: var(--unit-rg);
+        border-radius: 500px;
+        position: absolute;
+        left: var(--unit-xxs);
+    }
+
+    > input {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    > input:checked + span {
+        background-color: blue;
+        right: var(--unit-xxs);
+    }
+}
