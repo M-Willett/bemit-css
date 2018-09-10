@@ -44,7 +44,7 @@ export default class AppContent extends React.Component {
 
                     <p className={'u-h1 u-mt--xxl'}>Utilities</p>
                     <UtilityBackground/>
-                    {/* <UtilityBorder/> */}
+                    <UtilityBorder/>
                     {/* <UtilityClearfix/> */}
                     {/* <UtilityColour/> */}
                     {/* <UtilityHeading/> */}
