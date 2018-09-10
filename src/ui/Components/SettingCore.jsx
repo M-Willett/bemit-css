@@ -4,8 +4,8 @@ import React from "react";
 export default class SettingCore extends React.Component {
     render(){
         return (
-            <div className={'id-component__wrapper o-block u-mb--xxl'}>
-                <p className={'u-h3'}>Core settings</p>
+            <div className={'id-component__wrapper o-block u-pt--xxl u-mb--xxl'}>
+                <p className={'u-h2'}>Core settings</p>
                 <p className={'u-h4'}>Available settings</p>
                 <p className={'u-mb--md'}>These settings are defined in a single place and allow easy customisation of some global variables.</p>
                 <p className={'u-mb--md'}>Beware, these settings are applied for all themes.</p>

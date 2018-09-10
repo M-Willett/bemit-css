@@ -5,6 +5,7 @@ import SettingTheme from './Components/SettingTheme';
 import ElementBody from './Components/ElementBody';
 import ComponentButton from './Components/ComponentButton';
 import UtilityBackground from './Components/UtilityBackground';
+import UtilityMargin from './Components/UtilityMargin';
 import UtilityPadding from './Components/UtilityPadding';
 
 
@@ -14,40 +15,40 @@ export default class AppContent extends React.Component {
         return (
             <main className={'c-content--abs o-flex--1'}>
                 <div className={'u-p--xl'}>
-                    <p className={'u-h1'}>Settings</p>
+                    <p className={'u-h1 u-mt--xxl'}>Settings</p>
                     <SettingCore/>
                     <SettingTheme/>
 
-                    <p className={'u-h1'}>Resets</p>
+                    <p className={'u-h1 u-mt--xxl'}>Resets</p>
                     {/* <ResetBoxSizing/> */}
                     {/* <ResetUserAgent/> */}
 
-                    <p className={'u-h1'}>Elements</p>
+                    <p className={'u-h1 u-mt--xxl'}>Elements</p>
                     <ElementBody/>
                     {/* <ElementHeading/> */}
                     {/* <ElementScrollbar/> */}
                     {/* <ElementTypography/> */}
 
-                    <p className={'u-h1'}>Objects</p>
+                    <p className={'u-h1 u-mt--xxl'}>Objects</p>
                     {/* <ObjectBlock/> */}
                     {/* <ObjectFlex/> */}
                     {/* <ObjectTable/> */}
                     {/* <ObjectWrapper/> */}
 
-                    <p className={'u-h1'}>Components</p>
+                    <p className={'u-h1 u-mt--xxl'}>Components</p>
                     <ComponentButton/>
                     {/* <ComponentCode/> */}
                     {/* <ComponentHeader/> */}
                     {/* <ComponentFooter/> */}
                     {/* <ComponentSidebar/> */}
 
-                    <p className={'u-h1'}>Utilities</p>
+                    <p className={'u-h1 u-mt--xxl'}>Utilities</p>
                     <UtilityBackground/>
                     {/* <UtilityBorder/> */}
                     {/* <UtilityClearfix/> */}
                     {/* <UtilityColour/> */}
                     {/* <UtilityHeading/> */}
-                    {/* <UtilityMargin/> */}
+                    <UtilityMargin/>
                     <UtilityPadding/>
                     {/* <UtilityPosition/> */}
                     {/* <UtilityScroll/> */}

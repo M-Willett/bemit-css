@@ -4,7 +4,7 @@ import React from "react";
 export default class UtilityBackground extends React.Component {
     render(){
         return (
-            <div className={'id-component__wrapper o-block u-mb--xxl'} id={'utility_background'}>
+            <div className={'id-component__wrapper o-block u-pt--xxl u-mb--xxl'} id={'utility_background'}>
                 <p className={'u-h2'}>Utility - Background</p>
                 <p className={''}>The background utility classes can be used on-the-fly to set the <span className={'c-code c-code--inline'}>background-color</span> property of an element by simply adding a class.</p>
 

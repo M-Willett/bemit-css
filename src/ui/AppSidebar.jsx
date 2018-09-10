@@ -34,7 +34,13 @@ export default class AppSidebar extends React.Component {
                     <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#component_sidebar'}>Sidebar</a>
                     <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#component_button'}>Button</a>
 
-                    <p style={{height: '100vh'}}>&nbsp;</p>
+                    {/* Components */}
+                    <a className={'c-sidebar__list__link c-sidebar__list__link--parent o-block u-mb--xs u-bold u-pt--md'} href={'#utilities'}>Utilities</a>
+                    <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#utility_background'}>Background</a>
+                    <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#utility_margin'}>Margin</a>
+                    <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#utility_padding'}>Padding</a>
+
+                    {/* <p style={{height: '100vh'}}>&nbsp;</p> */}
 
                 </div>
             </aside>
