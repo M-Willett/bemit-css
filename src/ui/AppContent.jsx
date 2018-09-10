@@ -5,6 +5,7 @@ import SettingTheme from './Components/SettingTheme';
 import ElementBody from './Components/ElementBody';
 import ComponentButton from './Components/ComponentButton';
 import UtilityBackground from './Components/UtilityBackground';
+import UtilityBorder from './Components/UtilityBorder';
 import UtilityMargin from './Components/UtilityMargin';
 import UtilityPadding from './Components/UtilityPadding';
 
@@ -19,30 +20,30 @@ export default class AppContent extends React.Component {
                     <SettingCore/>
                     <SettingTheme/>
 
-                    <p className={'u-h1 u-mt--xxl'}>Resets</p>
+                    <p className={'u-h1 u-pt--xxl u-mt--xxl'}>Resets</p>
                     {/* <ResetBoxSizing/> */}
                     {/* <ResetUserAgent/> */}
 
-                    <p className={'u-h1 u-mt--xxl'}>Elements</p>
+                    <p className={'u-h1 u-pt--xxl u-mt--xxl'}>Elements</p>
                     <ElementBody/>
                     {/* <ElementHeading/> */}
                     {/* <ElementScrollbar/> */}
                     {/* <ElementTypography/> */}
 
-                    <p className={'u-h1 u-mt--xxl'}>Objects</p>
+                    <p className={'u-h1 u-pt--xxl u-mt--xxl'}>Objects</p>
                     {/* <ObjectBlock/> */}
                     {/* <ObjectFlex/> */}
                     {/* <ObjectTable/> */}
                     {/* <ObjectWrapper/> */}
 
-                    <p className={'u-h1 u-mt--xxl'}>Components</p>
+                    <p className={'u-h1 u-pt--xxl u-mt--xxl'}>Components</p>
                     <ComponentButton/>
                     {/* <ComponentCode/> */}
                     {/* <ComponentHeader/> */}
                     {/* <ComponentFooter/> */}
                     {/* <ComponentSidebar/> */}
 
-                    <p className={'u-h1 u-mt--xxl'}>Utilities</p>
+                    <p className={'u-h1 u-pt--xxl u-mt--xxl'}>Utilities</p>
                     <UtilityBackground/>
                     <UtilityBorder/>
                     {/* <UtilityClearfix/> */}

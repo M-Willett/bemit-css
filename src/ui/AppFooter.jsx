@@ -8,7 +8,7 @@ export default class AppFooter extends React.Component {
             <footer className={'c-footer o-flex'}>
                 <p>&copy; All rights reserved.</p>
                 <span className={'o-flex--1'}></span>
-                <p className={''}>Built by Matt Willett</p>
+                <p className={''}>By Matt Willett</p>
             </footer>
         )
     }
