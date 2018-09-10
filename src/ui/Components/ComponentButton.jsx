@@ -5,16 +5,21 @@ export default class ComponentButton extends React.Component {
     render(){
         return (
             <div className={'id-component__wrapper o-block u-mb--xxl'} id={'component_button'}>
-                <p className={'u-h2'}>Buttons</p>
-                <p className={''}></p>
-                <p className={'u-h4'}>Available settings</p>
-                <p className={'u-mb--md'}>These settings are defined in a single place and allow easy customisation of some global variables.</p>
-                <p className={'u-mb--md'}>Beware, these settings are applied for all themes.</p>
+                <p className={'u-h2 u-mb--lg o-flex'}>
+                    Button
+                    <span className={'o-flex--1'}></span>
+                    <span className={'c-code c-code--inline u-bg--midground u-color--background'}>Component</span>
+                </p>
+                
+                <p className={'u-mb--lg'}>The button component is a commonly used design pattern and much of the world wide web would be useless without it. This component class provides a great base to work from if you're after some customisation, if not it's great to use as-is.</p>
+
+                <p className={'u-h4 u-mt--xxl'}>Usage</p>
+                <p className={'u-mb--lg'}>Please note that the <span className={'c-code c-code--inline'}>c-btn</span> class is always required. Modifiers should be appended to customise the base button class.</p>
 
                 <div className={'c-code u-mb--lg'}>
-                .c-component &#123;<br/>
-                &nbsp;&nbsp;height: var(--height-component);<br/>
-                &#125;
+                &lt;button class="c-btn"&gt;Submit&lt;button&gt; // preferred element<br/>
+                &lt;span class="c-btn"&gt;Submit&lt;span&gt;<br/>
+                &lt;span class="c-btn c-btn--error c-btn--disabled"&gt;Error&lt;span&gt;<br/>
                 </div>
 
                 <div className={'o-table u-mb--lg'}>
@@ -35,10 +40,10 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'u-mb--md'}>The default button utilizes the "standard" button styles.</p>
+                            <p className={'u-mb--lg'}>The default button utilizes the "standard" button styles.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
@@ -46,10 +51,10 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--standard'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'u-mb--md'}>The standard button class as a modifier.</p>
+                            <p className={'u-mb--lg'}>The standard button class as a modifier.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--standard</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--standard</p>
                         </div>
                     </div>
 
@@ -58,10 +63,10 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--contrast'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'u-mb--md'}>The contrast button class as a modifier.</p>
+                            <p className={'u-mb--lg'}>The contrast button class as a modifier.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--contrast</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--contrast</p>
                         </div>
                     </div>
 
@@ -70,10 +75,10 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--primary'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'u-mb--md'}>The primary button state.</p>
+                            <p className={'u-mb--lg'}>The primary button state.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--primary</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--primary</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
@@ -81,10 +86,10 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--secondary'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'u-mb--md'}>The secondary button state.</p>
+                            <p className={'u-mb--lg'}>The secondary button state.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--secondary</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--secondary</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
@@ -92,10 +97,10 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--tertiary'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'u-mb--md'}>The tertiary button state.</p>
+                            <p className={'u-mb--lg'}>The tertiary button state.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--tertiary</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--tertiary</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
@@ -103,10 +108,10 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--quarternary'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'u-mb--md'}>The quarternary button state.</p>
+                            <p className={'u-mb--lg'}>The quarternary button state.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--quarternary</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--quarternary</p>
                         </div>
                     </div>
 
@@ -115,10 +120,10 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--submit'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'u-mb--md'}>The submit button state.</p>
+                            <p className={'u-mb--lg'}>The submit button state.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--submit</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--submit</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
@@ -126,10 +131,10 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--success'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'u-mb--md'}>The success button state.</p>
+                            <p className={'u-mb--lg'}>The success button state.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--success</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--success</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
@@ -137,10 +142,10 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--error'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'u-mb--md'}>The error button state.</p>
+                            <p className={'u-mb--lg'}>The error button state.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--error</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--error</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
@@ -148,10 +153,10 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--warning'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'u-mb--md'}>The warning button state.</p>
+                            <p className={'u-mb--lg'}>The warning button state.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--warning</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--warning</p>
                         </div>
                     </div>
 
@@ -160,10 +165,10 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--positive'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'u-mb--md'}>The positive button state.</p>
+                            <p className={'u-mb--lg'}>The positive button state.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--positive</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--positive</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
@@ -171,10 +176,10 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--negative'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'u-mb--md'}>The negative button state.</p>
+                            <p className={'u-mb--lg'}>The negative button state.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--negative</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--negative</p>
                         </div>
                     </div>
                 </div>
@@ -200,10 +205,10 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--xxs'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'u-mb--md'}>Sets the size of the button to the xxs modifier class.</p>
+                            <p className={'u-mb--lg'}>Sets the size of the button to the xxs modifier class.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--xxs</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--xxs</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
@@ -211,10 +216,10 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--xs'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'u-mb--md'}>Sets the size of the button to the xs modifier class.</p>
+                            <p className={'u-mb--lg'}>Sets the size of the button to the xs modifier class.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--xs</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--xs</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
@@ -222,10 +227,10 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--sm'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'u-mb--md'}>Sets the size of the button to the sm modifier class.</p>
+                            <p className={'u-mb--lg'}>Sets the size of the button to the sm modifier class.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--sm</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--sm</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
@@ -233,10 +238,10 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--rg'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'u-mb--md'}>Sets the size of the button to the rg modifier class.</p>
+                            <p className={'u-mb--lg'}>Sets the size of the button to the rg modifier class.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--rg</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--rg</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
@@ -244,10 +249,10 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--md'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'u-mb--md'}>Sets the size of the button to the md modifier class.</p>
+                            <p className={'u-mb--lg'}>Sets the size of the button to the md modifier class.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--md</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--md</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
@@ -255,10 +260,10 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--lg'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'u-mb--md'}>Sets the size of the button to the lg modifier class.</p>
+                            <p className={'u-mb--lg'}>Sets the size of the button to the lg modifier class.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--lg</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--lg</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
@@ -266,10 +271,10 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--xl'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'u-mb--md'}>Sets the size of the button to the xl modifier class.</p>
+                            <p className={'u-mb--lg'}>Sets the size of the button to the xl modifier class.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--xl</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--xl</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
@@ -277,10 +282,10 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--xxl'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'u-mb--md'}>Sets the size of the button to the xxl modifier class.</p>
+                            <p className={'u-mb--lg'}>Sets the size of the button to the xxl modifier class.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--xxl</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--xxl</p>
                         </div>
                     </div>
                 </div>
@@ -302,7 +307,7 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--xxs u-font--md'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--xxs and u-font--md</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--xxs and u-font--md</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
@@ -310,7 +315,7 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--xs u-text--uppercase'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--xs and u-text--uppercase</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--xs and u-text--uppercase</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
@@ -318,11 +323,41 @@ export default class ComponentButton extends React.Component {
                             <button className={'c-btn c-btn--rg u-font--bold'}>Button</button>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={''}>.c-btn--rg and u-font--bold</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--rg and u-font--bold</p>
                         </div>
                     </div>
                 </div>
 
+                <p className={'u-h3 u-mt--xxl'}>Stateful modifiers</p>
+                <p className={'u-mb--lg'}>Extremely useful when altering the interaction state of a button.</p>
+
+                <div className={'o-table u-mb--lg'}>
+                    <div className={'o-table__row o-table__row--header'}>
+                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                            <p className={'u-font--bold'}>Component</p>
+                        </div>
+                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                            <p className={'u-font--bold'}>Description</p>
+                        </div>
+                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                            <p className={'u-font--bold'}>Class</p>
+                        </div>
+                    </div>
+
+                    <div className={'o-table__row'}>
+                    <div className={'o-table__cell u-p--sm'}>
+                            <button className={'c-btn c-btn--rg is-disabled'}>Button</button>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={'u-mb--lg'}>Visually disable a button.</p>
+                            <p className={'u-mb--lg'}>Additional properties can be added to prevent click, this can be achieved with the pointer-events property but a javascript solution may be better suited.</p>
+                            <p className={'u-mb--lg u-font--italic'}>Attention: <span className={'c-code c-code--inline'}>c-btn</span> class required.</p>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>is-disabled</p>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         )
