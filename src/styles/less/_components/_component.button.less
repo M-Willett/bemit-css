@@ -40,8 +40,10 @@
     color: var(--button-text-standard);
 
     &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
-        background-color: var(--button-accent-standard-active);
-        color: var(--button-text-standard-active);
+        &:not(.is-disabled) {
+            background-color: var(--button-accent-standard-active);
+            color: var(--button-text-standard-active);
+        }
     }
 }
 
@@ -54,8 +56,10 @@
     color: var(--button-text-contrast);
 
     &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
-        background-color: var(--button-accent-contrast-active);
-        color: var(--button-text-contrast-active);
+        &:not(.is-disabled) {
+            background-color: var(--button-accent-contrast-active);
+            color: var(--button-text-contrast-active);
+        }
     }
 }
 
@@ -69,8 +73,10 @@
     color: var(--button-text-primary);
 
     &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
-        background-color: var(--button-accent-primary-active);
-        color: var(--button-text-primary-active);
+        &:not(.is-disabled) {
+            background-color: var(--button-accent-primary-active);
+            color: var(--button-text-primary-active);
+        }
     }
 }
 
@@ -84,8 +90,10 @@
     color: var(--button-text-secondary);
 
     &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
-        background-color: var(--button-accent-secondary-active);
-        color: var(--button-text-secondary-active);
+        &:not(.is-disabled) {
+            background-color: var(--button-accent-secondary-active);
+            color: var(--button-text-secondary-active);
+        }
     }
 }
 
@@ -99,8 +107,10 @@
     color: var(--button-text-tertiary);
 
     &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
-        background-color: var(--button-accent-tertiary-active);
-        color: var(--button-text-tertiary-active);
+        &:not(.is-disabled) {
+            background-color: var(--button-accent-tertiary-active);
+            color: var(--button-text-tertiary-active);
+        }
     }
 }
 
@@ -114,8 +124,10 @@
     color: var(--button-text-quarternary);
 
     &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
-        background-color: var(--button-accent-quarternary-active);
-        color: var(--button-text-quarternary-active);
+        &:not(.is-disabled) {
+            background-color: var(--button-accent-quarternary-active);
+            color: var(--button-text-quarternary-active);
+        }
     }
 }
 
@@ -128,8 +140,10 @@
     color: var(--button-text-submit);
 
     &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
-        background-color: var(--button-accent-submit-active);
-        color: var(--button-text-submit-active);
+        &:not(.is-disabled) {
+            background-color: var(--button-accent-submit-active);
+            color: var(--button-text-submit-active);
+        }
     }
 }
 
@@ -142,8 +156,10 @@
     color: var(--button-text-success);
 
     &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
-        background-color: var(--button-accent-success-active);
-        color: var(--button-text-success-active);
+        &:not(.is-disabled) {
+            background-color: var(--button-accent-success-active);
+            color: var(--button-text-success-active);
+        }
     }
 }
 
@@ -156,8 +172,10 @@
     color: var(--button-text-error);
 
     &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
-        background-color: var(--button-accent-error-active);
-        color: var(--button-text-error-active);
+        &:not(.is-disabled) {
+            background-color: var(--button-accent-error-active);
+            color: var(--button-text-error-active);
+        }
     }
 }
 
@@ -170,8 +188,10 @@
     color: var(--button-text-warning);
 
     &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
-        background-color: var(--button-accent-warning-active);
-        color: var(--button-text-warning-active);
+        &:not(.is-disabled) {
+            background-color: var(--button-accent-warning-active);
+            color: var(--button-text-warning-active);
+        }
     }
 }
 
@@ -184,8 +204,10 @@
     color: var(--button-text-positive);
 
     &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
-        background-color: var(--button-accent-positive-active);
-        color: var(--button-text-positive-active);
+        &:not(.is-disabled) {
+            background-color: var(--button-accent-positive-active);
+            color: var(--button-text-positive-active);
+        }
     }
 }
 
@@ -198,8 +220,10 @@
     color: var(--button-text-negative);
 
     &:hover, &:focus, &:focus-within, .is-active &, &.is-active {
-        background-color: var(--button-accent-negative-active);
-        color: var(--button-text-negative-active);
+        &:not(.is-disabled) {
+            background-color: var(--button-accent-negative-active);
+            color: var(--button-text-negative-active);
+        }
     }
 }
 
@@ -238,4 +262,17 @@
 .c-btn--xxl {
     .u-font--xxl;
     padding: var(--unit-xl) var(--unit-xxl);
+}
+
+
+
+/**
+ * Stateful modifiers
+ */
+.c-btn {
+    // Button is disabled
+    &.is-disabled {
+        opacity: 0.7;
+        cursor: not-allowed;
+    }
 }
