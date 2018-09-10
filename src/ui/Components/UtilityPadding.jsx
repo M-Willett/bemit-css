@@ -1,278 +1,288 @@
 import React from "react";
 
 
-export default class UtilityPAdding extends React.Component {
+export default class UtilityPadding extends React.Component {
     render(){
         return (
-            <div className={'id-component__wrapper o-block u-mb--xxl'} id={'utility_padding'}>
-                <p className={'u-h2'}>Utility - Padding</p>
-                <p className={''}>The padding utility classes can be used to set the <span className={'c-code c-code--inline'}>padding</span> property of an element.</p>
+            <div className={'id-component__wrapper o-block u-pt--xxl u-mb--xxl'} id={'utility_padding'}>
+                <p className={'u-h2 u-mb--lg o-flex'}>
+                    Padding
+                    <span className={'o-flex--1'}></span>
+                    <span className={'c-code c-code--inline u-bg--midground u-color--background'}>Utility</span>
+                </p>
+                <p className={'u-mb--lg'}>The padding utility classes can be used to set the <span className={'c-code c-code--inline'}>padding</span> property of an element. Each of the modifiers directly correlate to the unit variables defined in UI Settings.</p>
+                <p className={'u-mb--lg'}>It is possible to set the padding value for each side of the box individually. Simply define the side by appending <span className={'c-code c-code--inline'}>t</span> for padding-top, <span className={'c-code c-code--inline'}>r</span> for padding-right, <span className={'c-code c-code--inline'}>b</span> for padding-bottom and <span className={'c-code c-code--inline'}>l</span> for padding-left.</p>
+                <p className={'u-mb--lg u-font--italic'}>Append the <span className={'c-code c-code--inline'}>--force</span> modifier to any of the classes to apply the <span className={'c-code c-code--inline'}>!important</span> declaration. This is not advised.</p>
 
-                <p className={'u-h4'}>Usage</p>
-                <p className={'u-mb--md'}>Add the padding class to an element.</p>
+                <p className={'u-h4 u-mt--xxl'}>Usage</p>
+                <p className={'u-mb--lg'}>Add the padding class to an element.</p>
 
                 <div className={'c-code u-mb--lg'}>
-                ... class="u-p"...<br/>
-                ... class="u-pr--md"...<br/>
-                ... class="u-pt u-pb--md"...<br/>
+                ... class="u-p" ...<br/>
+                ... class="u-pr--md" ...<br/>
+                ... class="u-pt u-pb--md--force" ...<br/>
                 </div>
 
-                <p className={'u-mb--md'}>The <span className={'u-bg--error'}>&nbsp;&nbsp;&nbsp;</span> areas below represent the padding, while the <span className={'u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span> represent the box within.</p>
+                <p className={'u-mb--md'}>In the examples below padding is shaded in <span className={'u-bg--secondary u-color--background'}>&nbsp;green&nbsp;</span> while the <span className={'u-bg--tertiary'}>&nbsp;yellow&nbsp;</span> area represents the box.</p>
 
-                <div className={'o-table u-mb--lg'}>
+                <p className={'u-h4 u-mt--xxl'}>Padding on all sides</p>
+
+                <div className={'o-table u-mt--lg u-mb--xl'}>
                     <div className={'o-table__row o-table__row--header'}>
                         <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
-                            <p className={'u-font--bold'}>Component</p>
+                            <p className={'u-font--bold'}>Example</p>
                         </div>
                         <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
-                            <p className={'u-font--bold'}>Class</p>
+                            <p className={'u-font--bold'}>Modifier classes</p>
                         </div>
                     </div>
 
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <span className={'o-block--inline u-p--xxs u-bg--error'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-p--xxs u-bg--secondary'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--md'}>.u-p--xxs</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-p--xxs</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <span className={'o-block--inline u-p--xs u-bg--error'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-p--xs u-bg--secondary'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--md'}>.u-p--xs</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-p--xs</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <span className={'o-block--inline u-p--sm u-bg--error'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-p--sm u-bg--secondary'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--md'}>.u-p--sm</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-p--sm</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <span className={'o-block--inline u-p--rg u-bg--error'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-p--rg u-bg--secondary'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--md'}>.u-p--rg</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-p--rg</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-p</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <span className={'o-block--inline u-p--md u-bg--error'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-p--md u-bg--secondary'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--md'}>.u-p--md</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-p--md</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <span className={'o-block--inline u-p--lg u-bg--error'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-p--lg u-bg--secondary'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--md'}>.u-p--lg</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-p--lg</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <span className={'o-block--inline u-p--xl u-bg--error'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-p--xl u-bg--secondary'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--md'}>.u-p--xl</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-p--xl</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <span className={'o-block--inline u-p--xxl u-bg--error'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-p--xxl u-bg--secondary'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--md'}>.u-p--xxl</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-p--xxl</p>
                         </div>
                     </div>
                 </div>
 
+                <p className={'u-h4 u-mt--xxl'}>Padding on specific sides</p>
 
 
-                <div className={'o-table u-mb--lg'}>
+                <div className={'o-table u-mt--lg u-mb--lg'}>
                     <div className={'o-table__row o-table__row--header'}>
                         <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
-                            <p className={'u-font--bold'}>Component</p>
+                            <p className={'u-font--bold'}>Example</p>
                         </div>
                         <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
-                            <p className={'u-font--bold'}>Class</p>
+                            <p className={'u-font--bold'}>Modifier classes</p>
                         </div>
                     </div>
 
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <span className={'o-block--inline u-pt--xxs u-bg--error u-mr--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-pt--xxs u-bg--secondary u-mr--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
-                            <span className={'o-block--inline u-pt--xs u-bg--error u-mr--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-pt--xs u-bg--secondary u-mr--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
-                            <span className={'o-block--inline u-pt--sm u-bg--error u-mr--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-pt--sm u-bg--secondary u-mr--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
-                            <span className={'o-block--inline u-pt--rg u-bg--error u-mr--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-pt--rg u-bg--secondary u-mr--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
-                            <span className={'o-block--inline u-pt--md u-bg--error u-mr--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-pt--md u-bg--secondary u-mr--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
-                            <span className={'o-block--inline u-pt--lg u-bg--error u-mr--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-pt--lg u-bg--secondary u-mr--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
-                            <span className={'o-block--inline u-pt--xl u-bg--error u-mr--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-pt--xl u-bg--secondary u-mr--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
-                            <span className={'o-block--inline u-pt--xxl u-bg--error u-mr--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-pt--xxl u-bg--secondary u-mr--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pt--xxs</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pt--xs</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pt--sm</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pt--rg</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pt--md</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pt--lg</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pt--xl</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pt--xxl</p>
-                        </div>
-                    </div>
-                    <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
-                            <span className={'o-block--inline u-pr--xxs u-bg--error u-mb--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                            <span className={'o-block--inline u-pr--xs u-bg--error u-mb--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                            <span className={'o-block--inline u-pr--sm u-bg--error u-mb--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                            <span className={'o-block--inline u-pr--rg u-bg--error u-mb--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                            <span className={'o-block--inline u-pr--md u-bg--error u-mb--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                            <span className={'o-block--inline u-pr--lg u-bg--error u-mb--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                            <span className={'o-block--inline u-pr--xl u-bg--error u-mb--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                            <span className={'o-block--inline u-pr--xxl u-bg--error u-mb--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                        </div>
-                        <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pr--xxs</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pr--xs</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pr--sm</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pr--rg</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pr--md</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pr--lg</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pr--xl</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pr--xxl</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pt--xxs</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pt--xs</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pt--sm</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pt--rg</p><p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pt</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pt--md</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pt--lg</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pt--xl</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pt--xxl</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <span className={'o-block--inline u-pb--xxs u-bg--error u-mr--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                            <span className={'o-block--inline u-pb--xs u-bg--error u-mr--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                            <span className={'o-block--inline u-pb--sm u-bg--error u-mr--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                            <span className={'o-block--inline u-pb--rg u-bg--error u-mr--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                            <span className={'o-block--inline u-pb--md u-bg--error u-mr--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                            <span className={'o-block--inline u-pb--lg u-bg--error u-mr--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                            <span className={'o-block--inline u-pb--xl u-bg--error u-mr--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                            <span className={'o-block--inline u-pb--xxl u-bg--error u-mr--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
+                            <span className={'o-block--inline u-pr--xxs u-bg--secondary u-mb--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                            <span className={'o-block--inline u-pr--xs u-bg--secondary u-mb--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                            <span className={'o-block--inline u-pr--sm u-bg--secondary u-mb--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                            <span className={'o-block--inline u-pr--rg u-bg--secondary u-mb--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                            <span className={'o-block--inline u-pr--md u-bg--secondary u-mb--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                            <span className={'o-block--inline u-pr--lg u-bg--secondary u-mb--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                            <span className={'o-block--inline u-pr--xl u-bg--secondary u-mb--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                            <span className={'o-block--inline u-pr--xxl u-bg--secondary u-mb--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pb--xxs</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pb--xs</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pb--sm</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pb--rg</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pb--md</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pb--lg</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pb--xl</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pb--xxl</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pr--xxs</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pr--xs</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pr--sm</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pr--rg</p><p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pr</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pr--md</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pr--lg</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pr--xl</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pr--xxl</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <span className={'o-block--inline u-pl--xxs u-bg--error u-mb--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-pb--xxs u-bg--secondary u-mr--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                            <span className={'o-block--inline u-pb--xs u-bg--secondary u-mr--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                            <span className={'o-block--inline u-pb--sm u-bg--secondary u-mr--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                            <span className={'o-block--inline u-pb--rg u-bg--secondary u-mr--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                            <span className={'o-block--inline u-pb--md u-bg--secondary u-mr--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                            <span className={'o-block--inline u-pb--lg u-bg--secondary u-mr--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                            <span className={'o-block--inline u-pb--xl u-bg--secondary u-mr--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                            <span className={'o-block--inline u-pb--xxl u-bg--secondary u-mr--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pb--xxs</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pb--xs</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pb--sm</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pb--rg</p><p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pb</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pb--md</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pb--lg</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pb--xl</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pb--xxl</p>
+                        </div>
+                    </div>
+                    <div className={'o-table__row'}>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <span className={'o-block--inline u-pl--xxs u-bg--secondary u-mb--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
-                            <span className={'o-block--inline u-pl--xs u-bg--error u-mb--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-pl--xs u-bg--secondary u-mb--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
-                            <span className={'o-block--inline u-pl--sm u-bg--error u-mb--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-pl--sm u-bg--secondary u-mb--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
-                            <span className={'o-block--inline u-pl--rg u-bg--error u-mb--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-pl--rg u-bg--secondary u-mb--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
-                            <span className={'o-block--inline u-pl--md u-bg--error u-mb--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-pl--md u-bg--secondary u-mb--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
-                            <span className={'o-block--inline u-pl--lg u-bg--error u-mb--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-pl--lg u-bg--secondary u-mb--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
-                            <span className={'o-block--inline u-pl--xl u-bg--error u-mb--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-pl--xl u-bg--secondary u-mb--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
-                            <span className={'o-block--inline u-pl--xxl u-bg--error u-mb--xs'}>
-                                <span className={'o-block--inline u-bg--warning'}>&nbsp;&nbsp;&nbsp;</span>
+                            <span className={'o-block--inline u-pl--xxl u-bg--secondary u-mb--md'}>
+                                <span className={'o-block--inline u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pl-bxxs</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-plb-xs</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pl<br/>b-sm</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pl<br/>b-rg</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pl<br/>b-md</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pl<br/>b-lg</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pl<br/>b-xl</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>.u-pl<br/>-bxxl</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pl--xxs</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pl--xs</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pl--sm</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pl--rg</p><p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pl</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pl--md</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pl--lg</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pl--xl</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-pl--xxl</p>
                         </div>
                     </div>
                     
