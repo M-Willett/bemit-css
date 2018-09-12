@@ -10,8 +10,15 @@ Currently in development/private alpha.
 
 _Hosted version coming soon_
 
-1. Clone the repo
-1. Install dependancies
-1. Build the project
-1. Start the server
-2. 
+1. Clone this repo to local, working directory
+1. Install dependancies &nbsp;&nbsp; `npm i`
+1. Build the project &nbsp;&nbsp; `npm run build`
+1. Start the server &nbsp;&nbsp; `npm run start`
+
+## In development
+
+- Use PostCSS to provide fallback for CSS custom properties (on old browser only)
+
+## Request a feature
+
+[Create a new issue](https://github.com/M-Willett/bemit-css/issues/new) add add the `enhancement` label.
