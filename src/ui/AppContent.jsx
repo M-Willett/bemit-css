@@ -14,7 +14,7 @@ export default class AppContent extends React.Component {
 
     render(){
         return (
-            <main className={'c-content--abs o-flex--1'}>
+            <main className={'c-content u-scrollable o-flex--1'}>
                 <div className={'u-p--xl'}>
                     <p className={'u-h1 u-mt--xxl'}>Settings</p>
                     <SettingCore/>
