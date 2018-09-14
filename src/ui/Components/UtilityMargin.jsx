@@ -150,10 +150,10 @@ export default class UtilityMargin extends React.Component {
                 <div className={'o-table u-mt--lg u-mb--lg'}>
                     <div className={'o-table__row o-table__row--header'}>
                         <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
-                            <p className={'u-font--bold'}>Example</p>
+                            <p className={'u-font--bold'}>Modifier classes</p>
                         </div>
                         <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
-                            <p className={'u-font--bold'}>Modifier classes</p>
+                            <p className={'u-font--bold'}>Example</p>
                         </div>
                     </div>
 
