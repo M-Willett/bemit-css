@@ -13,8 +13,26 @@ pre,
 .c-code {
     font-family: var(--font-family-mono);
     background-color: var(--background-code);
-    padding: var(--unit-rg);
+    padding: var(--unit-md);
     border-radius: var(--radius-code);
+}
+
+
+/**
+ * Improve typography for preformatted code blocks
+ */
+pre.c-code {
+    // Increased line-height for better legibility
+    line-height: 1.35;
+    
+    // Increase kerning helps distinguish between like characters
+    letter-spacing: 0.05em;
+    // letter-spacing: 0.7pt;
+
+    // Anti aliasing and rendering
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 
