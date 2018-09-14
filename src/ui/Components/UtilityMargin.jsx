@@ -23,99 +23,124 @@ export default class UtilityMargin extends React.Component {
                 ... class="u-mt u-mb--md--force" ...<br/>
                 </div>
 
-                <p className={'u-mb--md'}>In the examples below margin is shaded in <span className={'u-bg--quarternary u-color--background'}>&nbsp;red&nbsp;</span> while the <span className={'u-bg--tertiary'}>&nbsp;yellow&nbsp;</span> area represents the box.</p>
+                <p className={'u-mb--md'}>In the examples below margin is shaded in <span className={'u-bg--quarternary u-color--background'}>&nbsp;red&nbsp;</span> while the <span className={'u-bg--midground u-color--background'}>&nbsp;grey&nbsp;</span> area represents the box.</p>
 
                 <p className={'u-h4 u-mt--xxl'}>Margin around all sides</p>
 
                 <div className={'o-table u-mt--lg u-mb--xl'}>
                     <div className={'o-table__row o-table__row--header'}>
                         <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
-                            <p className={'u-font--bold'}>Example</p>
+                            <p className={'u-font--bold'}>Modifier classes</p>
                         </div>
                         <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
-                            <p className={'u-font--bold'}>Modifier classes</p>
+                            <p className={'u-font--bold'}>Description</p>
+                        </div>                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                            <p className={'u-font--bold'}>Example</p>
                         </div>
                     </div>
 
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <span className={'o-block--inline u-bg--quarternary'}>
-                                <span className={'o-block--inline u-m--xxs u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-m--xxs</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-m--xxs</p>
+                            <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-xxs)</span> value to the <b>margin</b> property.</p>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <span className={'o-block--inline u-bg--quarternary'}>
+                                <span className={'o-block--inline u-m--xxs u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
-                            <span className={'o-block--inline u-bg--quarternary'}>
-                                <span className={'o-block--inline u-m--xs u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                        </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-m--xs</p>
                         </div>
-                    </div>
-                    <div className={'o-table__row'}>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-xs)</span> value to the <b>margin</b> property.</p>
+                        </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <span className={'o-block--inline u-bg--quarternary'}>
-                                <span className={'o-block--inline u-m--sm u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
+                                <span className={'o-block--inline u-m--xs u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
+                    </div>
+                    <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-m--sm</p>
                         </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-sm)</span> value to the <b>margin</b> property.</p>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <span className={'o-block--inline u-bg--quarternary'}>
+                                <span className={'o-block--inline u-m--sm u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                        </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <span className={'o-block--inline u-bg--quarternary'}>
-                                <span className={'o-block--inline u-m--rg u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-m--rg</p><p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-m</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-m--rg</p>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-m</p>
+                            <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-rg)</span> value to the <b>margin</b> property.</p>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <span className={'o-block--inline u-bg--quarternary'}>
+                                <span className={'o-block--inline u-m--rg u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
-                            <span className={'o-block--inline u-bg--quarternary'}>
-                                <span className={'o-block--inline u-m--md u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                        </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-m--md</p>
                         </div>
-                    </div>
-                    <div className={'o-table__row'}>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-md)</span> value to the <b>margin</b> property.</p>
+                        </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <span className={'o-block--inline u-bg--quarternary'}>
-                                <span className={'o-block--inline u-m--lg u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
+                                <span className={'o-block--inline u-m--md u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
+                    </div>
+                    <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-m--lg</p>
                         </div>
-                    </div>
-                    <div className={'o-table__row'}>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-lg)</span> value to the <b>margin</b> property.</p>
+                        </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <span className={'o-block--inline u-bg--quarternary'}>
-                                <span className={'o-block--inline u-m--xl u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
+                                <span className={'o-block--inline u-m--lg u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
+                    </div>
+                    <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-m--xl</p>
                         </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-xl)</span> value to the <b>margin</b> property.</p>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <span className={'o-block--inline u-bg--quarternary'}>
+                                <span className={'o-block--inline u-m--xl u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                        </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <span className={'o-block--inline u-bg--quarternary'}>
-                                <span className={'o-block--inline u-m--xxl u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-m--xxl</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-m--xxl</p>
+                            <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-xxl)</span> value to the <b>margin</b> property.</p>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <span className={'o-block--inline u-bg--quarternary'}>
+                                <span className={'o-block--inline u-m--xxl u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -134,32 +159,6 @@ export default class UtilityMargin extends React.Component {
 
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
-                                <span className={'o-block--inline u-mt--xxs u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
-                                <span className={'o-block--inline u-mt--xs u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
-                                <span className={'o-block--inline u-mt--sm u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
-                                <span className={'o-block--inline u-mt--rg u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
-                                <span className={'o-block--inline u-mt--md u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
-                                <span className={'o-block--inline u-mt--lg u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
-                                <span className={'o-block--inline u-mt--xl u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
-                                <span className={'o-block--inline u-mt--xxl u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                        </div>
-                        <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-mt--xxs</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-mt--xs</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-mt--sm</p><br/>
@@ -169,34 +168,34 @@ export default class UtilityMargin extends React.Component {
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-mt--xl</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-mt--xxl</p>
                         </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                                <span className={'o-block--inline u-mt--xxs u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                                <span className={'o-block--inline u-mt--xs u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                                <span className={'o-block--inline u-mt--sm u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                                <span className={'o-block--inline u-mt--rg u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                                <span className={'o-block--inline u-mt--md u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                                <span className={'o-block--inline u-mt--lg u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                                <span className={'o-block--inline u-mt--xl u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                                <span className={'o-block--inline u-mt--xxl u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                        </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
-                                <span className={'o-block--inline u-mr--xxs u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
-                                <span className={'o-block--inline u-mr--xs u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
-                                <span className={'o-block--inline u-mr--sm u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
-                                <span className={'o-block--inline u-mr--rg u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
-                                <span className={'o-block--inline u-mr--md u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
-                                <span className={'o-block--inline u-mr--lg u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
-                                <span className={'o-block--inline u-mr--xl u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
-                                <span className={'o-block--inline u-mr--xxl u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                        </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-mr--xxs</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-mr--xs</p><br/>
@@ -207,34 +206,34 @@ export default class UtilityMargin extends React.Component {
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-mr--xl</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-mr--xxl</p>
                         </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                                <span className={'o-block--inline u-mr--xxs u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                                <span className={'o-block--inline u-mr--xs u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                                <span className={'o-block--inline u-mr--sm u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                                <span className={'o-block--inline u-mr--rg u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                                <span className={'o-block--inline u-mr--md u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                                <span className={'o-block--inline u-mr--lg u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                                <span className={'o-block--inline u-mr--xl u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                                <span className={'o-block--inline u-mr--xxl u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                        </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
-                                <span className={'o-block--inline u-mb--xxs u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
-                                <span className={'o-block--inline u-mb--xs u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
-                                <span className={'o-block--inline u-mb--sm u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
-                                <span className={'o-block--inline u-mb--rg u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
-                                <span className={'o-block--inline u-mb--md u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
-                                <span className={'o-block--inline u-mb--lg u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
-                                <span className={'o-block--inline u-mb--xl u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
-                                <span className={'o-block--inline u-mb--xxl u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span>
-                        </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-mb--xxs</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-mb--xs</p><br/>
@@ -245,34 +244,34 @@ export default class UtilityMargin extends React.Component {
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-mb--xl</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-mb--xxl</p>
                         </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                                <span className={'o-block--inline u-mb--xxs u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                                <span className={'o-block--inline u-mb--xs u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                                <span className={'o-block--inline u-mb--sm u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                                <span className={'o-block--inline u-mb--rg u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                                <span className={'o-block--inline u-mb--md u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                                <span className={'o-block--inline u-mb--lg u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                                <span className={'o-block--inline u-mb--xl u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                                <span className={'o-block--inline u-mb--xxl u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span>
+                        </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
-                                <span className={'o-block--inline u-ml--xxs u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
-                                <span className={'o-block--inline u-ml--xs u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
-                                <span className={'o-block--inline u-ml--sm u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
-                                <span className={'o-block--inline u-ml--rg u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
-                                <span className={'o-block--inline u-ml--md u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
-                                <span className={'o-block--inline u-ml--lg u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
-                                <span className={'o-block--inline u-ml--xl u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
-                                <span className={'o-block--inline u-ml--xxl u-bg--tertiary'}>&nbsp;&nbsp;&nbsp;</span>
-                            </span><br/>
-                        </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-ml--xxs</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-ml--xs</p><br/>
@@ -282,6 +281,32 @@ export default class UtilityMargin extends React.Component {
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-ml--lg</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-ml--xl</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-ml--xxl</p>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                                <span className={'o-block--inline u-ml--xxs u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                                <span className={'o-block--inline u-ml--xs u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                                <span className={'o-block--inline u-ml--sm u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                                <span className={'o-block--inline u-ml--rg u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                                <span className={'o-block--inline u-ml--md u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                                <span className={'o-block--inline u-ml--lg u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                                <span className={'o-block--inline u-ml--xl u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
+                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                                <span className={'o-block--inline u-ml--xxl u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
+                            </span><br/>
                         </div>
                     </div>
                     
