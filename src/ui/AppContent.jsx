@@ -11,6 +11,7 @@ import ObjectFlex from './Components/ObjectFlex';
 
 import ComponentButton from './Components/ComponentButton';
 import ComponentHeader from './Components/ComponentHeader';
+import ComponentSwitch from './Components/ComponentSwitch';
 
 import UtilityBackground from './Components/UtilityBackground';
 import UtilityBorder from './Components/UtilityBorder';
@@ -50,6 +51,7 @@ export default class AppContent extends React.Component {
                     <ComponentHeader/>
                     {/* <ComponentFooter/> */}
                     {/* <ComponentSidebar/> */}
+                    <ComponentSwitch/>
 
                     <p className={'u-h1 u-pt--xxl u-mt--xxl'} id={'section_utilities'}>Utilities</p>
                     <UtilityBackground/>
