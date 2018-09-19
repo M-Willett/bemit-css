@@ -1,46 +1,29 @@
 import React from "react";
-// TODO convert everything to React templates
-// import {
-//     ComponentWrapper, 
-//     ComponentTitle,
-//     ComponentBody
-// } from 'ComponentUtilities';
-
 
 export default class ElementBody extends React.Component {
     render(){
         return (
-            <div className={'id-component__wrapper o-block u-mb--xxl'}>
-                <p className={'u-h3'}>Body Element</p>
-                <p className={'u-h4 u-font--italic u-text--uppercase'}>Code example</p>
-                <p className={'u-font--italic u-mb--md'}>It is not advised to use this class anywhere but the <span className={'c-code c-code--inline'}>body</span> element.</p>
+            <div id={'element_body'} className={'id-component__wrapper o-block u-pt--xxl u-mb--xxl'}>
+                <p className={'u-h2 u-mb--lg o-flex'}>
+                    Body
+                    <span className={'o-flex--1'}></span>
+                    <span className={'c-code c-code--inline u-bg--midground u-color--background'}>Elements</span>
+                </p>
+                <p className={'u-mb--lg'}>The HTML &lt;body&gt; element represents the content of an HTML document. There can only be one element per document and all content is placed inside this element.</p>
 
-                <div className={'c-code u-mb'}>
+                <p className={'u-font--bold u-mt--xl u-mb--md'}>Usage</p>
+                <p className={'u-mb--lg'}>The CSS body selector automatically assigns the specified properties and values to the elment, there is no need to explicitly define the e-body class but it exists to be useful in other situations.</p>
+
+                <pre className={'c-code u-mb'}>
                 &lt;body&gt;<br/>
                 &nbsp;&nbsp;...<br/>
-                &lt;/body&gt;
-                </div>
-
-                <div className={'c-code'}>
-                &lt;div class="e-body"&gt;<br/>
+                &lt;/body&gt;<br/>
+                <br/>
+                &lt;iframe class="e-body"&gt;<br/>
                 &nbsp;&nbsp;...<br/>
-                &lt;/div&gt;
-                </div>
+                &lt;/iframe&gt;
+                </pre>
             </div>
-
-
-
-            // TODO convert everything to React templates
-
-            // <ComponentWrapper key={'element_body'}>
-            //     <ComponentTitle 
-            //         value={'Body'} 
-            //         category={'Element'}/>
-
-            //     <ComponentBody>
-            //         <p>Body Component</p>
-            //     </ComponentBody>
-            // </ComponentWrapper>
         )
     }
 }
