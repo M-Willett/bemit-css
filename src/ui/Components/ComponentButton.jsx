@@ -13,7 +13,7 @@ export default class ComponentButton extends React.Component {
                 
                 <p className={'u-mb--lg'}>The button component is a commonly used design pattern and much of the world wide web would be useless without it. This component class provides a great base to work from if you're after some customisation, if not it's great to use as-is.</p>
 
-                <p className={'u-h4 u-mt--xxl'}>Usage</p>
+                <p className={'u-h3 u-mt--xxl'}>Usage</p>
                 <p className={'u-mb--lg'}>Please note that the <span className={'c-code c-code--inline'}>c-btn</span> class is always required. Modifiers should be appended to customise the base button class.</p>
 
                 <pre className={'c-code u-mb--lg'}>
@@ -21,6 +21,8 @@ export default class ComponentButton extends React.Component {
                     &lt;span class="<span className={'u-color--error'}>c-btn</span>"&gt;...&lt;span&gt;<br/>
                     &lt;span class="<span className={'u-color--error'}>c-btn c-btn--error c-btn--disabled</span>"&gt;...&lt;span&gt;<br/>
                 </pre>
+
+                <p className={'u-h3 u-mt--xxl'}>Base button variations</p>
 
                 <div className={'o-table u-mb--lg'}>
                     <div className={'o-table__row o-table__row--header'}>
