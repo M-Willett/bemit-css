@@ -35,51 +35,51 @@ export default class UtilityBackground extends React.Component {
                     </div>
 
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm u-bg--background'}>
-                            <p>&nbsp;</p>
-                        </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bg--background</p>
                         </div>
-                    </div>
-                    <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm u-bg--background-accent'}>
+                        <div className={'o-table__cell u-p--sm u-bg--background'}>
                             <p>&nbsp;</p>
                         </div>
+                    </div>
+                    <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bg--background-accent</p>
                         </div>
-                    </div>
-                    <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm u-bg--midground'}>
+                        <div className={'o-table__cell u-p--sm u-bg--background-accent'}>
                             <p>&nbsp;</p>
                         </div>
+                    </div>
+                    <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bg--midground</p>
                         </div>
-                    </div>
-                    <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm u-bg--foreground'}>
+                        <div className={'o-table__cell u-p--sm u-bg--midground'}>
                             <p>&nbsp;</p>
                         </div>
+                    </div>
+                    <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bg--foreground</p>
                         </div>
-                    </div>
-                    <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm u-bg--text'}>
+                        <div className={'o-table__cell u-p--sm u-bg--foreground'}>
                             <p>&nbsp;</p>
                         </div>
+                    </div>
+                    <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bg--text</p>
                         </div>
-                    </div>
-                    <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm u-bg--text-accent'}>
+                        <div className={'o-table__cell u-p--sm u-bg--text'}>
                             <p>&nbsp;</p>
                         </div>
+                    </div>
+                    <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bg--text-accent</p>
+                        </div>
+                        <div className={'o-table__cell u-p--sm u-bg--text-accent'}>
+                            <p>&nbsp;</p>
                         </div>
                     </div>
                 </div>
@@ -96,51 +96,51 @@ export default class UtilityBackground extends React.Component {
                     </div>
 
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm u-bg--standard'}>
-                            <p>&nbsp;</p>
-                        </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bg--standard</p>
                         </div>
-                    </div>
-                    <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm u-bg--contrast'}>
+                        <div className={'o-table__cell u-p--sm u-bg--standard'}>
                             <p>&nbsp;</p>
                         </div>
+                    </div>
+                    <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bg--contrast</p>
                         </div>
-                    </div>
-                    <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm u-bg--primary'}>
+                        <div className={'o-table__cell u-p--sm u-bg--contrast'}>
                             <p>&nbsp;</p>
                         </div>
+                    </div>
+                    <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bg--primary</p>
                         </div>
-                    </div>
-                    <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm u-bg--secondary'}>
+                        <div className={'o-table__cell u-p--sm u-bg--primary'}>
                             <p>&nbsp;</p>
                         </div>
+                    </div>
+                    <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bg--secondary</p>
                         </div>
-                    </div>
-                    <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm u-bg--tertiary'}>
+                        <div className={'o-table__cell u-p--sm u-bg--secondary'}>
                             <p>&nbsp;</p>
                         </div>
+                    </div>
+                    <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bg--tertiary</p>
                         </div>
-                    </div>
-                    <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm u-bg--quarternary'}>
+                        <div className={'o-table__cell u-p--sm u-bg--tertiary'}>
                             <p>&nbsp;</p>
                         </div>
+                    </div>
+                    <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bg--quarternary</p>
+                        </div>
+                        <div className={'o-table__cell u-p--sm u-bg--quarternary'}>
+                            <p>&nbsp;</p>
                         </div>
                     </div>
                 </div>
@@ -157,35 +157,35 @@ export default class UtilityBackground extends React.Component {
                     </div>
 
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm u-bg--success'}>
-                            <p>&nbsp;</p>
-                        </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bg--success</p>
                         </div>
-                    </div>
-                    <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm u-bg--submit'}>
+                        <div className={'o-table__cell u-p--sm u-bg--success'}>
                             <p>&nbsp;</p>
                         </div>
+                    </div>
+                    <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bg--submit</p>
                         </div>
-                    </div>
-                    <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm u-bg--warning'}>
+                        <div className={'o-table__cell u-p--sm u-bg--submit'}>
                             <p>&nbsp;</p>
                         </div>
+                    </div>
+                    <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bg--warning</p>
                         </div>
-                    </div>
-                    <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm u-bg--error'}>
+                        <div className={'o-table__cell u-p--sm u-bg--warning'}>
                             <p>&nbsp;</p>
                         </div>
+                    </div>
+                    <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bg--error</p>
+                        </div>
+                        <div className={'o-table__cell u-p--sm u-bg--error'}>
+                            <p>&nbsp;</p>
                         </div>
                     </div>
                 </div>
@@ -202,19 +202,19 @@ export default class UtilityBackground extends React.Component {
                     </div>
 
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm u-bg--positive'}>
-                            <p>&nbsp;</p>
-                        </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bg--positive</p>
                         </div>
-                    </div>
-                    <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm u-bg--negative'}>
+                        <div className={'o-table__cell u-p--sm u-bg--positive'}>
                             <p>&nbsp;</p>
                         </div>
+                    </div>
+                    <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bg--negative</p>
+                        </div>
+                        <div className={'o-table__cell u-p--sm u-bg--negative'}>
+                            <p>&nbsp;</p>
                         </div>
                     </div>
                 </div>
