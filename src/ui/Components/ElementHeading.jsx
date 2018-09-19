@@ -4,7 +4,7 @@ export default class ElementHeading extends React.Component {
     render(){
         return (
             <div id={'element_heading'} className={'id-component__wrapper o-block u-pt--xxl u-mb--xxl'}>
-                <p className={'u-h2 u-mb--xl o-flex o-flex--center u-bg--foreground u-color--background u-p--md u-radius'}>
+                <p className={'u-h2 u-mb--xl o-flex o-flex--align-center u-bg--foreground u-color--background u-p--md u-radius'}>
                     <span>Heading</span>
                     <span className={'o-flex--1'}></span>
                     <span className={'u-font--mono u-font--md'}>_element.heading.less</span>
