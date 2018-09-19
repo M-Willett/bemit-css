@@ -5,10 +5,10 @@ export default class ComponentSwitch extends React.Component {
     render(){
         return (
             <div className={'id-component__wrapper o-block u-mb--xxl'} id={'component_switch'}>
-                <p className={'u-h2 u-mb--lg o-flex'}>
-                    Switch
+                <p className={'u-h2 u-mb--xl o-flex o-flex--center u-bg--foreground u-color--background u-p--md u-radius'}>
+                    <span>Switch</span>
                     <span className={'o-flex--1'}></span>
-                    <span className={'c-code c-code--inline u-bg--midground u-color--background'}>Component</span>
+                    <span className={'u-font--mono u-font--md'}>_component.button.less</span>
                 </p>
                 
                 <p className={'u-mb--lg'}>The button component is a commonly used design pattern and much of the world wide web would be useless without it. This component class provides a great base to work from if you're after some customisation, if not it's great to use as-is.</p>

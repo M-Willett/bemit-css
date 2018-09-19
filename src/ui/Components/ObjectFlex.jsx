@@ -5,10 +5,10 @@ export default class ObjectFlex extends React.Component {
     render(){
         return (
             <div id={'object_flex'} className={'id-component__wrapper o-block u-pt--xxl u-mb--xxl'}>
-                <p className={'u-h2 u-mb--lg o-flex'}>
-                    Flex
+                <p className={'u-h2 u-mb--xl o-flex o-flex--center u-bg--foreground u-color--background u-p--md u-radius'}>
+                    <span>Flex</span>
                     <span className={'o-flex--1'}></span>
-                    <span className={'c-code c-code--inline u-bg--midground u-color--background'}>Objects</span>
+                    <span className={'u-font--mono u-font--md'}>_object.flex.less</span>
                 </p>
 
                 <p className={'u-mb--lg'}>The <span className={'c-code c-code--inline'}>display: flex;</span> property defines a container for flex items, it is a very powerful and extremely flexible way of structuring content on a web document.</p>
@@ -18,11 +18,11 @@ export default class ObjectFlex extends React.Component {
                 <p className={'u-mb--lg'}>Flex items should always be children of the flex container.</p>
 
                 <pre className={'c-code u-mb--lg'}>
-                &lt;div class="<span className={'u-color--error'}>o-flex</span>"&gt;<br/>
-                &nbsp;&nbsp;&lt;div class="<span className={'u-color--error'}>o-flex--1</span>"&gt;...&lt;/div&gt;<br/>
-                &nbsp;&nbsp;&lt;div class="<span className={'u-color--error'}>o-flex--2</span>"&gt;...&lt;/div&gt;<br/>
-                &nbsp;&nbsp;&lt;div&gt;...&lt;/div&gt;<br/>
-                &lt;/div&gt;
+                    &lt;div class="<span className={'u-color--error'}>o-flex</span>"&gt;<br/>
+                    &nbsp;&nbsp;&lt;div class="<span className={'u-color--error'}>o-flex--1</span>"&gt;...&lt;/div&gt;<br/>
+                    &nbsp;&nbsp;&lt;div class="<span className={'u-color--error'}>o-flex--2</span>"&gt;...&lt;/div&gt;<br/>
+                    &nbsp;&nbsp;&lt;div&gt;...&lt;/div&gt;<br/>
+                    &lt;/div&gt;
                 </pre>
 
                 <p className={'u-font--bold u-mt--xl u-mb--md'}>Flex container</p>

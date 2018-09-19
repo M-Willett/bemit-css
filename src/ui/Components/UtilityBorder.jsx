@@ -5,10 +5,10 @@ export default class UtilityBorder extends React.Component {
     render(){
         return (
             <div className={'id-component__wrapper o-block u-pt--xxl u-mb--xxl'} id={'utility_border'}>
-                <p className={'u-h2 u-mb--lg o-flex'}>
-                    Border
+                <p className={'u-h2 u-mb--xl o-flex o-flex--center u-bg--foreground u-color--background u-p--md u-radius'}>
+                    <span>Border</span>
                     <span className={'o-flex--1'}></span>
-                    <span className={'c-code c-code--inline u-bg--midground u-color--background'}>Utility</span>
+                    <span className={'u-font--mono u-font--md'}>_utility.background.less</span>
                 </p>
                 <p className={'u-mb--lg'}>The border utility classes can be used to set the <span className={'c-code c-code--inline'}>border</span> property of an element. Each of the size modifiers directly correlate to the unit variables defined in UI Settings.</p>
                 <p className={'u-mb--lg'}>It is possible to set the border value for each side of the box individually. Simply define the side by appending <span className={'c-code c-code--inline'}>t</span> for border-top, <span className={'c-code c-code--inline'}>r</span> for border-right, <span className={'c-code c-code--inline'}>b</span> for border-bottom and <span className={'c-code c-code--inline'}>l</span> for border-left.</p>

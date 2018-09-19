@@ -5,10 +5,10 @@ export default class SettingTheme extends React.Component {
     render(){
         return (
             <div id={'settings_theme'} className={'id-component__wrapper o-block u-pt--xxl u-mb--xxl'}>
-                <p className={'u-h2 u-mb--lg o-flex'}>
-                    Theme
+                <p className={'u-h2 u-mb--xl o-flex o-flex--center u-bg--foreground u-color--background u-p--md u-radius'}>
+                    <span>Theme Settings</span>
                     <span className={'o-flex--1'}></span>
-                    <span className={'c-code c-code--inline u-bg--midground u-color--background'}>Settings</span>
+                    <span className={'u-font--mono u-font--md'}>_setting.theme.less</span>
                 </p>
                 <p className={'u-h4 u-mb--lg'}>Available settings</p>
                 <p className={'u-mb--lg'}>The theme settings allow extremely flexible customisation, maintenance and implementation of themes.</p>

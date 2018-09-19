@@ -5,10 +5,10 @@ export default class UtilityPadding extends React.Component {
     render(){
         return (
             <div className={'id-component__wrapper o-block u-pt--xxl u-mb--xxl'} id={'utility_padding'}>
-                <p className={'u-h2 u-mb--lg o-flex'}>
-                    Padding
+                <p className={'u-h2 u-mb--xl o-flex o-flex--center u-bg--foreground u-color--background u-p--md u-radius'}>
+                    <span>Padding</span>
                     <span className={'o-flex--1'}></span>
-                    <span className={'c-code c-code--inline u-bg--midground u-color--background'}>Utility</span>
+                    <span className={'u-font--mono u-font--md'}>_utility.background.less</span>
                 </p>
                 <p className={'u-mb--lg'}>The padding utility classes can be used to set the <span className={'c-code c-code--inline'}>padding</span> property of an element. Each of the modifiers directly correlate to the unit variables defined in UI Settings.</p>
                 <p className={'u-mb--lg'}>It is possible to set the padding value for each side of the box individually. Simply define the side by appending <span className={'c-code c-code--inline'}>t</span> for padding-top, <span className={'c-code c-code--inline'}>r</span> for padding-right, <span className={'c-code c-code--inline'}>b</span> for padding-bottom and <span className={'c-code c-code--inline'}>l</span> for padding-left.</p>

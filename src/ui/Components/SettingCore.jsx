@@ -5,10 +5,10 @@ export default class SettingCore extends React.Component {
     render(){
         return (
             <div id={'settings_core'} className={'id-component__wrapper o-block u-pt--xxl u-mb--xxl'}>
-                <p className={'u-h2 u-mb--lg o-flex'}>
-                    Core
+                <p className={'u-h2 u-mb--xl o-flex o-flex--center u-bg--foreground u-color--background u-p--md u-radius'}>
+                    <span>Core Settings</span>
                     <span className={'o-flex--1'}></span>
-                    <span className={'c-code c-code--inline u-bg--midground u-color--background'}>Settings</span>
+                    <span className={'u-font--mono u-font--md'}>_setting.theme.less</span>
                 </p>
 
                 <p className={'u-mb--lg'}>These settings exist as native <a href={'https://developer.mozilla.org/en-US/docs/Web/CSS/--*'}>CSS custom properties</a> - please check your project's support level as you may need to convert these to LESS/SASS variables.</p>

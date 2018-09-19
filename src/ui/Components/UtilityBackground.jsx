@@ -5,10 +5,10 @@ export default class UtilityBackground extends React.Component {
     render(){
         return (
             <div className={'id-component__wrapper o-block u-pt--xxl u-mb--xxl'} id={'utility_background'}>
-                <p className={'u-h2 u-mb--lg o-flex'}>
-                    Background
+                <p className={'u-h2 u-mb--xl o-flex o-flex--center u-color--background u-bg--foreground u-p--md u-radius'}>
+                    <span>Background</span>
                     <span className={'o-flex--1'}></span>
-                    <span className={'c-code c-code--inline u-bg--midground u-color--background'}>Utility</span>
+                    <span className={'u-font--mono u-font--md'}>_utility.background.less</span>
                 </p>
 
                 <p className={'u-mb--lg'}>The background utility classes can be used on-the-fly to set the <span className={'c-code c-code--inline'}>background-color</span> property of an element by simply adding a class.</p>

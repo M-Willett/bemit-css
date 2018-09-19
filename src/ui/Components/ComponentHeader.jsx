@@ -5,10 +5,10 @@ export default class ComponentHeader extends React.Component {
     render(){
         return (
             <div id={'component_header'} className={'id-component__wrapper o-block u-pt--xxl u-mb--xxl'}>
-                <p className={'u-h2 u-mb--lg o-flex'}>
-                    Header
+                <p className={'u-h2 u-mb--xl o-flex o-flex--center u-bg--foreground u-color--background u-p--md u-radius'}>
+                    <span>Header</span>
                     <span className={'o-flex--1'}></span>
-                    <span className={'c-code c-code--inline u-bg--midground u-color--background'}>Component</span>
+                    <span className={'u-font--mono u-font--md'}>_component.button.less</span>
                 </p>
                 
                 <p className={'u-mb--lg'}>Use the header component for section and application headers. It is advisable to use the <span className={'c-code c-code--inline'}>&lt;header&gt;</span> element for .</p>
