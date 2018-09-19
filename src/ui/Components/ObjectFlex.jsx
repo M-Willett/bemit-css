@@ -19,8 +19,8 @@ export default class ObjectFlex extends React.Component {
 
                 <pre className={'c-code u-mb--lg'}>
                 &lt;div class="<span className={'u-color--error'}>o-flex</span>"&gt;<br/>
-                &nbsp;&nbsp;&lt;div class="<span className={'u-color--error'}>o-flex--1</span>&gt;...&lt;/div&gt;<br/>
-                &nbsp;&nbsp;&lt;div class="<span className={'u-color--error'}>o-flex--2</span>&gt;...&lt;/div&gt;<br/>
+                &nbsp;&nbsp;&lt;div class="<span className={'u-color--error'}>o-flex--1</span>"&gt;...&lt;/div&gt;<br/>
+                &nbsp;&nbsp;&lt;div class="<span className={'u-color--error'}>o-flex--2</span>"&gt;...&lt;/div&gt;<br/>
                 &nbsp;&nbsp;&lt;div&gt;...&lt;/div&gt;<br/>
                 &lt;/div&gt;
                 </pre>
