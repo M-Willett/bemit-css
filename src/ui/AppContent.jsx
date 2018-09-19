@@ -4,6 +4,8 @@ import AppFooter from './AppFooter';
 import SettingCore from './Components/SettingCore';
 import SettingTheme from './Components/SettingTheme';
 
+import ResetUserAgent from './Components/ResetUserAgent';
+
 import ElementBody from './Components/ElementBody';
 import ElementHeading from './Components/ElementHeading';
 
@@ -31,8 +33,8 @@ export default class AppContent extends React.Component {
                     <SettingTheme/>
 
                     <p className={'u-h1 u-pt--xxl u-mt--xxl'} id={'section_resets'}>Resets</p>
+                    <ResetUserAgent/>
                     {/* <ResetBoxSizing/> */}
-                    {/* <ResetUserAgent/> */}
 
                     <p className={'u-h1 u-pt--xxl u-mt--xxl'} id={'section_elements'}>Elements</p>
                     <ElementBody/>
