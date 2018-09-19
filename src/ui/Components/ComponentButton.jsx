@@ -25,161 +25,161 @@ export default class ComponentButton extends React.Component {
                 <div className={'o-table u-mb--lg'}>
                     <div className={'o-table__row o-table__row--header'}>
                         <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
-                            <p className={'u-font--bold'}>Component</p>
+                            <p className={'u-font--bold'}>Class</p>
                         </div>
                         <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
                             <p className={'u-font--bold'}>Description</p>
                         </div>
                         <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
-                            <p className={'u-font--bold'}>Class</p>
+                            <p className={'u-font--bold'}>Component</p>
                         </div>
                     </div>
 
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>The default button utilizes the "standard" button styles.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn</p>
+                            <button className={'c-btn'}>Button</button>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--standard'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--standard</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>The standard button class as a modifier.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--standard</p>
+                            <button className={'c-btn c-btn--standard'}>Button</button>
                         </div>
                     </div>
 
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--contrast'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--contrast</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>The contrast button class as a modifier.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--contrast</p>
+                            <button className={'c-btn c-btn--contrast'}>Button</button>
                         </div>
                     </div>
 
                     <div className={'o-table__row u-bt--sm'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--primary'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--primary</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>The primary button state.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--primary</p>
+                            <button className={'c-btn c-btn--primary'}>Button</button>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--secondary'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--secondary</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>The secondary button state.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--secondary</p>
+                            <button className={'c-btn c-btn--secondary'}>Button</button>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--tertiary'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--tertiary</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>The tertiary button state.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--tertiary</p>
+                            <button className={'c-btn c-btn--tertiary'}>Button</button>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--quarternary'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--quarternary</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>The quarternary button state.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--quarternary</p>
+                            <button className={'c-btn c-btn--quarternary'}>Button</button>
                         </div>
                     </div>
 
                     <div className={'o-table__row u-bt--sm'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--submit'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--submit</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>The submit button state.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--submit</p>
+                            <button className={'c-btn c-btn--submit'}>Button</button>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--success'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--success</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>The success button state.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--success</p>
+                            <button className={'c-btn c-btn--success'}>Button</button>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--error'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--error</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>The error button state.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--error</p>
+                            <button className={'c-btn c-btn--error'}>Button</button>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--warning'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--warning</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>The warning button state.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--warning</p>
+                            <button className={'c-btn c-btn--warning'}>Button</button>
                         </div>
                     </div>
 
                     <div className={'o-table__row u-bt--sm'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--positive'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--positive</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>The positive button state.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--positive</p>
+                            <button className={'c-btn c-btn--positive'}>Button</button>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--negative'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--negative</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>The negative button state.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--negative</p>
+                            <button className={'c-btn c-btn--negative'}>Button</button>
                         </div>
                     </div>
                 </div>
@@ -202,90 +202,90 @@ export default class ComponentButton extends React.Component {
 
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--xxs'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--xxs</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>Sets the size of the button to the xxs modifier class.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--xxs</p>
+                            <button className={'c-btn c-btn--xxs'}>Button</button>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--xs'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--xs</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>Sets the size of the button to the xs modifier class.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--xs</p>
+                            <button className={'c-btn c-btn--xs'}>Button</button>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--sm'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--sm</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>Sets the size of the button to the sm modifier class.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--sm</p>
+                            <button className={'c-btn c-btn--sm'}>Button</button>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--rg'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--rg</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>Sets the size of the button to the rg modifier class.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--rg</p>
+                            <button className={'c-btn c-btn--rg'}>Button</button>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--md'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--md</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>Sets the size of the button to the md modifier class.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--md</p>
+                            <button className={'c-btn c-btn--md'}>Button</button>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--lg'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--lg</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>Sets the size of the button to the lg modifier class.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--lg</p>
+                            <button className={'c-btn c-btn--lg'}>Button</button>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--xl'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--xl</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>Sets the size of the button to the xl modifier class.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--xl</p>
+                            <button className={'c-btn c-btn--xl'}>Button</button>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--xxl'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--xxl</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>Sets the size of the button to the xxl modifier class.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--xxl</p>
+                            <button className={'c-btn c-btn--xxl'}>Button</button>
                         </div>
                     </div>
                 </div>
@@ -304,26 +304,26 @@ export default class ComponentButton extends React.Component {
 
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--xxs u-font--md'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--xxs and u-font--md</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--xxs and u-font--md</p>
+                            <button className={'c-btn c-btn--xxs u-font--md'}>Button</button>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--xs u-text--uppercase'}>Button</button>
-                        </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--xs and u-text--uppercase</p>
                         </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <button className={'c-btn c-btn--xs u-text--uppercase'}>Button</button>
+                        </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--rg u-font--bold'}>Button</button>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--rg and u-font--bold</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--rg and u-font--bold</p>
+                            <button className={'c-btn c-btn--rg u-font--bold'}>Button</button>
                         </div>
                     </div>
                 </div>
@@ -345,8 +345,8 @@ export default class ComponentButton extends React.Component {
                     </div>
 
                     <div className={'o-table__row'}>
-                    <div className={'o-table__cell u-p--sm'}>
-                            <button className={'c-btn c-btn--rg is-disabled'}>Button</button>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>is-disabled</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
                             <p className={'u-mb--lg'}>Visually disable a button.</p>
@@ -354,7 +354,7 @@ export default class ComponentButton extends React.Component {
                             <p className={'u-mb--lg u-font--italic'}>Attention: <span className={'c-code c-code--inline'}>c-btn</span> class required.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>is-disabled</p>
+                            <button className={'c-btn c-btn--rg is-disabled'}>Button</button>
                         </div>
                     </div>
                 </div>
