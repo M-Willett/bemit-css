@@ -11,7 +11,6 @@ export default class ComponentSwitch extends React.Component {
                     <span className={'u-font--mono u-font--md'}>_component.switch.less</span>
                 </p>
                 <p className={'u-mb--lg'}>The switch is a popular UI element which represents a physical light-switch or mechanical toggle on an instrument.</p>
-                <p className={'u-mb--lg'}>.</p>
 
                 <p className={'u-h4 u-mt--xxl'}>Usage</p>
                 <p className={'u-mb--lg'}>To add a switch component to the UI a specific format is required, see the example below.</p>
