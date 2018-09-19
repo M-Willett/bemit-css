@@ -5,6 +5,7 @@ import SettingCore from './Components/SettingCore';
 import SettingTheme from './Components/SettingTheme';
 
 import ElementBody from './Components/ElementBody';
+import ElementHeading from './Components/ElementHeading';
 
 import ObjectFlex from './Components/ObjectFlex';
 
@@ -32,7 +33,7 @@ export default class AppContent extends React.Component {
 
                     <p className={'u-h1 u-pt--xxl u-mt--xxl'} id={'section_elements'}>Elements</p>
                     <ElementBody/>
-                    {/* <ElementHeading/> */}
+                    <ElementHeading/>
                     {/* <ElementScrollbar/> */}
                     {/* <ElementTypography/> */}
 
