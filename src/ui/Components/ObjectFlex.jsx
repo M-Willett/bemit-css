@@ -49,19 +49,19 @@ export default class ObjectFlex extends React.Component {
                             <p className={'u-mb--md'}>In the examples the numbers highlight the flex value given. If a value is not provided the flex item becomes the smallest size possible.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                        <div className={'o-flex u-bg--midground u-p--sm u-mb--md u-align--center'}>
+                        <div className={'o-flex u-bg--midground u-p--sm u-mb--md'}>
                                 <div className={'o-flex--1 u-bg--foreground u-color--background u-p--sm u-m--sm'}>1</div>
                                 <div className={'o-flex--1 u-bg--foreground u-color--background u-p--sm u-m--sm'}>1</div>
                                 <div className={'o-flex--1 u-bg--foreground u-color--background u-p--sm u-m--sm'}>1</div>
                             </div>
-                            <div className={'o-flex u-bg--midground u-p--sm u-mb--md u-align--center'}>
+                            <div className={'o-flex u-bg--midground u-p--sm u-mb--md'}>
                                 <div className={'o-flex--1 u-bg--foreground u-color--background u-p--sm u-m--sm'}>1</div>
                                 <div className={'o-flex--1 u-bg--foreground u-color--background u-p--sm u-m--sm'}>1</div>
                                 <div className={'o-flex--1 u-bg--foreground u-color--background u-p--sm u-m--sm'}>1</div>
                                 <div className={'o-flex--1 u-bg--foreground u-color--background u-p--sm u-m--sm'}>1</div>
                                 <div className={'o-flex--1 u-bg--foreground u-color--background u-p--sm u-m--sm'}>1</div>
                             </div>
-                            <div className={'o-flex u-bg--midground u-p--sm u-mb--md u-align--center'}>
+                            <div className={'o-flex u-bg--midground u-p--sm'}>
                                 <div className={'u-bg--foreground u-p--sm u-m--sm'}>&nbsp;</div>
                                 <div className={'o-flex--1 u-bg--foreground u-color--background u-p--sm u-m--sm'}>1</div>
                                 <div className={'o-flex--3 u-bg--foreground u-color--background u-p--sm u-m--sm'}>3</div>
@@ -87,12 +87,12 @@ export default class ObjectFlex extends React.Component {
                             <p className={'u-mb--md'}>All examples have padding and margin to help demonstrate the DOM.</p>
                         </div>
                         <div className={'o-table__cell u-p--sm'}>
-                            <div className={'o-flex u-bg--midground u-p--sm u-mb--md u-align--center'}>
+                            <div className={'o-flex u-bg--midground u-p--sm u-mb--md'}>
                                 <div className={'o-flex--1 u-bg--foreground u-color--background u-p--sm u-m--sm'}>1</div>
                                 <div className={'o-flex--2 u-bg--foreground u-color--background u-p--sm u-m--sm'}>2</div>
                                 <div className={'o-flex--1 u-bg--foreground u-color--background u-p--sm u-m--sm'}>1</div>
                             </div>
-                            <div className={'o-flex u-bg--midground u-p--sm u-mb--md u-align--center'}>
+                            <div className={'o-flex u-bg--midground u-p--sm'}>
                                 <div className={'o-flex--1 u-bg--foreground u-color--background u-p--sm u-m--sm'}>1</div>
                                 <div className={'o-flex--2 u-bg--foreground u-color--background u-p--sm u-m--sm'}>2</div>
                                 <div className={'o-flex--5 u-bg--foreground u-color--background u-p--sm u-m--sm'}>5</div>
@@ -101,14 +101,141 @@ export default class ObjectFlex extends React.Component {
                     </div>
 
 
+                    <p className={'u-font--bold u-mt--lg u-mb--md'}>Flex ordering modifiers</p>
+
+                    <div className={'o-table__row'}>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={'c-code c-code--inline u-mb--sm'}>o-flex--row</p><br/>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={'u-mb--md'}>Set flex-items to flow horizontally.</p>
+                            <p className={'u-mb--md u-font--italic'}>Default behaviour.</p>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <div className={'o-flex o-flex--row u-bg--midground u-p--sm'}>
+                                <div className={'o-flex--1 u-bg--foreground u-color--background u-p--sm u-m--sm'}>1</div>
+                                <div className={'o-flex--1 u-bg--foreground u-color--background u-p--sm u-m--sm'}>1</div>
+                                <div className={'o-flex--2 u-bg--foreground u-color--background u-p--sm u-m--sm'}>2</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={'o-table__row'}>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={'c-code c-code--inline u-mb--sm'}>o-flex--row--reverse</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm'}>o-flex--reverse--row</p><br/>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={'u-mb--md'}>The same as o-flex--row but items flow in reverse.</p>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <div className={'o-flex o-flex--row--reverse u-bg--midground u-p--sm'}>
+                                <div className={'o-flex--1 u-bg--foreground u-color--background u-p--sm u-m--sm'}>1</div>
+                                <div className={'o-flex--1 u-bg--foreground u-color--background u-p--sm u-m--sm'}>1</div>
+                                <div className={'o-flex--2 u-bg--foreground u-color--background u-p--sm u-m--sm'}>2</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={'o-table__row'}>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={'c-code c-code--inline u-mb--sm'}>o-flex--col</p><br/>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={'u-mb--md'}>Set flex-items to flow vertically.</p>
+                            <p className={'u-mb--md'}>Usually requires a height to be set on the flex-container.</p>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'} style={{height: '150px'}}>
+                            <div className={'o-flex o-flex--col u-height--full u-bg--midground u-p--sm u-mb--md'}>
+                                <div className={'o-flex--1 u-bg--foreground u-color--background u-p--sm u-m--sm'}>1</div>
+                                <div className={'o-flex--1 u-bg--foreground u-color--background u-p--sm u-m--sm'}>1</div>
+                                <div className={'o-flex--2 u-bg--foreground u-color--background u-p--sm u-m--sm'}>2</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={'o-table__row'}>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={'c-code c-code--inline u-mb--sm'}>o-flex--col--reverse</p><br/>
+                            <p className={'c-code c-code--inline u-mb--sm'}>o-flex--reverse--col</p><br/>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={'u-mb--md'}>The same as o-flex--col but items flow in reverse.</p>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'} style={{height: '150px'}}>
+                            <div className={'o-flex o-flex--col--reverse u-height--full u-bg--midground u-p--sm u-mb--md'}>
+                                <div className={'o-flex--1 u-bg--foreground u-color--background u-p--sm u-m--sm'}>1</div>
+                                <div className={'o-flex--1 u-bg--foreground u-color--background u-p--sm u-m--sm'}>1</div>
+                                <div className={'o-flex--2 u-bg--foreground u-color--background u-p--sm u-m--sm'}>2</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p className={'u-font--bold u-mt--lg u-mb--md'}>Flex alignment modifiers</p>
+
+                    <div className={'o-table__row'}>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={'c-code c-code--inline u-mb--sm'}>o-flex--align-start</p><br/>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={'u-mb--md'}>Flex-items align to the start.</p>
+                            <p className={'u-mb--md'}>Depending on the flex direction this can mean the left or the top.</p>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <div className={'o-flex o-flex--align-start u-bg--midground u-p--sm u-mb--md'} style={{height: '80px'}}>
+                                <div className={'u-bg--foreground u-color--background u-p--sm u-m--sm'}></div>
+                                <div className={'u-bg--foreground u-color--background u-p--sm u-m--sm'}></div>
+                                <div className={'u-bg--foreground u-color--background u-p--sm u-m--sm'}></div>
+                            </div>
+                            <div className={'o-flex o-flex--col o-flex--align-start u-height--full u-bg--midground u-p--sm'} style={{height: '80px'}}>
+                                <div className={'u-bg--foreground u-color--background u-p--sm u-m--sm'}></div>
+                                <div className={'u-bg--foreground u-color--background u-p--sm u-m--sm'}></div>
+                                <div className={'u-bg--foreground u-color--background u-p--sm u-m--sm'}></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={'o-table__row'}>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={'c-code c-code--inline u-mb--sm'}>o-flex--align-center</p><br/>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={'u-mb--md'}>Flex-items align to the center or middle.</p>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <div className={'o-flex o-flex--align-center u-bg--midground u-p--sm u-mb--md'} style={{height: '80px'}}>
+                                <div className={'u-bg--foreground u-color--background u-p--sm u-m--sm'}></div>
+                                <div className={'u-bg--foreground u-color--background u-p--sm u-m--sm'}></div>
+                                <div className={'u-bg--foreground u-color--background u-p--sm u-m--sm'}></div>
+                            </div>
+                            <div className={'o-flex o-flex--col o-flex--align-center u-bg--midground u-p--sm'} style={{height: '80px'}}>
+                                <div className={'u-bg--foreground u-color--background u-p--sm u-m--sm'}></div>
+                                <div className={'u-bg--foreground u-color--background u-p--sm u-m--sm'}></div>
+                                <div className={'u-bg--foreground u-color--background u-p--sm u-m--sm'}></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={'o-table__row'}>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={'c-code c-code--inline u-mb--sm'}>o-flex--align-end</p><br/>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <p className={'u-mb--md'}>Flex-items align to the end.</p>
+                            <p className={'u-mb--md'}>Depending on the flex direction this can mean the right or the bottom.</p>
+                        </div>
+                        <div className={'o-table__cell u-p--sm'}>
+                            <div className={'o-flex o-flex--align-end u-bg--midground u-p--sm u-mb--md'} style={{height: '80px'}}>
+                                <div className={'u-bg--foreground u-color--background u-p--sm u-m--sm'}></div>
+                                <div className={'u-bg--foreground u-color--background u-p--sm u-m--sm'}></div>
+                                <div className={'u-bg--foreground u-color--background u-p--sm u-m--sm'}></div>
+                            </div>
+                            <div className={'o-flex o-flex--col o-flex--align-end u-height--full u-bg--midground u-p--sm'} style={{height: '80px'}}>
+                                <div className={'u-bg--foreground u-color--background u-p--sm u-m--sm'}></div>
+                                <div className={'u-bg--foreground u-color--background u-p--sm u-m--sm'}></div>
+                                <div className={'u-bg--foreground u-color--background u-p--sm u-m--sm'}></div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
-
-
-
             </div>
-
-
         )
     }
 }
