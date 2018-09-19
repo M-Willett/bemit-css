@@ -24,15 +24,15 @@ export default class AppSidebar extends React.Component {
 
                     {/* Objects */}
                     <a className={'c-sidebar__list__link c-sidebar__list__link--parent o-block u-mb--xs u-font--bold u-pt--md'} href={'#section_objects'}>Objects</a>
-                    <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#object_block'}>Sidebar</a>
                     <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#object_flex'}>Flex</a>
                     <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#object_wrapper'}>Wrapper</a>
 
                     {/* Components */}
                     <a className={'c-sidebar__list__link c-sidebar__list__link--parent o-block u-mb--xs u-font--bold u-pt--md'} href={'#section_components'}>Components</a>
-                    <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#component_header'}>Header</a>
-                    <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#component_sidebar'}>Sidebar</a>
                     <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#component_button'}>Button</a>
+                    <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#component_header'}>Header</a>
+                    <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#component_footer'}>Footer</a>
+                    <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#component_sidebar'}>Sidebar</a>
 
                     {/* Utilites */}
                     <a className={'c-sidebar__list__link c-sidebar__list__link--parent o-block u-mb--xs u-font--bold u-pt--md'} href={'#section_utilities'}>Utilities</a>
