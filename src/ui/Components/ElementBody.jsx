@@ -15,13 +15,13 @@ export default class ElementBody extends React.Component {
                 <p className={'u-mb--lg'}>The CSS body selector automatically assigns the specified properties and values to the elment, there is no need to explicitly define the e-body class but it exists to be useful in other situations.</p>
 
                 <pre className={'c-code u-mb'}>
-                &lt;body&gt;<br/>
-                &nbsp;&nbsp;...<br/>
-                &lt;/body&gt;<br/>
-                <br/>
-                &lt;iframe class="e-body"&gt;<br/>
-                &nbsp;&nbsp;...<br/>
-                &lt;/iframe&gt;
+                    &lt;body&gt;<br/>
+                    &nbsp;&nbsp;...<br/>
+                    &lt;/body&gt;<br/>
+                    <br/>
+                    &lt;iframe class="<span className={'u-color--error'}>e-body</span>"&gt;<br/>
+                    &nbsp;&nbsp;...<br/>
+                    &lt;/iframe&gt;
                 </pre>
             </div>
         )

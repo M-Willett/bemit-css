@@ -18,9 +18,9 @@ export default class UtilityBorder extends React.Component {
                 <p className={'u-mb--lg'}>Add the padding class to an element.</p>
 
                 <div className={'c-code u-mb--lg'}>
-                ... class="u-b" ...<br/>
-                ... class="u-br--md" ...<br/>
-                ... class="u-bt u-b--major--force" ...<br/>
+                    ... class="<span className={'u-color--error'}>u-b</span>" ...<br/>
+                    ... class="<span className={'u-color--error'}>u-br--md</span>" ...<br/>
+                    ... class="<span className={'u-color--error'}>u-bt u-b--major--force</span>" ...<br/>
                 </div>
 
                 <p className={'u-mb--md'}>In the examples below borders are shaded in <span className={'u-bg--primary u-color--background'}>&nbsp;blue&nbsp;</span> while the <span className={'u-bg--midground u-color--background'}>&nbsp;grey&nbsp;</span> area represents the box.</p>

@@ -18,9 +18,9 @@ export default class UtilityMargin extends React.Component {
                 <p className={'u-mb--lg'}>To make use of these utilities simply add the margin class to an element.</p>
 
                 <div className={'c-code u-mb--lg'}>
-                ... class="u-m" ...<br/>
-                ... class="u-mr--md" ...<br/>
-                ... class="u-mt u-mb--md--force" ...<br/>
+                    ... class="<span className={'u-color--error'}>u-m</span>" ...<br/>
+                    ... class="<span className={'u-color--error'}>u-mr--md</span>" ...<br/>
+                    ... class="<span className={'u-color--error'}>u-mt u-mb--md--force</span>" ...<br/>
                 </div>
 
                 <p className={'u-mb--md'}>In the examples below margin is shaded in <span className={'u-bg--quarternary u-color--background'}>&nbsp;red&nbsp;</span> while the <span className={'u-bg--midground u-color--background'}>&nbsp;grey&nbsp;</span> area represents the box.</p>

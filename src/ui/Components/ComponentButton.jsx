@@ -4,7 +4,7 @@ import React from "react";
 export default class ComponentButton extends React.Component {
     render(){
         return (
-            <div className={'id-component__wrapper o-block u-mb--xxl'} id={'component_button'}>
+            <div id={'component_button'} className={'id-component__wrapper o-block u-pt--xxl u-mb--xxl'}>
                 <p className={'u-h2 u-mb--lg o-flex'}>
                     Button
                     <span className={'o-flex--1'}></span>
@@ -16,11 +16,11 @@ export default class ComponentButton extends React.Component {
                 <p className={'u-h4 u-mt--xxl'}>Usage</p>
                 <p className={'u-mb--lg'}>Please note that the <span className={'c-code c-code--inline'}>c-btn</span> class is always required. Modifiers should be appended to customise the base button class.</p>
 
-                <div className={'c-code u-mb--lg'}>
-                &lt;button class="c-btn"&gt;Submit&lt;button&gt; // preferred element<br/>
-                &lt;span class="c-btn"&gt;Submit&lt;span&gt;<br/>
-                &lt;span class="c-btn c-btn--error c-btn--disabled"&gt;Error&lt;span&gt;<br/>
-                </div>
+                <pre className={'c-code u-mb--lg'}>
+                    &lt;button class="<span className={'u-color--error'}>c-btn</span>"&gt;...&lt;button&gt; &nbsp;&nbsp;<span className={'u-font--italic'}>// preferred element</span><br/>
+                    &lt;span class="<span className={'u-color--error'}>c-btn</span>"&gt;...&lt;span&gt;<br/>
+                    &lt;span class="<span className={'u-color--error'}>c-btn c-btn--error c-btn--disabled</span>"&gt;...&lt;span&gt;<br/>
+                </pre>
 
                 <div className={'o-table u-mb--lg'}>
                     <div className={'o-table__row o-table__row--header'}>

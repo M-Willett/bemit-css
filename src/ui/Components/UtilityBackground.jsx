@@ -19,8 +19,8 @@ export default class UtilityBackground extends React.Component {
                 <p className={'u-mb--lg'}>Add the background utility class to an element.</p>
 
                 <div className={'c-code u-mb--lg'}>
-                ... class="u-bg--primary" ...<br/>
-                ... class="u-bg--positive" ...
+                ... class="<span className={'u-color--error'}>u-bg--primary</span>" ...<br/>
+                ... class="<span className={'u-color--error'}>u-bg--positive</span>" ...
                 </div>
 
 
