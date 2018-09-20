@@ -28,7 +28,7 @@ export default class AppContent extends React.Component {
     render(){
         return (
             <main className={'c-content u-scrollable o-flex--1'}>
-                <div className={'u-p--xl'}>
+                <div className={'u-p--xxl u-ml--xl u-mr--xl'}>
                     <p className={'u-h1 u-mt--xxl'} id={'section_settings'}>Settings</p>
                     <SettingCore/>
                     <SettingTheme/>
