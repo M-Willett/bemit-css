@@ -39,13 +39,13 @@ export default class SettingCore extends React.Component {
                 <p className={'u-font--bold u-mt--lg'}>Breakpoints</p>
                 <div className={'o-table o-table--rg u-mt--rg u-mb--lg'}>
                     <div className={'o-table__row o-table__row--header'}>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                             <p className={'u-font--bold'}>Variable name</p>
                         </div>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                             <p className={'u-font--bold'}>Value</p>
                         </div>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                             <p className={'u-font--bold'}>Purpose</p>
                         </div>
                     </div>

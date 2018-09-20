@@ -32,13 +32,13 @@ export default class SettingTheme extends React.Component {
 
                 <div className={'o-table o-table--rg u-mb--lg'}>
                     <div className={'o-table__row o-table__row--header'}>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                             <p className={'u-font--bold'}>Variable name</p>
                         </div>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                             <p className={'u-font--bold'}>Value</p>
                         </div>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                         <p className={'u-font--bold'}>Example</p>
                         </div>
                     </div>

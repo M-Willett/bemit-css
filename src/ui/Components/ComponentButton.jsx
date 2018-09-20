@@ -26,13 +26,13 @@ export default class ComponentButton extends React.Component {
 
                 <div className={'o-table o-table--rg u-mb--lg'}>
                     <div className={'o-table__row o-table__row--header'}>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                             <p className={'u-font--bold'}>Class</p>
                         </div>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                             <p className={'u-font--bold'}>Description</p>
                         </div>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                             <p className={'u-font--bold'}>Component</p>
                         </div>
                     </div>
@@ -191,13 +191,13 @@ export default class ComponentButton extends React.Component {
 
                 <div className={'o-table o-table--rg u-mb--lg'}>
                     <div className={'o-table__row o-table__row--header'}>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                             <p className={'u-font--bold'}>Component</p>
                         </div>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                             <p className={'u-font--bold'}>Description</p>
                         </div>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                             <p className={'u-font--bold'}>Modifer</p>
                         </div>
                     </div>
@@ -296,10 +296,10 @@ export default class ComponentButton extends React.Component {
 
                 <div className={'o-table o-table--rg u-mb--lg'}>
                     <div className={'o-table__row o-table__row--header'}>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                             <p className={'u-font--bold'}>Component</p>
                         </div>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                             <p className={'u-font--bold'}>Modifers</p>
                         </div>
                     </div>
@@ -335,13 +335,13 @@ export default class ComponentButton extends React.Component {
 
                 <div className={'o-table o-table--rg u-mb--lg'}>
                     <div className={'o-table__row o-table__row--header'}>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                             <p className={'u-font--bold'}>Component</p>
                         </div>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                             <p className={'u-font--bold'}>Description</p>
                         </div>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                             <p className={'u-font--bold'}>Class</p>
                         </div>
                     </div>

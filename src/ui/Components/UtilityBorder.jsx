@@ -29,13 +29,13 @@ export default class UtilityBorder extends React.Component {
 
                 <div className={'o-table o-table--rg u-mt--lg u-mb--xl'}>
                     <div className={'o-table__row o-table__row--header'}>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                             <p className={'u-font--bold'}>Modifier classes</p>
                         </div>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                             <p className={'u-font--bold'}>Description</p>
                         </div>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                             <p className={'u-font--bold'}>Example</p>
                         </div>
                     </div>
@@ -151,10 +151,10 @@ export default class UtilityBorder extends React.Component {
 
                 <div className={'o-table u-mt--lg u-mb--lg'}>
                     <div className={'o-table__row o-table__row--header'}>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                             <p className={'u-font--bold'}>Modifier classes</p>
                         </div>
-                        <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                             <p className={'u-font--bold'}>Example</p>
                         </div>
                     </div>
