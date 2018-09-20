@@ -30,7 +30,7 @@ export default class SettingTheme extends React.Component {
 
                 <p className={'u-h4 u-mt--xxl'}>Theme variable examples</p>
 
-                <div className={'o-table u-mb--lg'}>
+                <div className={'o-table o-table--rg u-mb--lg'}>
                     <div className={'o-table__row o-table__row--header'}>
                         <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
                             <p className={'u-font--bold'}>Variable name</p>
@@ -44,104 +44,104 @@ export default class SettingTheme extends React.Component {
                     </div>
 
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--ui-background</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>#FFFFFF</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm u-bg--background'}>
+                        <div className={'o-table__cell u-bg--background'}>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--ui-background-accent</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>#EEEEEE</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm u-bg--background-accent'}>
+                        <div className={'o-table__cell u-bg--background-accent'}>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--ui-midground</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>#BBBBBB</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm u-bg--midground'}>
+                        <div className={'o-table__cell u-bg--midground'}>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--ui-foreground</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>#666666</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm u-bg--foreground'}>
+                        <div className={'o-table__cell u-bg--foreground'}>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--ui-text</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>#161616</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm u-bg--text'}>
+                        <div className={'o-table__cell u-bg--text'}>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--ui-text-accent</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>#333333</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm u-bg--text-accent'}>
+                        <div className={'o-table__cell u-bg--text-accent'}>
                         </div>
                     </div>
     
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--ui-accent-1</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>#0ABDE3</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm u-bg--accent-1'}>
+                        <div className={'o-table__cell u-bg--accent-1'}>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--ui-accent-2</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>#1DD1A1</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm u-bg--accent-2'}>
+                        <div className={'o-table__cell u-bg--accent-2'}>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--ui-accent-3</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>#FECA57</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm u-bg--accent-3'}>
+                        <div className={'o-table__cell u-bg--accent-3'}>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--ui-accent-4</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>#EE5253</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm u-bg--accent-4'}>
+                        <div className={'o-table__cell u-bg--accent-4'}>
                         </div>
                     </div>
 

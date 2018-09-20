@@ -33,7 +33,7 @@ export default class ElementHeading extends React.Component {
 
                 <p className={'u-font--bold u-mt--xl u-mb--lg'}>Heading class definitions</p>
 
-                <div className={'o-table u-mt--rg u-mb--lg'}>
+                <div className={'o-table o-table--rg u-mt--rg u-mb--lg'}>
                     <div className={'o-table__row o-table__row--header'}>
                         <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
                             <p className={'u-font--bold'}>Element class</p>
@@ -47,68 +47,68 @@ export default class ElementHeading extends React.Component {
                     </div>
 
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline u-mb--sm'}>e-h1</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'u-mb--md'}>Assigns heading level 1 properties to an element.</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'e-h1'}>Heading 1</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline u-mb--sm'}>e-h2</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'u-mb--md'}>Assigns heading level 2 properties to an element.</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'e-h2'}>Heading 2</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline u-mb--sm'}>e-h3</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'u-mb--md'}>Assigns heading level 3 properties to an element.</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'e-h3'}>Heading 3</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline u-mb--sm'}>e-h4</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'u-mb--md'}>Assigns heading level 4 properties to an element.</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'e-h4'}>Heading 4</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline u-mb--sm'}>e-h5</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'u-mb--md'}>Assigns heading level 5 properties to an element.</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'e-h5'}>Heading 5</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline u-mb--sm'}>e-h6</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'u-mb--md'}>Assigns heading level 6 properties to an element.</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'e-h6'}>Heading 6</p>
                         </div>
                     </div>

@@ -37,7 +37,7 @@ export default class SettingCore extends React.Component {
                 <p className={'u-h4 u-mt--xxl'}>Available settings</p>
 
                 <p className={'u-font--bold u-mt--lg'}>Breakpoints</p>
-                <div className={'o-table u-mt--rg u-mb--lg'}>
+                <div className={'o-table o-table--rg u-mt--rg u-mb--lg'}>
                     <div className={'o-table__row o-table__row--header'}>
                         <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
                             <p className={'u-font--bold'}>Variable name</p>
@@ -50,13 +50,13 @@ export default class SettingCore extends React.Component {
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--mobile-max-width</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>768px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
@@ -64,38 +64,38 @@ export default class SettingCore extends React.Component {
 
 
                 <p className={'u-font--bold u-mt--lg'}>Heights</p>
-                <div className={'o-table u-mt--rg u-mb--lg'}>
+                <div className={'o-table o-table--rg u-mt--rg u-mb--lg'}>
 
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--height-header</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>auto</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--height-header-app</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>48px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--height-footer</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>240px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
@@ -103,48 +103,48 @@ export default class SettingCore extends React.Component {
 
 
                 <p className={'u-font--bold u-mt--lg'}>Widths</p>
-                <div className={'o-table u-mt--rg u-mb--lg'}>
+                <div className={'o-table o-table--rg u-mt--rg u-mb--lg'}>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--width-logo</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>48px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--width-sidebar</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>15em</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--width-sidebar-abs</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>160px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--width-scrollbar</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>8px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
@@ -152,26 +152,26 @@ export default class SettingCore extends React.Component {
 
 
                 <p className={'u-font--bold u-mt--lg'}>Font families</p>
-                <div className={'o-table u-mt--rg u-mb--lg'}>
+                <div className={'o-table o-table--rg u-mt--rg u-mb--lg'}>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--font-family</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>roboto, verdana, 'helvetica neue', helvetica, arial, sans-serif</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--font-family-mono</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>consolas, 'courier new', monospace</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
@@ -179,92 +179,92 @@ export default class SettingCore extends React.Component {
 
 
                 <p className={'u-font--bold u-mt--lg'}>Font sizes</p>
-                <div className={'o-table u-mt--rg u-mb--lg'}>
+                <div className={'o-table o-table--rg u-mt--rg u-mb--lg'}>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--font-xxs</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>9px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--font-xs</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>10px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--font-sm</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>11px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--font-rg</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>12px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--font-md</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>14px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--font-lg</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>16px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--font-xl</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>24px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--font-xxl</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>32px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
@@ -272,48 +272,48 @@ export default class SettingCore extends React.Component {
 
 
                 <p className={'u-font--bold u-mt--lg'}>Font weights</p>
-                <div className={'o-table u-mt--rg u-mb--lg'}>
+                <div className={'o-table o-table--rg u-mt--rg u-mb--lg'}>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--font-bold</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>600</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--font-medium</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>400</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--font-regular</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>300</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--font-light</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>100</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
@@ -321,92 +321,92 @@ export default class SettingCore extends React.Component {
 
 
                 <p className={'u-font--bold u-mt--lg'}>Units</p>
-                <div className={'o-table u-mt--rg u-mb--lg'}>
+                <div className={'o-table o-table--rg u-mt--rg u-mb--lg'}>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--unit-xxs</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>1px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--unit-xs</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>2px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--unit-sm</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>4px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--unit-rg</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>6px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--unit-md</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>8px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--unit-lg</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>12px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--unit-xl</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>24px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>--unit-xxl</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline'}>32px</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>descc</p>
                         </div>
                     </div>

@@ -29,3 +29,42 @@
     border: 1px solid var(--border-table);
     vertical-align: top;
 }
+
+
+/**
+ * Table size modifiers
+ */
+.o-table__cell {
+    .o-table--xxs & {
+        padding: var(--unit-xxs);
+        .u-font--xxs;
+    }
+    .o-table--xs & {
+        padding: var(--unit-xs);
+        .u-font--xs;
+    }
+    .o-table--sm & {
+        padding: var(--unit-sm);
+        .u-font--sm;
+    }
+    .o-table--rg & {
+        padding: var(--unit-rg);
+        .u-font--rg;
+    }
+    .o-table--md & {
+        padding: var(--unit-md);
+        .u-font--md;
+    }
+    .o-table--lg & {
+        padding: var(--unit-lg);
+        .u-font--lg;
+    }
+    .o-table--xl & {
+        padding: var(--unit-xl);
+        .u-font--xl;
+    }
+    .o-table--xxl & {
+        padding: var(--unit-xxl);
+        .u-font--xxl;
+    }
+}

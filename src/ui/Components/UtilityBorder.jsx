@@ -27,7 +27,7 @@ export default class UtilityBorder extends React.Component {
 
                 <p className={'u-h4 u-mt--xxl'}>Border on all sides</p>
 
-                <div className={'o-table u-mt--lg u-mb--xl'}>
+                <div className={'o-table o-table--rg u-mt--lg u-mb--xl'}>
                     <div className={'o-table__row o-table__row--header'}>
                         <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
                             <p className={'u-font--bold'}>Modifier classes</p>
@@ -41,104 +41,104 @@ export default class UtilityBorder extends React.Component {
                     </div>
 
                     <div className={'o-table__row'}>    
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-b--xxs</p><p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-b</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-xxs)</span> value to the <b>border-width</b> property.</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <span className={'o-block--inline u-bg--midground'}>
                                 <span className={'o-block--inline u-b--xxs u-b--primary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
                     </div>
                     <div className={'o-table__row'}>    
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-b--xs</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-xs)</span> value to the <b>border-width</b> property.</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <span className={'o-block--inline u-bg--midground'}>
                                 <span className={'o-block--inline u-b--xs u-b--primary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
                     </div>
                     <div className={'o-table__row'}>    
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-b--sm</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-sm)</span> value to the <b>border-width</b> property.</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <span className={'o-block--inline u-bg--midground'}>
                                 <span className={'o-block--inline u-b--sm u-b--primary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
                     </div>
                     <div className={'o-table__row'}>    
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-b--rg</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-rg)</span> value to the <b>border-width</b> property.</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <span className={'o-block--inline u-bg--midground'}>
                                 <span className={'o-block--inline u-b--rg u-b--primary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
                     </div>
                     <div className={'o-table__row'}>    
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-b--md</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-md)</span> value to the <b>border-width</b> property.</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <span className={'o-block--inline u-bg--midground'}>
                                 <span className={'o-block--inline u-b--md u-b--primary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
                     </div>
                     <div className={'o-table__row'}>    
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-b--lg</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-lg)</span> value to the <b>border-width</b> property.</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <span className={'o-block--inline u-bg--midground'}>
                                 <span className={'o-block--inline u-b--lg u-b--primary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
                     </div>
                     <div className={'o-table__row'}>    
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-b--xl</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-xl)</span> value to the <b>border-width</b> property.</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <span className={'o-block--inline u-bg--midground'}>
                                 <span className={'o-block--inline u-b--xl u-b--primary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
                     </div>
                     <div className={'o-table__row'}>    
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-b--xxl</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-xxl)</span> value to the <b>border-width</b> property.</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <span className={'o-block--inline u-bg--midground'}>
                                 <span className={'o-block--inline u-b--xxl u-b--primary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
@@ -160,7 +160,7 @@ export default class UtilityBorder extends React.Component {
                     </div>
 
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bt--xxs</p><p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bt</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bt--xs</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bt--sm</p><br/>
@@ -170,7 +170,7 @@ export default class UtilityBorder extends React.Component {
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bt--xl</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bt--xxl</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <span className={'o-block--inline u-bg--midground u-mr--md'}>
                                 <span className={'o-block--inline u-bt--xxs u-b--primary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
@@ -198,7 +198,7 @@ export default class UtilityBorder extends React.Component {
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-br--xxs</p><p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-br</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-br--xs</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-br--sm</p><br/>
@@ -208,7 +208,7 @@ export default class UtilityBorder extends React.Component {
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-br--xl</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-br--xxl</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <span className={'o-block--inline u-bg--midground u-mb--md'}>
                                 <span className={'o-block--inline u-br--xxs u-b--primary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
@@ -236,7 +236,7 @@ export default class UtilityBorder extends React.Component {
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bb--xxs</p><p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bb</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bb--xs</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bb--sm</p><br/>
@@ -246,7 +246,7 @@ export default class UtilityBorder extends React.Component {
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bb--xl</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bb--xxl</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <span className={'o-block--inline u-bg--midground u-mr--md'}>
                                 <span className={'o-block--inline u-bb--xxs u-b--primary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
@@ -274,7 +274,7 @@ export default class UtilityBorder extends React.Component {
                         </div>
                     </div>
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bl--xxs</p><p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bl</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bl--xs</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bl--sm</p><br/>
@@ -284,7 +284,7 @@ export default class UtilityBorder extends React.Component {
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bl--xl</p><br/>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bl--xxl</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <span className={'o-block--inline u-bg--midground u-mb--md'}>
                                 <span className={'o-block--inline u-bl--xxs u-b--primary'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>

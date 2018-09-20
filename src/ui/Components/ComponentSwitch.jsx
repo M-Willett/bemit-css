@@ -31,7 +31,7 @@ export default class ComponentSwitch extends React.Component {
 
                 <p className={'u-h3 u-mt--xxl'}>Switch examples</p>
 
-                <div className={'o-table u-mb--lg'}>
+                <div className={'o-table o-table--rg u-mb--lg'}>
                     <div className={'o-table__row o-table__row--header'}>
                         <div className={'o-table__cell o-table__cell--header u-center u-p--sm'}>
                             <p className={'u-font--bold'}>Component</p>
@@ -45,14 +45,14 @@ export default class ComponentSwitch extends React.Component {
                     </div>
 
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-switch</p>
 
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'u-mb--lg'}>Define a switch element.</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <label className={'c-switch'}>
                                 <input className={'c-switch__input'} type={'checkbox'}/>
                                 <span className={'c-switch__track'}>
@@ -63,13 +63,13 @@ export default class ComponentSwitch extends React.Component {
                     </div>
 
                     <div className={'o-table__row'}>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-switch</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <p className={'u-mb--lg'}>Add a label to the switch.</p>
                         </div>
-                        <div className={'o-table__cell u-p--sm'}>
+                        <div className={'o-table__cell'}>
                             <label className={'c-switch'}>
                                 <input className={'c-switch__input'} type={'checkbox'}/>
                                 <span className={'c-switch__track'}>
