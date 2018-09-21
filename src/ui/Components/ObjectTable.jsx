@@ -187,18 +187,22 @@ export default class ObjectTable extends React.Component {
                                 <div className={'o-table__row o-table__row--header u-font--bold u-align--center'}>
                                     <div className={'o-table__cell'}>Header 1</div>
                                     <div className={'o-table__cell'}>Header 2</div>
+                                    <div className={'o-table__cell'}>Header 3</div>
                                 </div>
                                 <div className={'o-table__row'}>
                                     <div className={'o-table__cell'}>Column 1</div>
                                     <div className={'o-table__cell'}>Column 2</div>
+                                    <div className={'o-table__cell'}>Column 3</div>
                                 </div>
                                 <div className={'o-table__row'}>
                                     <div className={'o-table__cell'}>Column 1</div>
                                     <div className={'o-table__cell'}>Column 2</div>
+                                    <div className={'o-table__cell'}>Column 3</div>
                                 </div>
                                 <div className={'o-table__row o-table__row--header u-align--right'}>
                                     <div className={'o-table__cell'}>Footer 1</div>
                                     <div className={'o-table__cell'}>Footer 2</div>
+                                    <div className={'o-table__cell'}>Footer 3</div>
                                 </div>
                             </div>
                         </div>
