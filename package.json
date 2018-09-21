@@ -1,6 +1,6 @@
 {
   "name": "css_framework2",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
     "watch": "webpack-dev-server --open && webpack --watch",
     "start": "webpack-dev-server --open",
     "server": "node server.js",
+    "release": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -48,6 +49,7 @@
     "less-loader": "^4.1.0",
     "papaparse": "^4.6.0",
     "prettier": "^1.13.0",
+    "standard-version": "^4.4.0",
     "style-loader": "^0.22.1",
     "webpack-cli": "^3.1.0",
     "xml-loader": "^1.2.1"
