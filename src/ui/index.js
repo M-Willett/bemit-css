@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { render } from 'react-dom';
-// import  './Behaviour/SmoothScroll.js' ;
+import  './Behaviour/SmoothScroll.js' ;
 import  '../styles/less/app.bundle.less';
 
 
