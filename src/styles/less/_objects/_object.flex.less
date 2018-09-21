@@ -68,11 +68,54 @@
 
 
 /**
+ * Justification modifiers
+ */
+// Justify at start
+.o-flex--justify-start {
+    justify-content: flex-start;
+}
+
+
+// Justify at center
+.o-flex--justify-center {
+    justify-content: center;
+}
+
+
+// Justify at end
+.o-flex--justify-end {
+    justify-content: flex-end;
+}
+
+
+// Justify items with even spaces between them
+.o-flex--space-between {
+    justify-content: space-between;
+}
+
+
+// Justify items with even space around them
+.o-flex--space-around {
+    justify-content: space-around;
+}
+
+
+// Items are spaced evenly in the container.
+// Gaps between items and container edges are equal.
+.o-flex--space-evenly {
+    justify-content: space-evenly;
+}
+
+
+
+
+/**
  * Sizing
  */
-// Modifiers
 .o-flex--auto,
 .o-flex__item--auto { flex: auto; }
+.o-flex--initial,
+.o-flex__item--initial { flex: initial; }
 .o-flex--1,
 .o-flex__item--1 { flex: 1; }
 .o-flex--2,
