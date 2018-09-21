@@ -20,29 +20,21 @@ export default class ObjectTable extends React.Component {
                 <pre className={'c-code u-mb--lg'}>
                     &lt;div class='<span className={'u-color--error'}>o-table o-table--rg</span>'&gt;<br/>
                     <br/>
-                    <br/><p className={'u-font--italic u-color--midground'}>&nbsp;&nbsp;// Header row</p>
+                    <p className={'u-font--italic u-color--midground'}>&nbsp;&nbsp;// Header row</p>
                     &nbsp;&nbsp;&lt;div class='<span className={'u-color--error'}>o-table__row o-table__row--header u-align--center</span>'&gt;<br/>
-                    <br/><p className={'u-font--italic u-color--midground'}>&nbsp;&nbsp;&nbsp;&nbsp;// Header columns</p>
+                    <br/>
+                    <p className={'u-font--italic u-color--midground'}>&nbsp;&nbsp;&nbsp;&nbsp;// Header columns</p>
                     &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class='<span className={'u-color--error'}>o-table__cell o-table__cell--header</span>'&gt;<br/>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p class='<span className={'u-color--error'}>u-font--bold</span>'&gt;Header text&lt;/p&gt;<br/>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br/>
+                    &ensp;&ensp;&ensp;&ensp;&lt;/div&gt;<br/>
                     &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class='<span className={'u-color--error'}>o-table__cell o-table__cell--header</span>'&gt;<br/>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p class='<span className={'u-color--error'}>u-font--bold</span>'&gt;Header text&lt;/p&gt;<br/>
                     &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br/>
                     &nbsp;&nbsp;&lt;/div&gt;<br/>
                     <br/>
-                    <br/><p className={'u-font--italic u-color--midground'}>&nbsp;&nbsp;// Body rows</p>
+                    <p className={'u-font--italic u-color--midground'}>&nbsp;&nbsp;// Body rows</p>
                     &nbsp;&nbsp;&lt;div class='<span className={'u-color--error'}>o-table__row</span>'&gt;<br/>
                     <br/><p className={'u-font--italic u-color--midground'}>&nbsp;&nbsp;&nbsp;&nbsp;// Body columns</p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class='<span className={'u-color--error'}>o-table__cell</span>'&gt;<br/>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Body text&lt;/p&gt;<br/>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br/>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class='<span className={'u-color--error'}>o-table__cell</span>'&gt;<br/>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Body text&lt;/p&gt;<br/>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br/>
-                    &nbsp;&nbsp;&lt;/div&gt;<br/>
-                    <br/>
-                    &nbsp;&nbsp;&lt;div class='<span className={'u-color--error'}>o-table__row</span>'&gt;<br/>
                     &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class='<span className={'u-color--error'}>o-table__cell</span>'&gt;<br/>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Body text&lt;/p&gt;<br/>
                     &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br/>
@@ -54,19 +46,17 @@ export default class ObjectTable extends React.Component {
                     &lt;/div&gt;<br/>       
                 </pre>
 
-                <p className={'u-h4 u-mt--xxl'}>Theme composition</p>
-                <p className={'u-mb--lg'}>Themes are composed of between 10 and 12 core colours (6 UI colours and 4 accent colours). These colours form the foundation or palatte of the theme and are then applied to other variables to specify component styles.</p>
-                <p className={'u-mb--lg'}>For example, the app header component of this library applies a background color using the variable <span className={'c-code c-code--inline'}>var(--background-header-app)</span> whose value is defined as <span className={'c-code c-code--inline'}>var(--text)</span>. This method allows complete customisation of theme colours without affecting other components.</p>
-
-                <p className={'u-h4 u-mt--xxl'}>Theme variable examples</p>
+                <p className={'u-h4 u-mt--xxl'}>Table composition</p>
+                <p className={'u-mb--lg'}>Tables should match a basic, nested structure. Table > Row > Cell. Adding modifiers allows you to control the appearance and properties of the tables, rows, columns and cells. For instance - making a header row, increasing the padding and font size of the contents and </p>
+                <p className={'u-mb--lg u-font--italic'}>Attention - Some examples shown below have added colours to help highlight their nature.</p>
 
                 <div className={'o-table o-table--rg u-mb--lg'}>
                     <div className={'o-table__row o-table__row--header'}>
                         <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
-                            <p className={'u-font--bold'}>Variable name</p>
+                            <p className={'u-font--bold'}>Object class</p>
                         </div>
                         <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
-                            <p className={'u-font--bold'}>Value</p>
+                            <p className={'u-font--bold'}>Description</p>
                         </div>
                         <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
                         <p className={'u-font--bold'}>Example</p>
@@ -75,15 +65,144 @@ export default class ObjectTable extends React.Component {
 
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell'}>
-                            <p className={'c-code c-code--inline'}></p>
+                            <p className={'c-code c-code--inline'}>o-table</p>
                         </div>
                         <div className={'o-table__cell'}>
-                            <p className={'c-code c-code--inline'}>#FFFFFF</p>
+                            <p className={'u-mb--md'}>Define a table.</p>
+                            <p className={'u-mb--md u-font--italic'}>This is required for the containing element.</p>
                         </div>
                         <div className={'o-table__cell'}>
+                            <div className={'o-table u-bg--background-accent'}>&nbsp;</div>
                         </div>
                     </div>
 
+                    <div className={'o-table__row'}>
+                        <div className={'o-table__cell'}>
+                            <p className={'c-code c-code--inline'}>o-table__row</p>
+                        </div>
+                        <div className={'o-table__cell'}>
+                            <p className={'u-mb--md'}>Define a table row.</p>
+                        </div>
+                        <div className={'o-table__cell'}>
+                            <div className={'o-table u-bg--background-accent'}>
+                                <div className={'o-table__row'}>&nbsp;</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={'o-table__row'}>
+                        <div className={'o-table__cell'}>
+                            <p className={'c-code c-code--inline'}>o-table__cell</p>
+                        </div>
+                        <div className={'o-table__cell'}>
+                            <p className={'u-mb--md'}>Define a table cell.</p>
+                        </div>
+                        <div className={'o-table__cell'}>
+                            <div className={'o-table'}>
+                                <div className={'o-table__row'}>
+                                    <div className={'o-table__cell'}>&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <p className={'u-h4 u-mt--xxl'}>Complete table examples</p>
+
+                <div className={'o-table o-table--rg u-mb--lg'}>
+                    <div className={'o-table__row o-table__row--header'}>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
+                            <p className={'u-font--bold'}>Description</p>
+                        </div>
+                        <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
+                        <p className={'u-font--bold'}>Example</p>
+                        </div>
+                    </div>
+
+                    <div className={'o-table__row'}>
+                        <div className={'o-table__cell'}>
+                            <p className={'u-mb--md'}>Multiple columns.</p>
+                        </div>
+                        <div className={'o-table__cell'}>
+                            <div className={'o-table'}>
+                                <div className={'o-table__row'}>
+                                    <div className={'o-table__cell'}>Column 1</div>
+                                    <div className={'o-table__cell'}>Column 2</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={'o-table__row'}>
+                        <div className={'o-table__cell'}>
+                            <p className={'u-mb--md'}>Add a header.</p>
+                        </div>
+                        <div className={'o-table__cell'}>
+                            <div className={'o-table'}>
+                                <div className={'o-table__row o-table__row--header'}>
+                                    <div className={'o-table__cell'}>Header 1</div>
+                                    <div className={'o-table__cell'}>Header 2</div>
+                                </div>
+                                <div className={'o-table__row'}>
+                                    <div className={'o-table__cell'}>Column 1</div>
+                                    <div className={'o-table__cell'}>Column 2</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={'o-table__row'}>
+                        <div className={'o-table__cell'}>
+                            <p className={'u-mb--md'}>Add a footer.</p>
+                        </div>
+                        <div className={'o-table__cell'}>
+                            <div className={'o-table'}>
+                                <div className={'o-table__row o-table__row--header'}>
+                                    <div className={'o-table__cell'}>Header 1</div>
+                                    <div className={'o-table__cell'}>Header 2</div>
+                                </div>
+                                <div className={'o-table__row'}>
+                                    <div className={'o-table__cell'}>Column 1</div>
+                                    <div className={'o-table__cell'}>Column 2</div>
+                                </div>
+                                <div className={'o-table__row'}>
+                                    <div className={'o-table__cell'}>Column 1</div>
+                                    <div className={'o-table__cell'}>Column 2</div>
+                                </div>
+                                <div className={'o-table__row o-table__row--header'}>
+                                    <div className={'o-table__cell'}>Footer 1</div>
+                                    <div className={'o-table__cell'}>Footer 2</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={'o-table__row'}>
+                        <div className={'o-table__cell'}>
+                            <p className={'u-mb--md'}>Use utility classes to customise the appearance.</p>
+                        </div>
+                        <div className={'o-table__cell'}>
+                            <div className={'o-table o-table--sm'}>
+                                <div className={'o-table__row o-table__row--header u-font--bold u-align--center'}>
+                                    <div className={'o-table__cell'}>Header 1</div>
+                                    <div className={'o-table__cell'}>Header 2</div>
+                                </div>
+                                <div className={'o-table__row'}>
+                                    <div className={'o-table__cell'}>Column 1</div>
+                                    <div className={'o-table__cell'}>Column 2</div>
+                                </div>
+                                <div className={'o-table__row'}>
+                                    <div className={'o-table__cell'}>Column 1</div>
+                                    <div className={'o-table__cell'}>Column 2</div>
+                                </div>
+                                <div className={'o-table__row o-table__row--header u-align--right'}>
+                                    <div className={'o-table__cell'}>Footer 1</div>
+                                    <div className={'o-table__cell'}>Footer 2</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>

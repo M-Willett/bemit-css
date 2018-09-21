@@ -1,8 +1,14 @@
 /**==================================================
- * Objects >> Table
+** Objects >> Table
  *
  * Info:
- *   Table object.
+ *   The table object class and its modifiers define a HTML
+ *   table without being restricted to using table elements.
+ *
+** Composition:
+ *   <o-table> 
+ *       <.o-table__row>
+ *            <o-table__cell>
  * ================================================== */
 
 
@@ -15,15 +21,46 @@
 }
 
 
-// Table rows
+/**
+ * Layout modifiers
+ */
+.o-table--fixed {
+    table-layout: fixed;
+}
+
+.o-table--auto {
+    table-layout: auto;
+}
+
+
+
+/**
+ * Table rows
+ */
 .o-table__row {
     display: table-row;
 }
 
-.o-table__row--header {
+
+/**
+ * Header row modifier
+ */
+ .o-table__row--header {
     background-color: var(--background-table-header);
 }
 
+
+/**
+ * Footer row modifier
+ */
+ .o-table__row--footer {
+    background-color: var(--background-table-footer);
+}
+
+
+/**
+ * Table cells
+ */
 .o-table__cell {
     display: table-cell;
     border: 1px solid var(--border-table);
@@ -34,36 +71,36 @@
 /**
  * Table size modifiers
  */
-.o-table__cell {
-    .o-table--xxs & {
+.o-table  {
+    &.o-table--xxs > .o-table__row > .o-table__cell {
         padding: var(--unit-xxs);
         .u-font--xxs;
     }
-    .o-table--xs & {
+    &.o-table--xs > .o-table__row > .o-table__cell {
         padding: var(--unit-xs);
         .u-font--xs;
     }
-    .o-table--sm & {
+    &.o-table--sm > .o-table__row > .o-table__cell {
         padding: var(--unit-sm);
         .u-font--sm;
     }
-    .o-table--rg & {
+    &.o-table--rg > .o-table__row > .o-table__cell {
         padding: var(--unit-rg);
         .u-font--rg;
     }
-    .o-table--md & {
+    &.o-table--md > .o-table__row > .o-table__cell {
         padding: var(--unit-md);
         .u-font--md;
     }
-    .o-table--lg & {
+    &.o-table--lg > .o-table__row > .o-table__cell {
         padding: var(--unit-lg);
         .u-font--lg;
     }
-    .o-table--xl & {
+    &.o-table--xl > .o-table__row > .o-table__cell {
         padding: var(--unit-xl);
         .u-font--xl;
     }
-    .o-table--xxl & {
+    &.o-table--xxl > .o-table__row > .o-table__cell {
         padding: var(--unit-xxl);
         .u-font--xxl;
     }
