@@ -1,0 +1,40 @@
+/**==================================================
+ * * Utilities >> Resize
+ *
+ * Utilities for allowing the manual resizing of HTML 
+ * elements
+ * 
+ * Beware - Manually resizing elments can result in 
+ * unpredicatble or unwanted UI behaviour.
+ *
+ * ================================================== */
+
+
+// Resize both axes
+.u-resize,
+.u-resize--both {
+    resize: both;
+    overflow: auto;
+    min-width: 25px;
+    min-height: 25px;
+}
+
+
+// Resize x axis
+.u-resize--x,
+.u-resize--horizontal {
+    resize: horizontal;
+    overflow: auto;
+    min-width: 25px;
+    min-height: 25px;
+}
+
+
+// Resize y axis
+.u-resize--y,
+.u-resize--vertically {
+    resize: vertical;
+    overflow: auto;
+    min-width: 25px;
+    min-height: 25px;
+}
