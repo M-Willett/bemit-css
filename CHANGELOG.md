@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/M-Willett/bemit-css/compare/v1.1.1-alpha.0...v1.2.0) (2018-09-21)
+
+
+### Bug Fixes
+
+* nested table styling and inheritance ([3a37bd5](https://github.com/M-Willett/bemit-css/commit/3a37bd5))
+* scrollbar height for horizontal scroll ([26e404c](https://github.com/M-Willett/bemit-css/commit/26e404c))
+
+
+### Features
+
+* add code component documentation ([8675f8c](https://github.com/M-Willett/bemit-css/commit/8675f8c))
+
+
+
 <a name="1.1.1-alpha.0"></a>
 ## [1.1.1-alpha.0](https://github.com/M-Willett/bemit-css/compare/v1.1.0...v1.1.1-alpha.0) (2018-09-21)
 
