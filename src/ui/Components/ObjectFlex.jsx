@@ -76,7 +76,7 @@ export default class ObjectFlex extends React.Component {
                             <p className={'c-code c-code--inline u-mb--sm'}>o-flex--auto</p><br/>
                         </div>
                         <div className={'o-table__cell'}>
-                            <p className={'u-mb--md'}>Defines an element as a flex-item with the value of <span className={'c-code c-code--inline'}>1</span>.</p>
+                            <p className={'u-mb--md'}>The item is sized according to its width and height properties, but grows to absorb any extra free space in the flex container, and shrinks to its minimum size to fit the container.</p>
                         </div>
                         <div className={'o-table__cell'}>
                             <div className={'o-flex u-resize u-bg--midground u-p--sm u-mb--md'}>
@@ -91,7 +91,7 @@ export default class ObjectFlex extends React.Component {
                             <p className={'c-code c-code--inline u-mb--sm'}>o-flex--initial</p><br/>
                         </div>
                         <div className={'o-table__cell'}>
-                            <p className={'u-mb--md'}>Defines an element as a flex-item with the value of <span className={'c-code c-code--inline'}>1</span>.</p>
+                            <p className={'u-mb--md'}>This is the default value. The item is sized according to its width and height properties. It shrinks to its minimum size to fit the container, but does not grow to absorb any extra free space in the flex container.</p>
                         </div>
                         <div className={'o-table__cell'}>
                             <div className={'o-flex u-resize u-bg--midground u-p--sm u-mb--md'}>
