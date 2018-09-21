@@ -13,9 +13,10 @@ import ElementHeading from './Components/ElementHeading';
 import ObjectFlex from './Components/ObjectFlex';
 import ObjectTable from './Components/ObjectTable';
 
-import ComponentButton from './Components/ComponentButton';
 import ComponentHeader from './Components/ComponentHeader';
 import ComponentFooter from './Components/ComponentFooter';
+import ComponentButton from './Components/ComponentButton';
+import ComponentCode from './Components/ComponentCode';
 import ComponentSwitch from './Components/ComponentSwitch';
 
 import UtilityBackground from './Components/UtilityBackground';
@@ -51,10 +52,10 @@ export default class AppContent extends React.Component {
                     {/* <ObjectWrapper/> */}
 
                     <p className={'u-h1 u-pt--xxl u-mt--xxl'} id={'section_components'}>Components</p>
-                    <ComponentButton/>
-                    {/* <ComponentCode/> */}
                     <ComponentHeader/>
                     <ComponentFooter/>
+                    <ComponentButton/>
+                    <ComponentCode/>
                     {/* <ComponentSidebar/> */}
                     <ComponentSwitch/>
 
