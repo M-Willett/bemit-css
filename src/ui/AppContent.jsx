@@ -8,7 +8,8 @@ import ResetUserAgent from './Components/ResetUserAgent';
 import ResetBoxSizing from './Components/ResetBoxSizing';
 
 import ElementBody from './Components/ElementBody';
-import ElementHeading from './Components/ElementHeading';
+import ElementScrollbar from './Components/ElementScrollbar';
+import ElementTypography from './Components/ElementTypography';
 
 import ObjectFlex from './Components/ObjectFlex';
 import ObjectTable from './Components/ObjectTable';
@@ -41,9 +42,8 @@ export default class AppContent extends React.Component {
 
                     <p className={'u-h1 u-pt--xxl u-mt--xxl'} id={'section_elements'}>Elements</p>
                     <ElementBody/>
-                    <ElementHeading/>
-                    {/* <ElementScrollbar/> */}
-                    {/* <ElementTypography/> */}
+                    <ElementTypography/>
+                    <ElementScrollbar/>
 
                     <p className={'u-h1 u-pt--xxl u-mt--xxl'} id={'section_objects'}>Objects</p>
                     {/* <ObjectBlock/> */}
