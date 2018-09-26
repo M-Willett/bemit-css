@@ -65,7 +65,7 @@ export default class ComponentCode extends React.Component {
                             <p className={'u-mb--lg'}>Represent code inline.</p>
                         </div>
                         <div className={'o-table__cell'}>
-                            <p>A sentence with <span className={'c-code c-code--inline'}>code</span> in the middle somehwere.</p>
+                            <p>A sentence with <span className={'c-code c-code--inline'}>code</span> in the middle somewhere.</p>
                         </div>
                     </div>
 
