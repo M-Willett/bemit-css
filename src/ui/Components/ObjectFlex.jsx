@@ -95,9 +95,9 @@ export default class ObjectFlex extends React.Component {
                         </div>
                         <div className={'o-table__cell'}>
                             <div className={'o-flex u-resize u-bg--midground u-p--sm u-mb--md'}>
-                                <div className={'o-flex--intiial u-bg--foreground u-color--background u-p--sm u-m--sm'}>Initial</div>
-                                <div className={'o-flex--intiial u-bg--foreground u-color--background u-p--sm u-m--sm'}>Initial</div>
-                                <div className={'o-flex--intiial u-bg--foreground u-color--background u-p--sm u-m--sm'}>Initial</div>
+                                <div className={'o-flex--initial u-bg--foreground u-color--background u-p--sm u-m--sm'}>Initial</div>
+                                <div className={'o-flex--initial u-bg--foreground u-color--background u-p--sm u-m--sm'}>Initial</div>
+                                <div className={'o-flex--initial u-bg--foreground u-color--background u-p--sm u-m--sm'}>Initial</div>
                             </div>
                         </div>
                     </div>

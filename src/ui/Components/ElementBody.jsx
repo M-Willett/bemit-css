@@ -12,7 +12,7 @@ export default class ElementBody extends React.Component {
                 <p className={'u-mb--lg'}>The HTML &lt;body&gt; element represents the content of an HTML document. There can only be one element per document and all content is placed inside this element.</p>
 
                 <p className={'u-font--bold u-mt--xl u-mb--md'}>Usage</p>
-                <p className={'u-mb--lg'}>The CSS body selector automatically assigns the specified properties and values to the elment, there is no need to explicitly define the e-body class but it exists to be useful in other situations.</p>
+                <p className={'u-mb--lg'}>The CSS body selector automatically assigns the specified properties and values to the element, there is no need to explicitly define the e-body class but it exists to be useful in other situations.</p>
 
                 <pre className={'c-code u-mb'}>
                     &lt;body&gt;<br/>

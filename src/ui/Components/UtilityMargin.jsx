@@ -23,7 +23,7 @@ export default class UtilityMargin extends React.Component {
                     ... class="<span className={'u-color--error'}>u-mt u-mb--md--force</span>" ...<br/>
                 </div>
 
-                <p className={'u-mb--md'}>In the examples below margin is shaded in <span className={'u-bg--quarternary u-color--background'}>&nbsp;red&nbsp;</span> while the <span className={'u-bg--midground u-color--background'}>&nbsp;grey&nbsp;</span> area represents the box.</p>
+                <p className={'u-mb--md'}>In the examples below margin is shaded in <span className={'u-bg--quaternary u-color--background'}>&nbsp;red&nbsp;</span> while the <span className={'u-bg--midground u-color--background'}>&nbsp;grey&nbsp;</span> area represents the box.</p>
 
                 <p className={'u-h4 u-mt--xxl'}>Margin around all sides</p>
 
@@ -47,7 +47,7 @@ export default class UtilityMargin extends React.Component {
                             <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-xxs)</span> value to the <b>margin</b> property.</p>
                         </div>
                         <div className={'o-table__cell'}>
-                            <span className={'o-block--inline u-bg--quarternary'}>
+                            <span className={'o-block--inline u-bg--quaternary'}>
                                 <span className={'o-block--inline u-m--xxs u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
@@ -60,7 +60,7 @@ export default class UtilityMargin extends React.Component {
                             <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-xs)</span> value to the <b>margin</b> property.</p>
                         </div>
                         <div className={'o-table__cell'}>
-                            <span className={'o-block--inline u-bg--quarternary'}>
+                            <span className={'o-block--inline u-bg--quaternary'}>
                                 <span className={'o-block--inline u-m--xs u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
@@ -73,7 +73,7 @@ export default class UtilityMargin extends React.Component {
                             <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-sm)</span> value to the <b>margin</b> property.</p>
                         </div>
                         <div className={'o-table__cell'}>
-                            <span className={'o-block--inline u-bg--quarternary'}>
+                            <span className={'o-block--inline u-bg--quaternary'}>
                                 <span className={'o-block--inline u-m--sm u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
@@ -86,7 +86,7 @@ export default class UtilityMargin extends React.Component {
                             <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-rg)</span> value to the <b>margin</b> property.</p>
                         </div>
                         <div className={'o-table__cell'}>
-                            <span className={'o-block--inline u-bg--quarternary'}>
+                            <span className={'o-block--inline u-bg--quaternary'}>
                                 <span className={'o-block--inline u-m--rg u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
@@ -99,7 +99,7 @@ export default class UtilityMargin extends React.Component {
                             <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-md)</span> value to the <b>margin</b> property.</p>
                         </div>
                         <div className={'o-table__cell'}>
-                            <span className={'o-block--inline u-bg--quarternary'}>
+                            <span className={'o-block--inline u-bg--quaternary'}>
                                 <span className={'o-block--inline u-m--md u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
@@ -112,7 +112,7 @@ export default class UtilityMargin extends React.Component {
                             <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-lg)</span> value to the <b>margin</b> property.</p>
                         </div>
                         <div className={'o-table__cell'}>
-                            <span className={'o-block--inline u-bg--quarternary'}>
+                            <span className={'o-block--inline u-bg--quaternary'}>
                                 <span className={'o-block--inline u-m--lg u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
@@ -125,7 +125,7 @@ export default class UtilityMargin extends React.Component {
                             <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-xl)</span> value to the <b>margin</b> property.</p>
                         </div>
                         <div className={'o-table__cell'}>
-                            <span className={'o-block--inline u-bg--quarternary'}>
+                            <span className={'o-block--inline u-bg--quaternary'}>
                                 <span className={'o-block--inline u-m--xl u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
@@ -138,7 +138,7 @@ export default class UtilityMargin extends React.Component {
                             <p className={''}>Applies the <span className={'c-code c-code--inline u-color--error'}>var(--unit-xxl)</span> value to the <b>margin</b> property.</p>
                         </div>
                         <div className={'o-table__cell'}>
-                            <span className={'o-block--inline u-bg--quarternary'}>
+                            <span className={'o-block--inline u-bg--quaternary'}>
                                 <span className={'o-block--inline u-m--xxl u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
@@ -169,28 +169,28 @@ export default class UtilityMargin extends React.Component {
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-mt--xxl</p>
                         </div>
                         <div className={'o-table__cell'}>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mr--md'}>
                                 <span className={'o-block--inline u-mt--xxs u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mr--md'}>
                                 <span className={'o-block--inline u-mt--xs u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mr--md'}>
                                 <span className={'o-block--inline u-mt--sm u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mr--md'}>
                                 <span className={'o-block--inline u-mt--rg u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mr--md'}>
                                 <span className={'o-block--inline u-mt--md u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mr--md'}>
                                 <span className={'o-block--inline u-mt--lg u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mr--md'}>
                                 <span className={'o-block--inline u-mt--xl u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mr--md'}>
                                 <span className={'o-block--inline u-mt--xxl u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
@@ -207,28 +207,28 @@ export default class UtilityMargin extends React.Component {
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-mr--xxl</p>
                         </div>
                         <div className={'o-table__cell'}>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mb--md'}>
                                 <span className={'o-block--inline u-mr--xxs u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mb--md'}>
                                 <span className={'o-block--inline u-mr--xs u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mb--md'}>
                                 <span className={'o-block--inline u-mr--sm u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mb--md'}>
                                 <span className={'o-block--inline u-mr--rg u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mb--md'}>
                                 <span className={'o-block--inline u-mr--md u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mb--md'}>
                                 <span className={'o-block--inline u-mr--lg u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mb--md'}>
                                 <span className={'o-block--inline u-mr--xl u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mb--md'}>
                                 <span className={'o-block--inline u-mr--xxl u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
                         </div>
@@ -245,28 +245,28 @@ export default class UtilityMargin extends React.Component {
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-mb--xxl</p>
                         </div>
                         <div className={'o-table__cell'}>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mr--md'}>
                                 <span className={'o-block--inline u-mb--xxs u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mr--md'}>
                                 <span className={'o-block--inline u-mb--xs u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mr--md'}>
                                 <span className={'o-block--inline u-mb--sm u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mr--md'}>
                                 <span className={'o-block--inline u-mb--rg u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mr--md'}>
                                 <span className={'o-block--inline u-mb--md u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mr--md'}>
                                 <span className={'o-block--inline u-mb--lg u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mr--md'}>
                                 <span className={'o-block--inline u-mb--xl u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
-                            <span className={'o-block--inline u-bg--quarternary u-mr--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mr--md'}>
                                 <span className={'o-block--inline u-mb--xxl u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span>
                         </div>
@@ -283,28 +283,28 @@ export default class UtilityMargin extends React.Component {
                             <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-ml--xxl</p>
                         </div>
                         <div className={'o-table__cell'}>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mb--md'}>
                                 <span className={'o-block--inline u-ml--xxs u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mb--md'}>
                                 <span className={'o-block--inline u-ml--xs u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mb--md'}>
                                 <span className={'o-block--inline u-ml--sm u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mb--md'}>
                                 <span className={'o-block--inline u-ml--rg u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mb--md'}>
                                 <span className={'o-block--inline u-ml--md u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mb--md'}>
                                 <span className={'o-block--inline u-ml--lg u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mb--md'}>
                                 <span className={'o-block--inline u-ml--xl u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
-                            <span className={'o-block--inline u-bg--quarternary u-mb--md'}>
+                            <span className={'o-block--inline u-bg--quaternary u-mb--md'}>
                                 <span className={'o-block--inline u-ml--xxl u-bg--midground'}>&nbsp;&nbsp;&nbsp;</span>
                             </span><br/>
                         </div>

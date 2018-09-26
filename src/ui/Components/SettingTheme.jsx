@@ -25,7 +25,7 @@ export default class SettingTheme extends React.Component {
                 <p className={'u-mb--lg'}>In order for a user to switch between themes a mechanism must be created (this can vary between projects and is not supported by this library).</p>
 
                 <p className={'u-h4 u-mt--xxl'}>Theme composition</p>
-                <p className={'u-mb--lg'}>Themes are composed of between 10 and 12 core colours (6 UI colours and 4 accent colours). These colours form the foundation or palatte of the theme and are then applied to other variables to specify component styles.</p>
+                <p className={'u-mb--lg'}>Themes are composed of between 10 and 12 core colours (6 UI colours and 4 accent colours). These colours form the foundation or palette of the theme and are then applied to other variables to specify component styles.</p>
                 <p className={'u-mb--lg'}>For example, the app header component of this library applies a background color using the variable <span className={'c-code c-code--inline'}>var(--background-header-app)</span> whose value is defined as <span className={'c-code c-code--inline'}>var(--text)</span>. This method allows complete customisation of theme colours without affecting other components.</p>
 
                 <p className={'u-h4 u-mt--xxl'}>Theme variable examples</p>

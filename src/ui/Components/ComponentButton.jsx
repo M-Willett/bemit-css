@@ -107,13 +107,13 @@ export default class ComponentButton extends React.Component {
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--quarternary</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--quaternary</p>
                         </div>
                         <div className={'o-table__cell'}>
-                            <p className={'u-mb--lg'}>The quarternary button state.</p>
+                            <p className={'u-mb--lg'}>The quaternary button state.</p>
                         </div>
                         <div className={'o-table__cell'}>
-                            <button className={'c-btn c-btn--quarternary'}>Button</button>
+                            <button className={'c-btn c-btn--quaternary'}>Button</button>
                         </div>
                     </div>
 
@@ -198,7 +198,7 @@ export default class ComponentButton extends React.Component {
                             <p className={'u-font--bold'}>Description</p>
                         </div>
                         <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
-                            <p className={'u-font--bold'}>Modifer</p>
+                            <p className={'u-font--bold'}>Modifier</p>
                         </div>
                     </div>
 
@@ -300,7 +300,7 @@ export default class ComponentButton extends React.Component {
                             <p className={'u-font--bold'}>Component</p>
                         </div>
                         <div className={'o-table__cell o-table__cell--header u-align--center u-p--sm'}>
-                            <p className={'u-font--bold'}>Modifers</p>
+                            <p className={'u-font--bold'}>Modifiers</p>
                         </div>
                     </div>
 

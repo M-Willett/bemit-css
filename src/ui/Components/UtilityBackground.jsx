@@ -137,9 +137,9 @@ export default class UtilityBackground extends React.Component {
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bg--quarternary</p>
+                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>u-bg--quaternary</p>
                         </div>
-                        <div className={'o-table__cell u-bg--quarternary'}>
+                        <div className={'o-table__cell u-bg--quaternary'}>
                             <p>&nbsp;</p>
                         </div>
                     </div>

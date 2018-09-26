@@ -10,11 +10,11 @@ export default class ObjectTable extends React.Component {
                     <span className={'o-flex--1'}></span>
                     <span className={'u-font--mono u-font--md'}>_object.table.less</span>
                 </p>
-                <p className={'u-mb--lg'}>The table object is used to represent a standard HTML table without being restriced and having to fight the quirks of semantic tables.</p>
+                <p className={'u-mb--lg'}>The table object is used to represent a standard HTML table without being restricted and having to fight the quirks of semantic tables.</p>
 
                 <p className={'u-h4 u-mt--xxl'}>Basic Usage</p>
                 <p className={'u-mb--lg'}>The table object is very flexible, with simple size modifiers, bolt-on components and it's responsive out-of-the-box.</p>
-                <p className={'u-mb--lg'}>Use the base <span className={'c-code c-code--inline'}>o-table</span> class with a size modifer to add padding to the cells, the default modifier <span className={'c-code c-code--inline'}>o-table--rg</span> applies the regular unit value as padding around the cells.</p>
+                <p className={'u-mb--lg'}>Use the base <span className={'c-code c-code--inline'}>o-table</span> class with a size modifier to add padding to the cells, the default modifier <span className={'c-code c-code--inline'}>o-table--rg</span> applies the regular unit value as padding around the cells.</p>
                 <p className={'u-mb--lg'}>The example below is a good starting point with a header row and body rows each with 2 columns.</p>
 
                 <pre className={'c-code u-mb--lg'}>
