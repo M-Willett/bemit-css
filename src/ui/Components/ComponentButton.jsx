@@ -306,26 +306,34 @@ export default class ComponentButton extends React.Component {
 
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--xxs and u-font--md</p>
+                            <p><span className={'c-code c-code--inline'}>c-btn--rg</span> with <span className={'c-code c-code--inline'}>u-font--md</span></p>
                         </div>
                         <div className={'o-table__cell'}>
-                            <button className={'c-btn c-btn--xxs u-font--md'}>Button</button>
-                        </div>
-                    </div>
-                    <div className={'o-table__row'}>
-                        <div className={'o-table__cell'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--xs and u-text--uppercase</p>
-                        </div>
-                        <div className={'o-table__cell'}>
-                            <button className={'c-btn c-btn--xs u-text--uppercase'}>Button</button>
+                            <button className={'c-btn c-btn--rg u-font--md'}>Button</button>
                         </div>
                     </div>
                     <div className={'o-table__row'}>
                         <div className={'o-table__cell'}>
-                            <p className={'c-code c-code--inline u-mb--sm u-mr--sm'}>c-btn--rg and u-font--bold</p>
+                            <p><span className={'c-code c-code--inline'}>c-btn--rg</span> with <span className={'c-code c-code--inline'}>u-text--uppercase</span></p>
+                        </div>
+                        <div className={'o-table__cell'}>
+                            <button className={'c-btn c-btn--rg u-text--uppercase'}>Button</button>
+                        </div>
+                    </div>
+                    <div className={'o-table__row'}>
+                        <div className={'o-table__cell'}>
+                            <p><span className={'c-code c-code--inline'}>c-btn--rg</span> with <span className={'c-code c-code--inline'}>u-font--bold</span></p>
                         </div>
                         <div className={'o-table__cell'}>
                             <button className={'c-btn c-btn--rg u-font--bold'}>Button</button>
+                        </div>
+                    </div>
+                    <div className={'o-table__row'}>
+                        <div className={'o-table__cell'}>
+                            <p><span className={'c-code c-code--inline'}>c-btn--rg</span> with <span className={'c-code c-code--inline'}>u-font--italic</span></p>
+                        </div>
+                        <div className={'o-table__cell'}>
+                            <button className={'c-btn c-btn--rg u-font--italic'}>Button</button>
                         </div>
                     </div>
                 </div>
