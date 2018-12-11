@@ -52,10 +52,10 @@ export default class AppContent extends React.Component {
                     {/* <ObjectWrapper/> */}
 
                     <p className={'u-h1 u-pt--xxl u-mt--xxl'} id={'section_components'}>Components</p>
-                    <ComponentHeader/>
-                    <ComponentFooter/>
                     <ComponentButton/>
                     <ComponentCode/>
+                    <ComponentHeader/>
+                    <ComponentFooter/>
                     {/* <ComponentSidebar/> */}
                     <ComponentSwitch/>
 

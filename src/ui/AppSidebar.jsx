@@ -20,8 +20,8 @@ export default class AppSidebar extends React.Component {
                     {/* Elements */}
                     <a className={'c-sidebar__list__link c-sidebar__list__link--parent o-block u-mb--xs u-font--bold u-pt--md'} href={'#section_elements'}>Elements</a>
                     <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#element_body'}>Body</a>
-                    <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#element_typography'}>Typography</a>
                     <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#element_scrollbar'}>Scrollbar</a>
+                    <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#element_typography'}>Typography</a>
 
                     {/* Objects */}
                     <a className={'c-sidebar__list__link c-sidebar__list__link--parent o-block u-mb--xs u-font--bold u-pt--md'} href={'#section_objects'}>Objects</a>
@@ -31,10 +31,10 @@ export default class AppSidebar extends React.Component {
 
                     {/* Components */}
                     <a className={'c-sidebar__list__link c-sidebar__list__link--parent o-block u-mb--xs u-font--bold u-pt--md'} href={'#section_components'}>Components</a>
-                    <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#component_header'}>Header</a>
-                    <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#component_footer'}>Footer</a>
                     <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#component_button'}>Button</a>
                     <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#component_code'}>Code</a>
+                    <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#component_header'}>Header</a>
+                    <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#component_footer'}>Footer</a>
                     {/* <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#component_sidebar'}>Sidebar</a> */}
                     <a className={'c-sidebar__list__link o-block u-mb--xs u-pl--rg'} href={'#component_switch'}>Switch</a>
 
