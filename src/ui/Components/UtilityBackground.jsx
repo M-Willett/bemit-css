@@ -4,7 +4,7 @@ import React from "react";
 export default class UtilityBackground extends React.Component {
     render(){
         return (
-            <div className={'id-component__wrapper o-block u-pt--xxl u-mb--xxl'} id={'utility_background'}>
+            <div className={'id-component__wrapper o-block u-mt--xxl u-mb--xxl'} id={'utility_background'}>
                 <p className={'u-h2 u-mb--xl o-flex o-flex--align-center u-color--background u-bg--foreground u-p--md u-radius'}>
                     <span>Background</span>
                     <span className={'o-flex--1'}></span>

@@ -4,7 +4,7 @@ import React from "react";
 export default class SettingTheme extends React.Component {
     render(){
         return (
-            <div id={'settings_theme'} className={'id-component__wrapper o-block u-pt--xxl u-mb--xxl'}>
+            <div id={'settings_theme'} className={'id-component__wrapper o-block u-mt--xxl u-mb--xxl'}>
                 <p className={'u-h2 u-mb--xl o-flex o-flex--align-center u-bg--foreground u-color--background u-p--md u-radius'}>
                     <span>Theme Settings</span>
                     <span className={'o-flex--1'}></span>
