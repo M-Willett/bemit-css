@@ -11,7 +11,9 @@ import ElementBody from './Components/ElementBody';
 import ElementScrollbar from './Components/ElementScrollbar';
 import ElementTypography from './Components/ElementTypography';
 
+import ObjectBlock from './Components/ObjectBlock';
 import ObjectFlex from './Components/ObjectFlex';
+import ObjectGrid from './Components/ObjectGrid';
 import ObjectTable from './Components/ObjectTable';
 
 import ComponentHeader from './Components/ComponentHeader';
@@ -46,8 +48,9 @@ export default class AppContent extends React.Component {
                     <ElementScrollbar/>
 
                     <p className={'u-h1 u-pt--xxl u-mt--xxl'} id={'section_objects'}>Objects</p>
-                    {/* <ObjectBlock/> */}
+                    <ObjectBlock/>
                     <ObjectFlex/>
+                    <ObjectGrid/>
                     <ObjectTable/>
                     {/* <ObjectWrapper/> */}
 
