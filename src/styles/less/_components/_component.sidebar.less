@@ -18,18 +18,18 @@
 
 
 .c-sidebar__inner {
-    // position: absolute;
-    // top: 0;
-    // left: 0;
-    // right: 0;
-    // bottom: 0;
 }
 
 .c-sidebar__list__link {
-    color: var(--text-link);
+    text-decoration: none;
+    color: var(--text-sidebar-link);
+    padding: 2px;
+    border-radius: var(--radius);
     
     &:hover {
-        color: var(--text-link-active);
+        text-decoration: underline;
+        color: var(--text-sidebar-link-active);
+        background-color: var(--background-sidebar-link-active);
     }
 }
 
