@@ -44,29 +44,52 @@ export default class ObjectGrid extends React.Component {
                         </div>
                         <div className={'o-table__cell'}>
                             <div className={'o-grid u-bg--background-accent u-p--sm u-mb--md'}>
-                                <div className={'u-bg--midground o-grid--col--1 o-grid--row--1'}>Col: one<br/>Row: one</div>
-                                <div className={'u-bg--midground o-grid--col--2 o-grid--row--2'}>Col: two<br/>Row: two</div>
-                                <div className={'u-bg--midground o-grid--col--3 o-grid--row--3'}>Col: three<br/>Row: three</div>
-                                <div className={'u-bg--midground o-grid--col--4 o-grid--row--4'}>Col: four<br/>Row: four</div>
-                                <div className={'u-bg--midground o-grid--col--5 o-grid--row--5'}>Col: five<br/>Row: five</div>
-                                <div className={'u-bg--midground o-grid--col--6 o-grid--row--6'}>Col: six<br/>Row: six</div>
+                                <div className={'u-bg--midground o-grid__col--1 o-grid__row--1'}>Col: one<br/>Row: one</div>
+                                <div className={'u-bg--midground o-grid__col--2 o-grid__row--2'}>Col: two<br/>Row: two</div>
+                                <div className={'u-bg--midground o-grid__col--3 o-grid__row--3'}>Col: three<br/>Row: three</div>
+                                <div className={'u-bg--midground o-grid__col--4 o-grid__row--4'}>Col: four<br/>Row: four</div>
+                                <div className={'u-bg--midground o-grid__col--5 o-grid__row--5'}>Col: five<br/>Row: five</div>
+                                <div className={'u-bg--midground o-grid__col--6 o-grid__row--6'}>Col: six<br/>Row: six</div>
                             </div>
                             <div className={'o-grid-example u-bg--background-accent u-p--sm u-mb--md'}>
-                                <div className={'u-bg--midground o-grid--col--2 o-grid--row--2'}>Col: 2<br/>Row: 2</div>
-                                <div className={'u-bg--midground o-grid--col--2 o-grid--row--4'}>Col: 2<br/>Row: 4</div>
-                                <div className={'u-bg--midground o-grid--col--2 o-grid--row--5'}>Col: 2<br/>Row: 5</div>
-                                <div className={'u-bg--midground o-grid--col--2 o-grid--row--6'}>Col: 2<br/>Row: 6</div>
-                                <div className={'u-bg--midground o-grid--col--2 o-grid--row--17'}>Col: 2<br/>Row: 17</div>
-                                <div className={'u-bg--midground o-grid--col--2 o-grid--row--8'}>Col: 2<br/>Row: 8</div>
-                                <div className={'u-bg--midground o-grid--col--2 o-grid--row--9'}>Col: 2<br/>Row: 9</div>
-                                <div className={'u-bg--midground o-grid--col--2 o-grid--row--10'}>Col: 2<br/>Row: 10</div>
-                                <div className={'u-bg--midground o-grid--col--2 o-grid--row--11'}>Col: 2<br/>Row: 11</div>
-                                <div className={'u-bg--midground o-grid--col--2 o-grid--row--12'}>Col: 2<br/>Row: 12</div>
-                                <div className={'u-bg--midground o-grid--col--6 o-grid--row--12'}>Col: 6<br/>Row: 12</div>
+                                <div className={'u-bg--midground o-grid__col--2 o-grid__row--2'}>Col: 2<br/>Row: 2</div>
+                                <div className={'u-bg--midground o-grid__col--2 o-grid__row--4'}>Col: 2<br/>Row: 4</div>
+                                <div className={'u-bg--midground o-grid__col--2 o-grid__row--5'}>Col: 2<br/>Row: 5</div>
+                                <div className={'u-bg--midground o-grid__col--2 o-grid__row--6'}>Col: 2<br/>Row: 6</div>
+                                <div className={'u-bg--midground o-grid__col--2 o-grid__row--17'}>Col: 2<br/>Row: 17</div>
+                                <div className={'u-bg--midground o-grid__col--2 o-grid__row--8'}>Col: 2<br/>Row: 8</div>
+                                <div className={'u-bg--midground o-grid__col--2 o-grid__row--9'}>Col: 2<br/>Row: 9</div>
+                                <div className={'u-bg--midground o-grid__col--2 o-grid__row--10'}>Col: 2<br/>Row: 10</div>
+                                <div className={'u-bg--midground o-grid__col--2 o-grid__row--11'}>Col: 2<br/>Row: 11</div>
+                                <div className={'u-bg--midground o-grid__col--2 o-grid__row--12'}>Col: 2<br/>Row: 12</div>
+                                <div className={'u-bg--midground o-grid__col--6 o-grid__row--12'}>Col: 6<br/>Row: 12</div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <p className={'u-h3 u-font--bold u-mb--lg'}>Practical examples of the grid object</p>
+
+                <p className={'u-mb--xxl'}>The CSS grid layout engine is extremely powerful and can be used in almost all situations. Below I have composed two example layouts showing its flexibility and it is responsive by default.</p>
+                <p className={'u-mb--xxl'}>At the time of writing CSS Grid and its properties are very well supported but always refer to the <a href={'https://caniuse.com/#feat=css-grid'}>CSS-Grid browser support table</a> for reference.</p>
+
+                <div className={'o-grid o-grid-gap--rg u-p--md u-bg--background-accent u-mb--xxl'}>
+                    <div className={'o-row-start--1 o-row-end--3 o-grid__col--1 u-bg--midground'}></div>
+                    <div className={'o-grid__row--1 o-grid__col--2 u-bg--midground'}></div>
+                    <div className={'o-grid__row--1 o-grid__col--3 u-bg--midground'}></div>
+                    <div className={'o-grid__row--2 o-grid__col--2 u-bg--midground'}></div>
+                    <div className={'o-grid__row--2 o-grid__col--3 u-bg--midground'}></div>
+                    <div className={'o-grid__row--3 o-grid__col--1 u-bg--midground'}></div>
+                    <div className={'o-grid__row--3 o-col-start--2 o-col-end--4 u-bg--midground'}></div>
+                </div>
+
+                <div className={'o-grid o-grid-gap--rg u-p--md u-bg--background-accent u-mb--xxl'}>
+                    <div className={'o-row-start--1 o-row-end--4 o-grid__col--1 u-bg--midground'}></div>
+                    <div className={'o-row-start--1 o-row-end--4 o-col-start--2 o-col-end--12 u-bg--midground'}></div>
+                    <div className={'o-row-start--1 o-row-end--4 o-grid__col--12 u-bg--midground'}></div>
+                </div>
+
+                <p className={'u-h3 u-font--bold u-mb--lg'}>How does Grid's appearance compare to other methods</p>
 
                 {/* Using CSS Grid */}
                 <p className={'u-mb--lg'}>A grid built using <span className={'c-code c-code--inline'}>CSS Grid</span> layout engine. Notice that the full width footer with a single column is possible with minimal additional markup or controversial/partially-suported attirbutes.</p>
