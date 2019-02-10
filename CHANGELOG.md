@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/M-Willett/bemit-css/compare/v1.2.0...v1.3.0) (2019-02-10)
+
+
+### Bug Fixes
+
+* alphabetised component order ([2aa7786](https://github.com/M-Willett/bemit-css/commit/2aa7786))
+* better button documentation ([c732efa](https://github.com/M-Willett/bemit-css/commit/c732efa))
+* changed section padding to margin ([3273785](https://github.com/M-Willett/bemit-css/commit/3273785))
+* smooth scrolling using sidebar ([a621973](https://github.com/M-Willett/bemit-css/commit/a621973))
+* theme variable indentation ([2e4854a](https://github.com/M-Willett/bemit-css/commit/2e4854a))
+* typo (code component) ([5cdc2f2](https://github.com/M-Willett/bemit-css/commit/5cdc2f2))
+* typography imports ([f75da68](https://github.com/M-Willett/bemit-css/commit/f75da68))
+* typos ([7e5d6cf](https://github.com/M-Willett/bemit-css/commit/7e5d6cf))
+
+
+### Features
+
+* scrollbar documentation ([ec715a1](https://github.com/M-Willett/bemit-css/commit/ec715a1))
+* typography element ([3bc06df](https://github.com/M-Willett/bemit-css/commit/3bc06df))
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/M-Willett/bemit-css/compare/v1.1.1-alpha.0...v1.2.0) (2018-09-21)
 

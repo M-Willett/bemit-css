@@ -1,8 +1,13 @@
 {
   "name": "bemit_css_framework",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "A blazing fast, managable and extensible CSS framework using the BEM and ITCSS methodology. [WIP]",
-  "keywords": ["CSS", "Framework", "BEM", "ITCSS"],
+  "keywords": [
+    "CSS",
+    "Framework",
+    "BEM",
+    "ITCSS"
+  ],
   "author": "Matt Willett",
   "license": "MIT",
   "private": false,
