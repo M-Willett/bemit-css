@@ -1,8 +1,15 @@
 {
-  "name": "css_framework2",
+  "name": "bemit_css_framework",
   "version": "1.2.0",
-  "description": "",
-  "private": true,
+  "description": "A blazing fast, managable and extensible CSS framework using the BEM and ITCSS methodology. [WIP]",
+  "keywords": ["CSS", "Framework", "BEM", "ITCSS"],
+  "author": "Matt Willett",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/M-Willett/bemit-css.git"
+  },
   "scripts": {
     "build": "webpack",
     "watch": "webpack-dev-server --open && webpack --watch",
@@ -12,9 +19,6 @@
     "publish": "standard-version && git push --follow-tags",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Matt Willett",
-  "license": "ISC",
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
