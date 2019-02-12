@@ -16,37 +16,37 @@
 .t-default {
     // Theme pallette
     --ui-background: #FFFFFF;
-    --ui-background-accent: #EEEEEE;
-    --ui-midground: #BBBBBB;
-    --ui-foreground: #666666;
-    --ui-text: #161616;
-    --ui-text-accent: #333333;
+    --ui-background-accent: #F1F4F5;
+    --ui-midground: #D8DDE0;
+    --ui-foreground: #9DA5AB;
+    --ui-text: #131415;
+    --ui-text-accent: #424A52;
     // Accents
-    --ui-accent-1: #0abde3;
-    --ui-accent-2: #1dd1a1;
-    --ui-accent-3: #feca57;
-    --ui-accent-4: #ee5253;
+    --ui-accent-1: #1388D3;
+    --ui-accent-2: #FEC634;
+    --ui-accent-3: #E95865;
+    --ui-accent-4: #49BC94;
 
     // Direction change
-    --ui-positive: var(--ui-accent-2);
-    --ui-negative: var(--ui-accent-4);
+    --ui-positive: var(--ui-accent-4);
+    --ui-negative: var(--ui-accent-3);
 
     /** RGB variants for utilising RGBA (requires interpolation)
      * LESS Usage: 
      *      background: ~"rgba( var(--ui-rgb-background), 0.6 );" 
      */
-    --ui-rgb-background: 255, 255, 255;
-    --ui-rgb-background-accent: 238, 238, 238;
-    --ui-rgb-midground: 187, 187, 187;
-    --ui-rgb-foreground: 102, 102, 102;
-    --ui-rgb-text: 22, 22, 22;
-    --ui-rgb-text-accent: 51, 51, 51;
-    --ui-rgb-accent-1: 10, 189, 227;
-    --ui-rgb-accent-2: 29, 209, 161;
-    --ui-rgb-accent-3: 254, 202, 87;
-    --ui-rgb-accent-4: 238, 82, 83;
-    --ui-rgb-positive: 29, 209, 161;
-    --ui-rgb-negative: 238, 82, 83;
+    --ui-rgb-background: 255,255,255;
+    --ui-rgb-background-accent: 241,244,245;
+    --ui-rgb-midground: 216,221,224;
+    --ui-rgb-foreground: 157,165,171;
+    --ui-rgb-text: 19,20,21;
+    --ui-rgb-text-accent: 66,74,82;
+    --ui-rgb-accent-1: 19,136,211;
+    --ui-rgb-accent-2: 254,198,52;
+    --ui-rgb-accent-3: 233,88,101;
+    --ui-rgb-accent-4: 73,188,148;
+    --ui-rgb-positive: var(--rgb-accent-4);
+    --ui-rgb-negative: var(--rgb-accent-3);
 
     // Base border scales
     --border-minor: var(--ui-background-accent);
@@ -85,11 +85,11 @@
     --background-tertiary:              var(--ui-accent-3);
     --background-quaternary:            var(--ui-accent-4);
     --background-submit:                var(--background-primary);
-    --background-success:               var(--background-secondary);
-    --background-warning:               var(--background-tertiary);
-    --background-error:                 var(--background-quaternary);
-    --background-positive:              var(--ui-accent-2);
-    --background-negative:              var(--ui-accent-4);
+    --background-success:               var(--background-quaternary);
+    --background-warning:               var(--background-secondary);
+    --background-error:                 var(--background-tertiary);
+    --background-positive:              var(--ui-positive);
+    --background-negative:              var(--ui-negative);
 
     // Button - Standard
     --button-accent-standard:           var(--background-standard);
