@@ -2,11 +2,13 @@
 
 Currently in development/private alpha.
 
+This project assumes that you are a CSS professional or advanced practitioner. It is meant for super high performance over scalability and, unfortunately for those not familiar with CSS or are beginners to the world of FE Dev, maintainability. That's not to say that it's not maintainable... but that the class attribute can become overloaded so I reiterate... performance ╰(◕ヮ◕)つ¤=[]———
+
 - Complete with styleguide.
 - Themes out-of-the-box.
 - Pre-processor friendly.
 
-## Viewing the style guide
+## DEMO - How to view the style guide
 
 _Hosted version coming soon_
 
@@ -17,8 +19,9 @@ _Hosted version coming soon_
 
 ## In development
 
-- Use PostCSS to provide fallback for CSS custom properties (on old browser only)
+- Use PostCSS to provide fallback for CSS custom properties (on old browser only).
+- If you see any issues or would like to see something added please raise a pull request, much appreciated.
 
 ## Request a feature
 
-[Create a new issue](https://github.com/M-Willett/bemit-css/issues/new) add add the `enhancement` label.
+[Create a new issue](https://github.com/M-Willett/bemit-css/issues/new) add the `enhancement` label.
