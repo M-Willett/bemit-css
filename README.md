@@ -1,6 +1,6 @@
 # BEMIT CSS
 
-Currently in development/private alpha.
+Currently in development - use with caution.
 
 This project assumes that you are a CSS professional or advanced practitioner. It is meant for super high performance over scalability and, unfortunately for those not familiar with CSS or are beginners to the world of FE Dev, maintainability. That's not to say that it's not maintainable... but that the class attribute can become overloaded so I reiterate... performance ╰(◕ヮ◕)つ¤=[]———
 
@@ -10,7 +10,7 @@ This project assumes that you are a CSS professional or advanced practitioner. I
 
 ## DEMO - How to view the style guide
 
-_Hosted version coming soon_
+_Hosted demo coming soon_
 
 1. Clone this repo to local, working directory
 1. Install dependancies &nbsp;&nbsp; `npm i`
