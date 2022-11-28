@@ -12,7 +12,6 @@ export default class UtilityPadding extends React.Component {
                 </p>
                 <p className={'u-mb--lg'}>The padding utility classes can be used to set the <span className={'c-code c-code--inline'}>padding</span> property of an element. Each of the modifiers directly correlate to the unit variables defined in UI Settings.</p>
                 <p className={'u-mb--lg'}>It is possible to set the padding value for each side of the box individually. Simply define the side by appending <span className={'c-code c-code--inline'}>t</span> for padding-top, <span className={'c-code c-code--inline'}>r</span> for padding-right, <span className={'c-code c-code--inline'}>b</span> for padding-bottom and <span className={'c-code c-code--inline'}>l</span> for padding-left.</p>
-                <p className={'u-mb--lg u-font--italic'}>Append the <span className={'c-code c-code--inline'}>--force</span> modifier to any of the classes to apply the <span className={'c-code c-code--inline'}>!important</span> declaration. This is not advised.</p>
 
                 <p className={'u-h4 u-mt--xxl'}>Usage</p>
                 <p className={'u-mb--lg'}>Add the padding class to an element.</p>
@@ -20,7 +19,7 @@ export default class UtilityPadding extends React.Component {
                 <div className={'c-code u-mb--lg'}>
                     ... class="<span className={'u-color--error'}>u-p</span>" ...<br/>
                     ... class="<span className={'u-color--error'}>u-pr--md</span>" ...<br/>
-                    ... class="<span className={'u-color--error'}>u-pt u-pb--md--force</span>" ...<br/>
+                    ... class="<span className={'u-color--error'}>u-pt u-pb--md</span>" ...<br/>
                 </div>
 
                 <p className={'u-mb--md'}>In the examples below padding is shaded in <span className={'u-bg--secondary u-color--background'}>&nbsp;green&nbsp;</span> while the <span className={'u-bg--midground u-color--background'}>&nbsp;grey&nbsp;</span> area represents the box.</p>

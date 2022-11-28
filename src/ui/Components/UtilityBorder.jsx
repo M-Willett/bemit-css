@@ -12,15 +12,13 @@ export default class UtilityBorder extends React.Component {
                 </p>
                 <p className={'u-mb--lg'}>The border utility classes can be used to set the <span className={'c-code c-code--inline'}>border</span> property of an element. Each of the size modifiers directly correlate to the unit variables defined in UI Settings.</p>
                 <p className={'u-mb--lg'}>It is possible to set the border value for each side of the box individually. Simply define the side by appending <span className={'c-code c-code--inline'}>t</span> for border-top, <span className={'c-code c-code--inline'}>r</span> for border-right, <span className={'c-code c-code--inline'}>b</span> for border-bottom and <span className={'c-code c-code--inline'}>l</span> for border-left.</p>
-                <p className={'u-mb--lg u-font--italic'}>Append the <span className={'c-code c-code--inline'}>--force</span> modifier to any of the classes to apply the <span className={'c-code c-code--inline'}>!important</span> declaration. This is not advised.</p>
-
                 <p className={'u-h4 u-mt--xxl'}>Usage</p>
                 <p className={'u-mb--lg'}>Add the padding class to an element.</p>
 
                 <div className={'c-code u-mb--lg'}>
                     ... class="<span className={'u-color--error'}>u-b</span>" ...<br/>
                     ... class="<span className={'u-color--error'}>u-br--md</span>" ...<br/>
-                    ... class="<span className={'u-color--error'}>u-bt u-b--major--force</span>" ...<br/>
+                    ... class="<span className={'u-color--error'}>u-bt u-b--major</span>" ...<br/>
                 </div>
 
                 <p className={'u-mb--md'}>In the examples below borders are shaded in <span className={'u-bg--primary u-color--background'}>&nbsp;blue&nbsp;</span> while the <span className={'u-bg--midground u-color--background'}>&nbsp;grey&nbsp;</span> area represents the box.</p>

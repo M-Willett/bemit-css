@@ -12,7 +12,6 @@ export default class UtilityMargin extends React.Component {
                 </p>
                 <p className={'u-mb--lg'}>The margin utility classes can be used to set the <span className={'c-code c-code--inline'}>margin</span> property of an element. Each of the modifiers directly correlate to the unit variables defined in UI Settings.</p>
                 <p className={'u-mb--lg'}>It is possible to set the margin value for each side of the box individually. Simply define the side by appending <span className={'c-code c-code--inline'}>t</span> for margin-top, <span className={'c-code c-code--inline'}>r</span> for margin-right, <span className={'c-code c-code--inline'}>b</span> for margin-bottom and <span className={'c-code c-code--inline'}>l</span> for margin-left.</p>
-                <p className={'u-mb--lg u-font--italic'}>Append the <span className={'c-code c-code--inline'}>--force</span> modifier to any of the classes to apply the <span className={'c-code c-code--inline'}>!important</span> declaration. This is not advised.</p>
 
                 <p className={'u-h4 u-mt--xxl'}>Usage</p>
                 <p className={'u-mb--lg'}>To make use of these utilities simply add the margin class to an element.</p>
@@ -20,7 +19,7 @@ export default class UtilityMargin extends React.Component {
                 <div className={'c-code u-mb--lg'}>
                     ... class="<span className={'u-color--error'}>u-m</span>" ...<br/>
                     ... class="<span className={'u-color--error'}>u-mr--md</span>" ...<br/>
-                    ... class="<span className={'u-color--error'}>u-mt u-mb--md--force</span>" ...<br/>
+                    ... class="<span className={'u-color--error'}>u-mt u-mb--md</span>" ...<br/>
                 </div>
 
                 <p className={'u-mb--md'}>In the examples below margin is shaded in <span className={'u-bg--quaternary u-color--background'}>&nbsp;red&nbsp;</span> while the <span className={'u-bg--midground u-color--background'}>&nbsp;grey&nbsp;</span> area represents the box.</p>
