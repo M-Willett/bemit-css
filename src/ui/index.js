@@ -1,17 +1,16 @@
 import * as React from 'react';
 import { render } from 'react-dom';
-import  './Behaviour/SmoothScroll.js' ;
-import  '../styles/less/app.bundle.less';
-import  '../styles/less/styleguide-only.less';
-
+import './Behaviour/SmoothScroll.js';
+import '../styles/less/app.bundle.less';
+import '../styles/less/styleguide-only.less';
 
 const renderApp = () => {
-    const ClientView = require('./ClientView').default;
-    render(<ClientView />, document.getElementById('mount'));
-}
+  const ClientView = require('./ClientView').default;
+  render(<ClientView />, document.getElementById('mount'));
+};
 
 renderApp();
 
 if (module.hot) {
-    module.hot.accept('./ClientView', renderApp);
+  module.hot.accept('./ClientView', renderApp);
 }
