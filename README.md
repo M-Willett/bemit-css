@@ -2,7 +2,7 @@
 
 Currently in development - use with caution.
 
-This project assumes that you are a CSS professional or advanced practitioner. It is meant for super high performance over scalability and, unfortunately for those not familiar with CSS or are beginners to the world of FE Dev, maintainability. That's not to say that it's not maintainable... but that the class attribute can become overloaded so I reiterate... performance ╰(◕ヮ◕)つ¤=[]———
+This project assumes that you are a CSS professional or advanced practitioner. It is meant for super high performance over scalability and, unfortunately for those not familiar with CSS or are beginners to the world of FE Dev, maintainability. That's not to say that it's not maintainable... but that the class attribute can become overloaded so I reiterate... performance ╰(◕ ヮ ◕)つ ¤=[]———
 
 - Complete with styleguide.
 - Themes out-of-the-box.
