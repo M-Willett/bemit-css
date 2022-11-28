@@ -1,6 +1,6 @@
 const webpack = require("webpack");
 const path = require("path");
-const CleanWebpackPlugin = require("clean-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ExtractTextPlugin = require("mini-css-extract-plugin");
 
@@ -26,7 +26,7 @@ module.exports = {
   },
 
   plugins: [
-    new CleanWebpackPlugin(["docs"]),
+    new CleanWebpackPlugin({ options: ["docs"] }),
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
       filename: "index.html",

@@ -42,18 +42,18 @@
     "jquery": "^3.6.1",
     "lodash": "^4.17.21",
     "npm": "^9.1.2",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "smoothscroll": "^0.4.0",
     "webpack": "^5.75.0",
-    "webpack-dev-middleware": "^3.7.3",
+    "webpack-dev-middleware": "^6.0.0",
     "webpack-dev-server": "^4.11.1",
     "webpack-hot-middleware": "^2.25.3",
-    "webpack-node-externals": "^1.7.2"
+    "webpack-node-externals": "^3.0.0"
   },
   "devDependencies": {
     "babel-runtime": "^6.26.0",
-    "clean-webpack-plugin": "^0.1.19",
+    "clean-webpack-plugin": "^4.0.0",
     "csv-loader": "^3.0.5",
     "eslint": "^8.28.0",
     "mini-css-extract-plugin": "^2.7.0",
