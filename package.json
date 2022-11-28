@@ -18,7 +18,7 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack-dev-server --open && webpack --watch",
-    "start": "webpack-dev-server --open",
+    "start": "webpack serve --open",
     "server": "node server.js",
     "release": "standard-version",
     "publish": "standard-version && git push --follow-tags",
@@ -45,7 +45,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "smoothscroll": "^0.4.0",
-    "webpack": "^5.75.0",
     "webpack-dev-middleware": "^6.0.0",
     "webpack-dev-server": "^4.11.1",
     "webpack-hot-middleware": "^2.25.3",
@@ -56,14 +55,15 @@
     "clean-webpack-plugin": "^4.0.0",
     "csv-loader": "^3.0.5",
     "eslint": "^8.28.0",
-    "mini-css-extract-plugin": "^2.7.0",
     "gh-pages": "^4.0.0",
     "less": "^4.1.3",
     "less-loader": "^11.1.0",
+    "mini-css-extract-plugin": "^2.7.0",
     "papaparse": "^5.3.2",
     "prettier": "^2.8.0",
     "standard-version": "^9.5.0",
     "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
     "webpack-cli": "^5.0.0",
     "xml-loader": "^1.2.1"
   }

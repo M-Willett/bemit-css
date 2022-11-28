@@ -1,17 +1,18 @@
-const webpackDevServer = require('webpack-dev-server');
-const webpack = require('webpack');
+// Is this even used?
+const webpackDevServer = require("webpack-dev-server");
+const webpack = require("webpack");
 
-const config = require('./webpack.config.js');
+const config = require("./webpack.config.js");
 const options = {
-  contentBase: './docs',
+  contentBase: "./dist",
   hot: true,
-  host: 'localhost'
+  host: "localhost",
 };
 
 webpackDevServer.addDevServerEntrypoints(config, options);
 const compiler = webpack(config);
 const server = new webpackDevServer(compiler, options);
 
-server.listen(5000, 'localhost', () => {
-  console.log('dev server listening on port 5000');
+server.listen(5000, "localhost", () => {
+  console.log("dev server listening on port 5000");
 });

@@ -6,7 +6,7 @@ const ExtractTextPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   mode: "development",
-  devtool: "inline-source-map",
+  devtool: "eval-source-map",
   entry: {
     main: [
       "webpack-hot-middleware/client",
@@ -16,21 +16,26 @@ module.exports = {
   // watch: true,
   output: {
     filename: "[name].bundle.js",
-    path: path.resolve(__dirname, "docs"),
+    path: path.resolve(__dirname, "dist"),
     publicPath: "/",
   },
   devServer: {
     port: 8080,
-    contentBase: path.join(__dirname, "docs"),
+    static: {
+      directory: path.join(__dirname, "dist"),
+    },
     hot: true,
+    compress: false,
+    client: { logging: "verbose", overlay: true, progress: true, reconnect: 3 },
   },
 
   plugins: [
-    new CleanWebpackPlugin({ options: ["docs"] }),
+    new CleanWebpackPlugin({ options: ["dist"] }),
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
       filename: "index.html",
       template: "html-loader?interpolate=require!assets/index.html",
+      title: "BEMIT CSS Library for frontend developers",
     }),
     // Enable debug mode for supported plugins
     new webpack.LoaderOptionsPlugin({
